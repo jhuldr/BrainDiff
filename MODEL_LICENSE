@@ -1,0 +1,29 @@
+# Model weights
+
+`braindiff_production.pt` contains **only weights trained by this project**: the encoder LoRA
+adapters, the perceiver connector, the decoder LoRA adapters and the temporal embeddings —
+450 tensors, 100,705,793 parameters. They are released under the same MIT terms as the code.
+
+## What is deliberately absent, and why
+
+- The frozen ViT-B backbone (136 tensors, 85,803,234 parameters) is NeuroVFM's, unchanged. It
+  is fetched at build time from `mlinslab/neurovfm-encoder`.
+- The decoder base is Qwen3-14B, fetched from `mlinslab/neurovfm-llm`. Our checkpoint carries
+  LoRA adapters only.
+
+Both repositories are **gated**. You must accept their terms and authenticate before this model
+will build:
+
+```bash
+huggingface-cli login
+python scripts/fetch_weights.py
+```
+
+Your use of those weights is governed by their licences, not by this one. The connector was
+initialised from NeuroVFM's released `vision_connector.pt` and then trained further here; treat
+it as a derivative work of that release.
+
+## Intended use
+
+A research artifact accompanying an academic paper. **Not a medical device.** Not validated for
+clinical use, and not to be used to inform patient care.

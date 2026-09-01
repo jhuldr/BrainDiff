@@ -1,0 +1,17 @@
+# Training and generation. flash-attn must be built for your GPU architecture -- it is
+# imported unguarded by the NeuroVFM ViT, and a wheel without SASS for the card fails at the
+# first attention call rather than at import.
+torch>=2.1
+numpy
+pandas
+pyyaml
+peft
+transformers
+huggingface_hub
+monai
+nibabel
+SimpleITK
+syntok
+matplotlib
+scikit-learn
+tqdm

@@ -1,0 +1,1465 @@
+patient_uid,study_uid1,study_uid2,batch1,batch2,duration,pathology1,pathology2,classification
+88,SCLSUSR7UT,VGNGFQHPPW,batch00,batch00,88,neoplasms,neoplasms,Progressed
+88,MZJK2NY6HN,DALODMX4RT,batch01,batch04,84,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+133,WBAOSYSOQL,BDIV5X5TFL,batch17,batch00,335,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+190,PFKFNUYJDZ,3DMYGHKKNA,batch12,batch00,723,no_pathology_label,no_pathology_label,Stable
+240,FLHWZKN3S6,GZBVJWTU7W,batch00,batch10,222,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+248,KEMSIXRQ2A,ORRJRQXZR3,batch27,batch22,376,degenerative_tissue_changes,vascular_ischemic,Indeterminate
+248,ORRJRQXZR3,Q4YPRJXPOC,batch22,batch23,327,vascular_ischemic,vascular_ischemic,Stable
+248,NRV3FCOFX5,WWAHJQKKWS,batch13,batch00,126,vascular_ischemic,vascular_ischemic,Indeterminate
+248,WWAHJQKKWS,YMLCL4UEHS,batch00,batch08,239,vascular_ischemic,vascular_ischemic,Indeterminate
+248,HOB32777RM,PQJHT3476U,batch04,batch18,251,vascular_ischemic,vascular_ischemic,Stable
+324,53ICLBVS7S,PBQIJVZV2X,batch27,batch00,1733,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+326,TWEXN6N5KH,VQULPKWRYR,batch23,batch12,423,vascular_hemorrhagic,vascular_hemorrhagic,Mixed interval change
+326,VQULPKWRYR,6CSHSFVZUF,batch12,batch13,146,vascular_hemorrhagic,vascular_hemorrhagic,Stable
+326,6CSHSFVZUF,VC24DUFP7T,batch13,batch00,276,vascular_hemorrhagic,vascular_hemorrhagic,Progressed
+346,3HWG3M6QXA,FKFAP3XE63,batch00,batch00,385,structural_developmental,no_pathology_label,Indeterminate
+360,OBZDGZDT5K,KONQOSNPAM,batch13,batch00,118,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+389,2N7RRJIGSD,5EQL2QMBUB,batch24,batch00,1065,degenerative_tissue_changes,no_pathology_label,Stable
+395,PDDVDJQWJU,7DK73CLNXS,batch27,batch00,1164,no_pathology_label,no_pathology_label,Indeterminate
+399,ONW53UVIVB,TSLXMIT4MO,batch27,batch27,217,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+399,TSLXMIT4MO,DAJXTMJFT4,batch27,batch27,401,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+488,ENRG4KJA6Z,3UPUVL2KNA,batch10,batch00,146,no_pathology_label,degenerative_tissue_changes,Stable
+578,ADNURTHKHN,OI7D4U3MKM,batch12,batch00,885,no_pathology_label,degenerative_tissue_changes,New lesion
+603,EO6Q6NKC5Q,I3Y7Y4ZUQX,batch23,batch00,1216,degenerative_tissue_changes,no_pathology_label,Stable
+622,AQYTP7COY6,KZMNHPORQZ,batch00,batch11,918,vascular_hemorrhagic,vascular_hemorrhagic,Indeterminate
+639,ALH7HKTIPA,CRYXE3IUUL,batch08,batch08,88,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+639,CRYXE3IUUL,CVUYGFU37A,batch08,batch09,29,degenerative_tissue_changes,vascular_hemorrhagic,Stable
+672,2BMHZU7GKL,AATB75RV6X,batch01,batch04,67,neoplasms,no_pathology_label,Resolved
+794,ZX52KIPJFH,FZEHOHEGKR,batch13,batch14,636,no_pathology_label,degenerative_tissue_changes,Mixed interval change
+841,X7AYON675K,USMTTURIJU,batch00,batch11,765,no_pathology_label,no_pathology_label,New lesion
+857,5YZ6R7K5IX,4GSIJVKHJ4,batch08,batch10,95,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+857,4GSIJVKHJ4,PIRGVVLFJE,batch10,batch00,57,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+857,PIRGVVLFJE,ZRPVJTV2DS,batch00,batch00,68,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+857,ZRPVJTV2DS,NM2WYACDBN,batch00,batch00,66,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+857,NM2WYACDBN,LNFUUUZ4A2,batch00,batch00,41,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+857,LNFUUUZ4A2,4E3ACHFPJ7,batch00,batch00,26,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+857,4E3ACHFPJ7,ON2DHGCH7R,batch00,batch01,60,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+857,ON2DHGCH7R,753RS4P7AQ,batch01,batch01,87,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+857,753RS4P7AQ,SOVXZI4JPF,batch01,batch01,42,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+857,SOVXZI4JPF,FPSYYBKVLH,batch01,batch05,60,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+859,VR4ARGP2MF,34FNKCRODT,batch14,batch09,48,no_pathology_label,no_pathology_label,Stable
+859,34FNKCRODT,GXHTUKPLQH,batch09,batch08,36,no_pathology_label,no_pathology_label,Stable
+859,GXHTUKPLQH,FMBGDRQYXV,batch08,batch00,42,no_pathology_label,neoplasms,New lesion
+1116,4MWQQGVV4X,TDQDVOFDFZ,batch13,batch06,158,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1116,TDQDVOFDFZ,SNWA522C3P,batch06,batch00,334,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1116,SNWA522C3P,IKRK42YB4L,batch00,batch00,163,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+1116,IKRK42YB4L,2ERETKYUYE,batch00,batch03,109,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1116,2ERETKYUYE,WVASTPRNLG,batch03,batch03,101,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1116,WVASTPRNLG,DWEWTASY4Q,batch03,batch04,47,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1116,DWEWTASY4Q,44FKPPSCCW,batch04,batch05,110,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1116,44FKPPSCCW,NEAJYVXG6W,batch05,batch19,264,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1125,KAGFE67KWM,B3ICTYR2UZ,batch00,batch00,3,neoplasms,neoplasms,Improved
+1133,L3BWMFS4D4,HG6VLFMZ54,batch08,batch00,96,no_pathology_label,vascular_ischemic,Mixed interval change
+1164,RAANEQES67,TFVVDQYBF7,batch00,batch04,190,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1240,JE7G6PCNTO,7GNGFZ3Q52,batch00,batch19,764,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1242,IS2UZ5X43I,6VMZPH3WKW,batch00,batch01,204,cystic_lesions,no_pathology_label,Progressed
+1244,FNKUJ2JKOK,EUNMGXF6W5,batch00,batch18,571,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1299,KS7TUJ6WHY,ZR4NWUOC2B,batch01,batch04,46,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1371,BQXLCKQP5B,KYNWXZCYCA,batch09,batch00,170,degenerative_tissue_changes,vascular_ischemic,Stable
+1371,J4JO2H5R7H,7BHLVMGZE5,batch04,batch05,202,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1383,GMQWNQ4BQK,VSVYO4FVHE,batch23,batch00,1358,no_pathology_label,no_pathology_label,New lesion
+1401,RIIFFRBZPM,6JLYWHGFKA,batch00,batch14,588,no_pathology_label,no_pathology_label,Stable
+1401,6JLYWHGFKA,67BRALGORU,batch14,batch19,280,no_pathology_label,no_pathology_label,Stable
+1451,N6EYQC5MQ4,EDYEMUCVFX,batch21,batch00,2032,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1473,KXXZCZGSPX,S4DQYIZTHL,batch00,batch19,771,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1509,YVNYUGOAZQ,PKOWHFXMXN,batch00,batch19,800,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+1522,ZC5ZXBORBT,TJOZYLLEN6,batch00,batch01,196,no_pathology_label,no_pathology_label,Stable
+1522,TJOZYLLEN6,JGV2P3CXIA,batch01,batch04,93,no_pathology_label,neoplasms,Stable
+1642,HAIOPKAUZV,YOMSMV4AA3,batch23,batch12,436,no_pathology_label,no_pathology_label,Stable
+1642,YOMSMV4AA3,XDSV64YZ3T,batch12,batch12,255,no_pathology_label,no_pathology_label,Stable
+1741,2U7SCLOUH3,BJBJATGZH7,batch00,batch00,47,neoplasms,degenerative_tissue_changes,Improved
+1765,5U2KENG5FH,H5K6WZCP2D,batch27,batch00,1970,no_pathology_label,no_pathology_label,Stable
+1772,SA2W7MSUN4,H4EPIHU6KI,batch00,batch00,54,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+1774,US6GWDNMN4,MW5DCUCCBY,batch13,batch00,747,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+1781,W6C3VKJ6IJ,LQF6GLPMBE,batch12,batch13,108,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+1781,LQF6GLPMBE,MHQPILDL5P,batch13,batch04,228,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+1781,MHQPILDL5P,KPHKBG7BGH,batch04,batch00,524,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1781,KPHKBG7BGH,JS6QQWPIDB,batch00,batch04,346,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1804,VXNORMHNXY,GAQO5XHZD3,batch22,batch22,229,no_pathology_label,degenerative_tissue_changes,New lesion
+1835,23EJ6S6F2W,7M5RWYMA35,batch01,batch00,446,neoplasms,degenerative_tissue_changes,Indeterminate
+1918,LKGE7IRUCJ,UYBGNVPRWC,batch00,batch04,345,no_pathology_label,no_pathology_label,Stable
+1923,WL3AUBT3UN,CLW2D2JWQO,batch08,batch00,115,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1931,R563XGYRNN,RVK2VIRAQS,batch12,batch00,888,no_pathology_label,no_pathology_label,Stable
+2004,MQPPOSOI4S,7D4MYJH5LA,batch00,batch01,209,no_pathology_label,vascular_ischemic,New lesion
+2004,7D4MYJH5LA,O7LEHOROUJ,batch01,batch04,28,vascular_ischemic,vascular_ischemic,Mixed interval change
+2097,KPTI6NRYCY,TXMB7P4E7F,batch00,batch01,191,no_pathology_label,no_pathology_label,Stable
+2178,MRG2FDVZEC,PSQOZXEJTA,batch13,batch08,356,no_pathology_label,no_pathology_label,Stable
+2178,PSQOZXEJTA,HBR6D36NHZ,batch08,batch09,112,no_pathology_label,no_pathology_label,Stable
+2178,WFGS4XZINU,M7MDTRREAW,batch01,batch04,49,no_pathology_label,neoplasms,Stable
+2201,BLRJJI67HC,5QKWO26GVT,batch00,batch00,69,vascular_ischemic,vascular_ischemic,Improved
+2315,GXNQAKCFGZ,MSWRYHG3RB,batch00,batch18,503,no_pathology_label,no_pathology_label,Stable
+2483,A7KCAFV32W,YYWC2XDFEA,batch00,batch05,367,no_pathology_label,no_pathology_label,Stable
+2589,UESOGS44DE,32OO4MPKXH,batch23,batch27,61,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+2621,3KLUEPW2EC,6R3B7EE7WJ,batch00,batch01,162,degenerative_tissue_changes,no_pathology_label,Stable
+2621,6R3B7EE7WJ,KBVR5QJN2C,batch01,batch05,202,no_pathology_label,neoplasms,New lesion
+2638,JRJM7B53NV,CPLX2CEHYD,batch00,batch00,53,no_pathology_label,degenerative_tissue_changes,Indeterminate
+2638,CPLX2CEHYD,ZQQ7GOWKY2,batch00,batch01,63,degenerative_tissue_changes,neoplasms,Indeterminate
+2638,ZQQ7GOWKY2,QXTQV3Z5YJ,batch01,batch01,63,neoplasms,no_pathology_label,Indeterminate
+2638,QXTQV3Z5YJ,ZDKVI2APO3,batch01,batch04,25,no_pathology_label,no_pathology_label,Stable
+2638,ZDKVI2APO3,O6PS47E2EQ,batch04,batch01,38,no_pathology_label,degenerative_tissue_changes,Indeterminate
+2638,O6PS47E2EQ,67CF7IDEZ4,batch01,batch08,66,degenerative_tissue_changes,neoplasms,Indeterminate
+2638,67CF7IDEZ4,LRR64LMEY2,batch08,batch05,63,neoplasms,neoplasms,Stable
+2662,2BOECSDAGG,SF67OORZUS,batch00,batch00,63,no_pathology_label,no_pathology_label,Stable
+2680,U6O2JHTEX6,3W4BUWJP3R,batch00,batch19,695,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+2702,WQBPW5KWIB,2JAZKH54OT,batch00,batch00,24,neoplasms,neoplasms,Improved
+2702,2JAZKH54OT,KHS2NUXTJU,batch00,batch00,12,neoplasms,neoplasms,Mixed interval change
+2739,W6OGDTCTVJ,3OP2MKPCSD,batch12,batch13,156,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+2739,3OP2MKPCSD,YD6BQY2BES,batch13,batch13,109,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+2795,4TKLLX4Z63,MLODDUNA5R,batch08,batch00,188,no_pathology_label,cystic_lesions,Improved
+2797,P5EVVZHZOR,M3E5H6QTJ6,batch10,batch00,286,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+2850,XH6XSTPYAC,5Y5GIYOA6T,batch06,batch00,365,no_pathology_label,no_pathology_label,Stable
+2851,KXUXFIKPMI,PEWA4MM5I5,batch00,batch05,390,no_pathology_label,degenerative_tissue_changes,Indeterminate
+2887,DEN6FRY4V2,AAF5HOKWAA,batch00,batch04,266,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+3140,DPPD4IRMYM,UZVBUQUQ3M,batch09,batch00,304,no_pathology_label,no_pathology_label,Stable
+3184,DSTHQ5JW2U,FBJNDBFJPX,batch13,batch00,752,no_pathology_label,no_pathology_label,Stable
+3318,WYPA2S4N4R,32TOZIOGE5,batch06,batch00,462,degenerative_tissue_changes,structural_developmental,Indeterminate
+3372,YM2GT3DVLE,PIT7WOE23H,batch00,batch05,338,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+3393,X4QUBRHICG,FTLXFDIFS3,batch00,batch01,62,no_pathology_label,degenerative_tissue_changes,Mixed interval change
+3393,IRQXXW6FIY,7FCSBTUVV6,batch18,batch18,86,neoplasms,neoplasms,Improved
+3442,INAXWTC6EJ,Y7XXQYVPY4,batch00,batch05,341,no_pathology_label,no_pathology_label,New lesion
+3442,Y7XXQYVPY4,BA3WSCZQMZ,batch05,batch18,46,no_pathology_label,no_pathology_label,Indeterminate
+3552,LWRANBTOB3,CX7GZDEEEQ,batch12,batch06,563,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+3552,CX7GZDEEEQ,DNNCL2CT7A,batch06,batch00,494,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+3597,GD63FJZECF,6IMO3VFRIH,batch10,batch00,326,structural_developmental,no_pathology_label,Stable
+3597,6IMO3VFRIH,DN2WIXNJIG,batch00,batch01,112,no_pathology_label,neoplasms,New lesion
+3613,PM7U3H63CO,N47VUHDO5X,batch13,batch00,674,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+3701,JM6GSK2QMX,B3A2SJWH2L,batch14,batch02,91,neoplasms,neoplasms,Improved
+3746,EBOSJGCZJJ,QIGS5LFRQP,batch27,batch00,2225,no_pathology_label,no_pathology_label,Stable
+3910,B6TI4HEWSK,3GCLR3SH3S,batch01,batch11,378,no_pathology_label,degenerative_tissue_changes,Progressed
+4160,NWBJJ4RD5F,SPT7A7FJZ3,batch01,batch01,46,no_pathology_label,degenerative_tissue_changes,Stable
+4165,ADSLMK2U5I,CWCJW7GTNP,batch01,batch04,93,neoplasms,degenerative_tissue_changes,Resolved
+4168,BNXFQSIGOG,ACB47GAJRK,batch01,batch05,245,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+4222,L6MKM7MA6R,WLK3LVXUVB,batch09,batch01,364,neoplasms,neoplasms,Mixed interval change
+4222,WLK3LVXUVB,LDDXEXLXMA,batch01,batch11,119,neoplasms,neoplasms,Indeterminate
+4222,LDDXEXLXMA,XEL4CFHQ4T,batch11,batch11,291,neoplasms,neoplasms,Stable
+4308,BY2MKIBGRI,CGKFGTSIW2,batch25,batch01,1612,neoplasms,neoplasms,Stable
+4332,ZKEX6VQDKJ,TCTU6BVE37,batch01,batch04,167,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+4361,HQ2GESSPTY,NZRBKCKBSM,batch01,batch01,650,no_pathology_label,structural_developmental,New lesion
+4515,JO7AD77VUX,PHW6CNA7CR,batch09,batch18,762,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+4699,DZAXSLDELD,TFWDZ2F3L7,batch01,batch05,282,cystic_lesions,no_pathology_label,Resolved
+4753,JC2YLAHFYL,EB52QCRJ3V,batch18,batch01,524,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+4756,YP45AYIIUF,5IUASKE4FF,batch17,batch02,852,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+4756,5IUASKE4FF,YQBSZEFZRY,batch02,batch01,207,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+4756,YQBSZEFZRY,GL6C7BW75L,batch01,batch05,304,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+4778,2KIYAXYAPX,DPGKP5GARL,batch26,batch01,2321,vascular_hemorrhagic,degenerative_tissue_changes,Improved
+4807,MRI3BYKTQD,CACHQTVLKL,batch02,batch01,179,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+4807,CACHQTVLKL,AJHBYTRMMN,batch01,batch05,292,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+4828,L3PSPXIQHS,GJH37CCWIW,batch17,batch01,1011,no_pathology_label,cystic_lesions,New lesion
+4873,T5Y4YQADA7,QKYUHQ4ETQ,batch01,batch14,526,cystic_lesions,cystic_lesions,Stable
+4893,CWI4GG45FV,HSIY4XDHIY,batch13,batch01,821,cystic_lesions,no_pathology_label,Indeterminate
+4983,2RQJAQJ2V7,QB5U3N552O,batch02,batch01,174,structural_developmental,structural_developmental,Mixed interval change
+5002,XAWD4ONCMZ,GZWOOBBPME,batch07,batch01,445,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+5234,CMW462HZXB,WVHNE3B46V,batch01,batch06,267,no_pathology_label,no_pathology_label,Stable
+5248,UVGT2U757Q,UMA5C4CF6E,batch01,batch03,766,structural_developmental,no_pathology_label,Stable
+5267,BU7JDZHXO2,FTHGXRZIK5,batch01,batch05,31,vascular_ischemic,degenerative_tissue_changes,Improved
+5325,XGGX3PMUIS,SFCKGLXWXC,batch02,batch01,7,vascular_ischemic,vascular_ischemic,New lesion
+5426,C3S7GG27M6,KBCLDZZP57,batch08,batch01,319,no_pathology_label,no_pathology_label,Stable
+5525,PSXHXKYS4A,UNVCBCU5PJ,batch22,batch12,1472,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+5525,UNVCBCU5PJ,KLSNNUK2XV,batch12,batch01,438,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+5525,KLSNNUK2XV,JGYYGUMAP5,batch01,batch05,15,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+5525,JGYYGUMAP5,IZMCU2UOTX,batch05,batch15,1351,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+5556,GIBIE4MWM5,QKY6HAKDS3,batch24,batch01,1424,degenerative_tissue_changes,vascular_ischemic,Progressed
+5592,PEGKMA53YO,MOQ3AMFIGW,batch01,batch15,740,neoplasms,neoplasms,Stable
+5648,JRR6T2UCHZ,J5S4OFMD3T,batch01,batch01,31,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+5648,J5S4OFMD3T,F57RYFMPHM,batch01,batch15,658,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+5670,V6X52O4JUW,MJOBLKALI2,batch01,batch05,343,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+5679,6RMAFUIGQH,TUNFDH6O7N,batch01,batch04,302,degenerative_tissue_changes,vascular_hemorrhagic,Stable
+5758,XUG6JXPMS4,OFW2IGTXPD,batch08,batch01,342,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+5871,3NASEKG2YD,4AL3EXPAQN,batch01,batch14,487,degenerative_tissue_changes,no_pathology_label,Resolved
+5877,OMJGZSCSFQ,V4UW5KMH6S,batch21,batch01,1497,neoplasms,cystic_lesions,Indeterminate
+5878,LVKRKROIU7,VOJ6EJATUL,batch01,batch01,33,neoplasms,neoplasms,Stable
+5889,5GACIIQA2O,ZVHID6QZ43,batch01,batch04,313,neoplasms,no_pathology_label,Progressed
+5897,CPKDX7VU7N,6EX5A3KRZ7,batch02,batch01,116,no_pathology_label,no_pathology_label,New lesion
+5905,OLWAXRXOPG,VIUNFQ4Y3A,batch21,batch01,1721,no_pathology_label,no_pathology_label,Stable
+5931,GXTYJWZJRC,GDW45ZXZHS,batch01,batch14,630,no_pathology_label,no_pathology_label,Resolved
+6051,3K7JCZT4IX,MS2GWEUXTW,batch17,batch01,165,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+6051,MS2GWEUXTW,4BJNB4TPAF,batch01,batch02,443,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+6051,4BJNB4TPAF,KQIN2CKWW4,batch02,batch05,444,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+6134,NHWXPGPBSV,RBHHGAIQZ6,batch25,batch01,1475,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+6134,RBHHGAIQZ6,ATUHA4SZDW,batch01,batch11,486,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+6143,CVXHXLLVQ2,DASFWIPOYS,batch10,batch08,98,neoplasms,neoplasms,Stable
+6143,DASFWIPOYS,CINKOK3JFO,batch08,batch01,127,neoplasms,vascular_hemorrhagic,Stable
+6238,65RVF2DDZR,PFNV7SI6PD,batch08,batch01,263,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+6411,HG34XVI7GN,OEOJOV4IPS,batch01,batch07,223,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+6411,OEOJOV4IPS,VKOMTZSL4V,batch07,batch02,154,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+6411,VKOMTZSL4V,C5MV64S4KO,batch02,batch01,135,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+6411,C5MV64S4KO,KL5VD5WHGD,batch01,batch04,300,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+6411,KL5VD5WHGD,SNWLNBGHNN,batch04,batch15,238,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+6428,AHANPNJQKO,RIQRHWYYQU,batch01,batch06,92,cystic_lesions,degenerative_tissue_changes,Stable
+6428,RIQRHWYYQU,2GIYA2VSFP,batch06,batch09,226,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+6428,2GIYA2VSFP,IMUL7EQPQF,batch09,batch03,405,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+6494,5WN4PKSQOE,F4PRGWZCIJ,batch01,batch04,695,no_pathology_label,no_pathology_label,New lesion
+6514,QOTSANV4RN,UL7A3CWVAM,batch01,batch02,139,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+6514,UL7A3CWVAM,6W2QALSQUQ,batch02,batch15,385,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+6557,BSC7VQ3KF2,RPO2WGHEC2,batch01,batch15,691,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+6596,JRJOJPA3SL,THQMCD3HII,batch01,batch15,668,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+6680,ZQWNH7YNOH,GEY4OKYTDE,batch02,batch01,117,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+6692,6LLWTQLP3I,QPDTGDAAUC,batch01,batch03,239,no_pathology_label,degenerative_tissue_changes,Progressed
+6692,QPDTGDAAUC,XFNPWEPOTH,batch03,batch05,89,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+6692,XFNPWEPOTH,ZS3VEPKEOQ,batch05,batch15,339,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+6903,3EUQHYPJV4,BBI2GFG3SR,batch13,batch08,351,vascular_hemorrhagic,vascular_hemorrhagic,Stable
+6903,BBI2GFG3SR,2SBACU2RCG,batch08,batch01,420,vascular_hemorrhagic,no_pathology_label,Stable
+6964,537GH5MAHG,BMDNZ62X4W,batch01,batch04,171,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+6964,BMDNZ62X4W,LOZWYHQ2QK,batch04,batch05,115,degenerative_tissue_changes,neoplasms,New lesion
+7035,G4BU33C6A2,OXX3A4NMUO,batch01,batch04,166,cystic_lesions,no_pathology_label,Indeterminate
+7035,OXX3A4NMUO,SRZ7TRM5YB,batch04,batch19,488,no_pathology_label,no_pathology_label,Stable
+7049,X6K6Q54HK5,QOHW2MWFVB,batch22,batch27,209,no_pathology_label,vascular_hemorrhagic,Mixed interval change
+7049,QOHW2MWFVB,FCJBNBSXNQ,batch27,batch08,1417,vascular_hemorrhagic,degenerative_tissue_changes,Improved
+7049,FCJBNBSXNQ,X3SE357ZV5,batch08,batch01,282,degenerative_tissue_changes,vascular_hemorrhagic,Stable
+7049,X3SE357ZV5,VFRGECIXPN,batch01,batch04,185,vascular_hemorrhagic,neoplasms,Stable
+7083,K553NOEEDY,TMDUHRPL5F,batch23,batch01,1495,no_pathology_label,no_pathology_label,Stable
+7136,2DAOOECNEC,RHDNY4UYTE,batch23,batch13,530,vascular_hemorrhagic,vascular_hemorrhagic,Stable
+7136,RHDNY4UYTE,DW63NZQ4IU,batch13,batch13,233,vascular_hemorrhagic,vascular_hemorrhagic,Stable
+7136,DW63NZQ4IU,AASVEOHIRP,batch13,batch08,362,vascular_hemorrhagic,vascular_hemorrhagic,Stable
+7234,GUU7NCQO2L,OGSYXKVTNR,batch13,batch01,827,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+7324,Z3WH6GFSLO,LFPITMDFWB,batch01,batch04,84,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+7337,MEUHYZWH2X,6JEGQRZNDH,batch01,batch05,249,no_pathology_label,degenerative_tissue_changes,New lesion
+7375,HKCWU6GX27,BTCRZCCVMO,batch13,batch01,1035,no_pathology_label,no_pathology_label,Indeterminate
+7440,ICU2FVHB55,WOYJF6SKKI,batch01,batch04,82,neoplasms,no_pathology_label,Resolved
+7675,AEB6353FE7,6WBZPGXRBF,batch09,batch01,434,vascular_ischemic,vascular_ischemic,Stable
+7751,XYLSVXWGYK,YUHACRR6HN,batch13,batch13,14,neoplasms,no_pathology_label,Stable
+7783,FEPFL7WMIT,C2QZHM6MLU,batch01,batch18,246,no_pathology_label,no_pathology_label,Stable
+7791,7LN4FKGME7,K3465VBGL4,batch08,batch01,517,vascular_ischemic,vascular_hemorrhagic,Mixed interval change
+7833,RHQ2KVDA2X,3SASQTFZV3,batch01,batch04,57,no_pathology_label,neoplasms,Mixed interval change
+7833,3SASQTFZV3,U5IHKLHRKT,batch04,batch04,41,neoplasms,neoplasms,Improved
+7833,U5IHKLHRKT,2BMYQACICC,batch04,batch05,72,neoplasms,neoplasms,New lesion
+7833,2BMYQACICC,FNZEGBR3DV,batch05,batch08,51,neoplasms,neoplasms,Progressed
+7833,FNZEGBR3DV,5GUGTOGM2H,batch08,batch18,76,neoplasms,neoplasms,Stable
+7833,5GUGTOGM2H,KXK44G2YYD,batch18,batch18,51,neoplasms,neoplasms,Progressed
+7833,KXK44G2YYD,DBWDCRAUZC,batch18,batch19,73,neoplasms,neoplasms,Progressed
+7833,DBWDCRAUZC,TTAQY6Q3NC,batch19,batch19,167,neoplasms,neoplasms,Progressed
+7854,UCS25CR36M,25QOQCRN5K,batch04,batch01,4,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+8123,JQR5CQ7H3T,BN6GGYLD3L,batch27,batch27,427,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+8194,PCYWKLSFI3,LQ7MTDDQXY,batch09,batch01,476,cystic_lesions,no_pathology_label,Indeterminate
+8207,LSX642KKN4,J5UVLXPKVU,batch01,batch18,210,neoplasms,neoplasms,Stable
+8275,ACMAL5MVT7,TOGFP5FVG4,batch01,batch11,326,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+8375,7T7LDKZCBM,MQ7KFBVCDA,batch01,batch05,85,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+8375,MQ7KFBVCDA,JVILKMV6U3,batch05,batch05,63,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+8375,JVILKMV6U3,XUM7E2A556,batch05,batch18,63,degenerative_tissue_changes,no_pathology_label,Stable
+8375,XUM7E2A556,3YJFMI5BOY,batch18,batch18,57,no_pathology_label,no_pathology_label,Stable
+8375,3YJFMI5BOY,DLWLSS3JYB,batch18,batch19,63,no_pathology_label,degenerative_tissue_changes,Stable
+8375,DLWLSS3JYB,IWWV7XNUYW,batch19,batch19,70,degenerative_tissue_changes,no_pathology_label,Stable
+8375,IWWV7XNUYW,ESPWYTVJTK,batch19,batch19,57,no_pathology_label,degenerative_tissue_changes,Indeterminate
+8375,ESPWYTVJTK,MCVSO6HA4P,batch19,batch19,70,degenerative_tissue_changes,no_pathology_label,Stable
+8375,MCVSO6HA4P,7BH52EBPX2,batch19,batch20,59,no_pathology_label,no_pathology_label,Stable
+8438,LIM5HR56VE,4YEWJUY263,batch20,batch01,128,no_pathology_label,no_pathology_label,Stable
+8481,SYYILQMBF4,5GX5RVGBTG,batch01,batch03,777,no_pathology_label,no_pathology_label,Stable
+8487,OGGWDJUJD2,LKQMJYO6SK,batch20,batch01,660,no_pathology_label,vascular_ischemic,Improved
+8559,AVF53VSKBO,2CQCWLVO7Z,batch01,batch05,359,no_pathology_label,degenerative_tissue_changes,Stable
+8613,BDK4BJFJFX,HZKUEW3TIY,batch02,batch01,154,no_pathology_label,no_pathology_label,Stable
+8644,H2GGJUHO72,B7UHS6E3VX,batch25,batch20,875,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+8644,B7UHS6E3VX,L2RQK2H57B,batch20,batch01,817,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+8670,AUXFQQWVA2,MPXNCTFAKO,batch01,batch01,3,no_pathology_label,neoplasms,Stable
+8682,K7UFAMLOLM,A26ZTRRGQG,batch24,batch01,2180,degenerative_tissue_changes,no_pathology_label,New lesion
+8682,A26ZTRRGQG,WIAAPGSG53,batch01,batch01,4,no_pathology_label,neoplasms,Stable
+8682,WIAAPGSG53,HGABZVZOKH,batch01,batch05,370,neoplasms,neoplasms,Stable
+8731,FDE5N3MJCT,ZROUREFXY4,batch25,batch20,498,no_pathology_label,no_pathology_label,Stable
+8731,ZROUREFXY4,3PHTZORNBQ,batch20,batch01,1083,no_pathology_label,no_pathology_label,Stable
+8823,HODA2I72WS,OIIQLAUSED,batch07,batch02,154,neoplasms,neoplasms,Improved
+8829,SWCJLZJ6QH,KIHIMV6YFY,batch10,batch02,185,no_pathology_label,vascular_ischemic,New lesion
+8866,VCUTGVL36J,PJ46XTQV6U,batch02,batch04,134,degenerative_tissue_changes,vascular_ischemic,New lesion
+8868,44G2C5AUPL,3DDG2TQMSD,batch08,batch02,359,no_pathology_label,no_pathology_label,Stable
+8981,OVDYQ7RULR,UCDSH7DWLP,batch02,batch04,686,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+9103,NJN7U6QSKE,NZDMEI3RS5,batch07,batch02,477,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+9113,MYK5KWULTE,JSMTNMWCDY,batch06,batch02,210,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+9122,JUT3UMIUPM,4I6T33UFJP,batch02,batch15,957,degenerative_tissue_changes,structural_developmental,Indeterminate
+9158,PDQBVUSWBR,SLQS7JRPVH,batch02,batch03,270,vascular_ischemic,degenerative_tissue_changes,Stable
+9585,7IOMRP75ZR,K7LK4XNNMC,batch14,batch06,137,neoplasms,degenerative_tissue_changes,Mixed interval change
+9585,K7LK4XNNMC,ZDDAXQG3LS,batch06,batch02,682,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+9585,ZDDAXQG3LS,YEZ2PYLAJ4,batch02,batch03,127,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+9585,YEZ2PYLAJ4,WVZATXCLWQ,batch03,batch05,150,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+9585,WVZATXCLWQ,V4EFHJEW4L,batch05,batch15,120,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+9585,V4EFHJEW4L,FF7SMY6XBF,batch15,batch15,137,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+9585,FF7SMY6XBF,CNWJCSLFHS,batch15,batch15,119,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+9585,CNWJCSLFHS,2OVCVZ5K5F,batch15,batch15,61,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+9693,7NK2HZK6VV,SKWYKV7IHL,batch02,batch15,445,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+9738,Q6EVGP3H4F,ITVXII6KRW,batch10,batch02,267,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+9772,DBOW4VBCNI,6ZGDFJCSK5,batch08,batch02,632,no_pathology_label,no_pathology_label,Stable
+9957,SITOO3N2FY,CZIUMUZ7AA,batch02,batch04,174,vascular_ischemic,no_pathology_label,Improved
+9968,RW4GJMEG6L,BTOIKQPMGJ,batch04,batch02,706,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+9980,5X3NH5BJWV,LUOZIFOCGC,batch16,batch02,896,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+10187,4TTMBNGDUH,45O4EEAABA,batch14,batch02,749,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+10391,Y3XZOIHDPM,PYMLMEXNGH,batch22,batch02,1843,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+10401,KXIBBS2ZNW,YPFZJBK6UQ,batch24,batch02,2188,degenerative_tissue_changes,no_pathology_label,New lesion
+10403,YQTVAOR4WL,GVKPRMWUM5,batch02,batch15,441,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+10466,QMTF73ZYED,E57W6PMQN4,batch08,batch02,349,structural_developmental,degenerative_tissue_changes,Stable
+10466,E57W6PMQN4,NTSEER743L,batch02,batch16,573,degenerative_tissue_changes,structural_developmental,Indeterminate
+10606,HMO3G45TDJ,B3QN7G2FFG,batch02,batch02,198,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+10606,B3QN7G2FFG,TPV6J6GVHD,batch02,batch15,340,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+10628,LAZP3QPI2I,4SP4N2RPDQ,batch02,batch04,179,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+10628,4SP4N2RPDQ,QSIISO2F4F,batch04,batch16,548,degenerative_tissue_changes,cystic_lesions,Stable
+10696,UHPTW4MMOA,HR5VUVNOPQ,batch24,batch02,2505,no_pathology_label,degenerative_tissue_changes,New lesion
+10747,OOTCJASUGL,7K7CQWCXGY,batch25,batch20,616,neoplasms,neoplasms,Stable
+10747,7K7CQWCXGY,RXM7MWPYTU,batch20,batch20,364,neoplasms,neoplasms,Stable
+10747,RXM7MWPYTU,GECE5LYRXW,batch20,batch10,350,neoplasms,neoplasms,Stable
+10747,GECE5LYRXW,6OQWG2OLKA,batch10,batch02,369,neoplasms,neoplasms,Stable
+10747,6OQWG2OLKA,T54JGJUHJK,batch02,batch04,165,neoplasms,neoplasms,Stable
+10777,B34R2S7M4E,FSV2EOUP4Z,batch23,batch02,861,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+10792,RWW5ITTCUG,C3JINGYMWS,batch02,batch16,374,vascular_ischemic,degenerative_tissue_changes,Progressed
+10819,N734DC7KIU,JEL4NN5DQW,batch25,batch24,728,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+10819,JEL4NN5DQW,GHFKU3KKTV,batch24,batch24,155,degenerative_tissue_changes,vascular_ischemic,Progressed
+10819,GHFKU3KKTV,RC2VP3ZUSZ,batch24,batch16,899,vascular_ischemic,degenerative_tissue_changes,Stable
+10819,RC2VP3ZUSZ,ZW2LUEBFVY,batch16,batch06,150,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+10819,ZW2LUEBFVY,REABPD4AE6,batch06,batch06,127,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+10819,REABPD4AE6,QZQ4PV5DVU,batch06,batch02,190,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+10819,QZQ4PV5DVU,GK5GAPF3DA,batch02,batch02,77,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+10914,GO22JPZXC5,ITAR6SSH5U,batch02,batch04,328,no_pathology_label,no_pathology_label,Indeterminate
+11013,TBWESLUEAM,OAVIUUGDGE,batch16,batch02,623,no_pathology_label,no_pathology_label,Stable
+11156,JQTIBAULDF,GB5CYKYDCC,batch02,batch14,653,cystic_lesions,cystic_lesions,Stable
+11177,MT5ZOWLPI5,SNMDYV2C5S,batch21,batch02,1438,no_pathology_label,degenerative_tissue_changes,Stable
+11177,SNMDYV2C5S,VJ675VSAXR,batch02,batch02,80,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+11218,4OZSIXTJGI,YMRRVWCKSO,batch02,batch14,709,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+11228,VUFHQKQJNU,2D6I727ERO,batch02,batch05,535,no_pathology_label,degenerative_tissue_changes,Stable
+11240,TTDUWJTTYP,5Y6DXNXXQN,batch02,batch02,1,neoplasms,vascular_hemorrhagic,Progressed
+11272,3DOMONOHNH,XCVNMSOM7D,batch06,batch02,328,no_pathology_label,no_pathology_label,Stable
+11272,XCVNMSOM7D,IXGPFZJ2KD,batch02,batch14,864,no_pathology_label,no_pathology_label,New lesion
+11274,E7NLK642PS,BABR4ZRD2I,batch21,batch21,351,cystic_lesions,degenerative_tissue_changes,Stable
+11274,BABR4ZRD2I,TTR3XCXRJB,batch21,batch16,433,degenerative_tissue_changes,neoplasms,Stable
+11274,TTR3XCXRJB,LCJR35ULHB,batch16,batch02,1184,neoplasms,degenerative_tissue_changes,Stable
+11446,NDH2ZCJGY5,UBPKRYVCJF,batch02,batch05,385,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+11446,UBPKRYVCJF,73RDV7YBHB,batch05,batch14,336,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+11506,Z3HJSUGTXU,XV22ETFOJB,batch25,batch20,855,no_pathology_label,no_pathology_label,New lesion
+11506,XV22ETFOJB,ECAG5OWIYZ,batch20,batch02,218,no_pathology_label,cystic_lesions,Stable
+11552,VIYTLYQRUE,LITZFCBMCH,batch08,batch02,166,cystic_lesions,cystic_lesions,Mixed interval change
+11552,LITZFCBMCH,7MTWHIY7PZ,batch02,batch04,420,cystic_lesions,cystic_lesions,Improved
+11552,7MTWHIY7PZ,J6PGALYLIY,batch04,batch11,330,cystic_lesions,cystic_lesions,Stable
+11621,AQVSHCKHB3,5JYTDLPFLD,batch25,batch17,429,no_pathology_label,degenerative_tissue_changes,New lesion
+11621,5JYTDLPFLD,JTJVTEVBAY,batch17,batch02,1138,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+11644,74ILFACW4P,WIVQTU7PFA,batch02,batch11,908,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+11676,S6XSI4JGER,GAEVKGJ3JP,batch08,batch02,79,degenerative_tissue_changes,neoplasms,New lesion
+11946,I64HXVSEIX,2VWO4UUEXZ,batch02,batch08,237,no_pathology_label,no_pathology_label,Indeterminate
+11946,2VWO4UUEXZ,HZTZNRYUAA,batch08,batch05,722,no_pathology_label,degenerative_tissue_changes,New lesion
+12082,EMWRMOJOHE,J6RKOJ6OBB,batch18,batch18,110,degenerative_tissue_changes,vascular_ischemic,Improved
+12082,J6RKOJ6OBB,NGB7ZKFUZV,batch18,batch07,306,vascular_ischemic,degenerative_tissue_changes,New lesion
+12082,NGB7ZKFUZV,QI4FMFY4YI,batch07,batch02,469,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+12088,BF6J7Z62OG,62V2IMCFWH,batch02,batch05,494,no_pathology_label,no_pathology_label,Stable
+12165,6TE72WPZJK,ATDSMBW2H5,batch18,batch02,876,vascular_hemorrhagic,vascular_hemorrhagic,Improved
+12165,ATDSMBW2H5,FXWA4ID2OO,batch02,batch15,572,vascular_hemorrhagic,vascular_hemorrhagic,New lesion
+12221,SOEOY4PBSC,JC7BKMAL6X,batch02,batch04,356,no_pathology_label,neoplasms,Mixed interval change
+12338,XSLA42CFOY,CQAIRMIARZ,batch02,batch04,186,no_pathology_label,no_pathology_label,Stable
+12503,WQDU5O5RUF,CUO5EZYVCI,batch23,batch02,1244,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+12574,WZV344EZHF,ZKKESYI3PF,batch24,batch02,1876,no_pathology_label,degenerative_tissue_changes,Indeterminate
+12634,NFZ46IQ6NO,PIULBEPWA7,batch02,batch16,783,no_pathology_label,no_pathology_label,Stable
+12688,P3DMTSJMFB,Q7TUB6MHKA,batch06,batch02,335,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+12757,TNRZ3SK5L7,I2HG4VUZH4,batch25,batch02,1387,no_pathology_label,degenerative_tissue_changes,Indeterminate
+12760,3LZOOB46E5,RB76LPCHCY,batch24,batch02,1822,no_pathology_label,no_pathology_label,Stable
+12803,HUUP3IOPPG,7L2HYBJDRJ,batch06,batch02,259,no_pathology_label,no_pathology_label,Stable
+12808,7A4FCBFRPA,UTHDYQTFXO,batch02,batch18,595,no_pathology_label,no_pathology_label,Stable
+12981,TU4HQRNHMY,2LFEFAQXYZ,batch03,batch14,546,vascular_ischemic,vascular_ischemic,Improved
+13015,FYUJTFU3BY,Z4VM4UOR2S,batch06,batch03,575,no_pathology_label,no_pathology_label,Stable
+13316,S5LCIY4NE3,OOMN6ERAZ5,batch16,batch03,1418,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+13379,NZM4DTDQ6Y,LVWCMR4KZA,batch24,batch07,1078,no_pathology_label,no_pathology_label,Stable
+13379,LVWCMR4KZA,YHD2M5FODP,batch07,batch03,496,no_pathology_label,no_pathology_label,Stable
+13485,SSLNCPP5BK,HZUTOE4EWH,batch24,batch03,2269,degenerative_tissue_changes,no_pathology_label,Stable
+13881,HJLBR6RAMU,QLZVSERJPA,batch24,batch25,673,cystic_lesions,cystic_lesions,Indeterminate
+13881,QLZVSERJPA,5J5MJ3AZCX,batch25,batch03,1509,cystic_lesions,degenerative_tissue_changes,Indeterminate
+13887,WK5OO2M3FQ,JWISFJOBLD,batch20,batch09,636,no_pathology_label,no_pathology_label,New lesion
+13887,JWISFJOBLD,HRFOQRKZ43,batch09,batch03,380,no_pathology_label,no_pathology_label,Resolved
+13887,HRFOQRKZ43,GHL4QWFBGY,batch03,batch18,395,no_pathology_label,no_pathology_label,Stable
+13937,DY2AYKYHOC,UEPUVKPPW3,batch08,batch03,462,no_pathology_label,no_pathology_label,Indeterminate
+13965,6Z44LMUXZ4,QF44YLTKGK,batch24,batch03,2377,structural_developmental,cystic_lesions,Indeterminate
+13991,JYC4FBH43F,SF5XQLDUL6,batch25,batch03,1804,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+14007,GVVPY74HVO,5NGFXABXIO,batch13,batch03,1081,no_pathology_label,degenerative_tissue_changes,New lesion
+14007,5NGFXABXIO,EBUI7MTJW6,batch03,batch15,303,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+14012,4YIUCDBJIS,AQBFE5ZEXP,batch03,batch16,558,cystic_lesions,cystic_lesions,New lesion
+14026,I3FHL5XBAG,EBQ5RRAPY4,batch03,batch16,665,no_pathology_label,no_pathology_label,Stable
+14040,5RWK42KLJP,4K4QPBVLD5,batch25,batch25,42,no_pathology_label,degenerative_tissue_changes,Progressed
+14040,4K4QPBVLD5,FQNAWUWKL5,batch25,batch20,248,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+14040,FQNAWUWKL5,LSMRGPJQLK,batch20,batch20,152,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+14040,LSMRGPJQLK,ME476K3X3M,batch20,batch03,1150,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+14040,ME476K3X3M,LRZPQ7UFFO,batch03,batch03,46,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+14040,LRZPQ7UFFO,JJQWEBAPBW,batch03,batch16,573,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+14093,WF7UPCQN2D,KHQAYLOTTM,batch20,batch03,1116,no_pathology_label,structural_developmental,Indeterminate
+14109,73DKNX3VWR,G3RGDOCZJI,batch03,batch19,569,no_pathology_label,no_pathology_label,New lesion
+14120,5M45LN6A5U,5WWBBYRZQC,batch25,batch03,1821,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+14124,7XDN7EPS5X,L47A3DVDSB,batch20,batch03,955,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+14485,Q4YXG33O7U,LASWC2H56J,batch04,batch05,81,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+14485,LASWC2H56J,MIWP2XMMO5,batch05,batch11,56,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+14485,MIWP2XMMO5,22B4HWYNVR,batch11,batch11,109,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+14485,22B4HWYNVR,KCUF5XR3RB,batch11,batch11,212,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+14520,GJ5FCTRMB3,ANCSXWZMZD,batch17,batch04,1174,no_pathology_label,degenerative_tissue_changes,Progressed
+14551,QXF35NDY7B,DTKQP4KDKB,batch10,batch04,662,cystic_lesions,cystic_lesions,Stable
+14580,AS37TFHHC2,W6DIAXGF4W,batch04,batch11,392,vascular_ischemic,vascular_ischemic,Mixed interval change
+14627,5HPWUB6XJC,4WP5QSJ4YT,batch16,batch04,856,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+14693,J6PDY56BTM,6JXMJ77YUU,batch04,batch05,72,neoplasms,neoplasms,Progressed
+14727,RCDVM4AO6I,LKKGNPRKYK,batch12,batch04,573,no_pathology_label,no_pathology_label,Stable
+14832,H3NNGOGRIE,7SU3HNLG5O,batch23,batch04,1076,no_pathology_label,degenerative_tissue_changes,Progressed
+14871,IYX2LGZRAL,PRBV54RGMM,batch25,batch25,79,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+14871,PRBV54RGMM,JTCAC2PH3T,batch25,batch21,369,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+14871,JTCAC2PH3T,VC4AGD5BH7,batch21,batch06,1533,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+14871,VC4AGD5BH7,HBG2QOD2HS,batch06,batch17,371,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+14871,HBG2QOD2HS,YX3A6TOIVF,batch17,batch04,187,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+14871,YX3A6TOIVF,HNGRFVLXTH,batch04,batch14,316,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+14908,CCJLJD2VFC,DYCNF2NJIF,batch06,batch04,615,neoplasms,neoplasms,Stable
+14923,UHBM22V4MP,MCFLYF2NOI,batch17,batch04,1233,no_pathology_label,degenerative_tissue_changes,Mixed interval change
+14950,TBX6VEVIDV,CNIDCNALMM,batch05,batch04,670,degenerative_tissue_changes,vascular_ischemic,Indeterminate
+14950,CNIDCNALMM,J7DL6UJMS5,batch04,batch14,571,vascular_ischemic,degenerative_tissue_changes,Stable
+15016,YHOMORLW2Z,ZN2O2VZMNM,batch04,batch14,452,no_pathology_label,no_pathology_label,Stable
+15084,3VEPAZWL3B,JPRGREPA35,batch06,batch04,653,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+15084,JPRGREPA35,NI6E26OTRF,batch04,batch14,370,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+15150,5EXQFEDQID,YJNITWZCXK,batch16,batch04,1204,degenerative_tissue_changes,no_pathology_label,Indeterminate
+15221,EZAY2XSDSU,TUHE4VXV3O,batch04,batch14,542,degenerative_tissue_changes,vascular_ischemic,Stable
+15419,WLA7QTDUJD,PNJOLM6BVX,batch04,batch15,246,no_pathology_label,degenerative_tissue_changes,New lesion
+15562,ZZVTBOIC2U,ZN3JXJLICM,batch08,batch04,597,cystic_lesions,cystic_lesions,Stable
+15608,Z624XT5O6X,B7BJWFVXQ6,batch16,batch04,1164,degenerative_tissue_changes,structural_developmental,Stable
+15767,Y5FHB5HZ3H,NKVW7JGYSW,batch16,batch04,1143,cystic_lesions,degenerative_tissue_changes,New lesion
+15773,HSI63YZFRI,BPJU5FXRUW,batch18,batch18,7,neoplasms,degenerative_tissue_changes,Progressed
+15773,BPJU5FXRUW,WRI4ART4HQ,batch18,batch04,1305,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+16191,UGZZEVZIEK,4EPT526JOM,batch04,batch15,253,cystic_lesions,cystic_lesions,Mixed interval change
+16415,5V56XYZ5L7,L7A47ZTBZ6,batch04,batch19,411,vascular_hemorrhagic,vascular_hemorrhagic,Indeterminate
+16600,KYEDIUPBYX,X3LYJIXU4U,batch24,batch20,530,neoplasms,neoplasms,Stable
+16600,X3LYJIXU4U,PJWA66KUFT,batch20,batch04,1449,neoplasms,degenerative_tissue_changes,Improved
+16738,BTQDGUG2Y3,GUVZT2D67B,batch16,batch04,1453,degenerative_tissue_changes,no_pathology_label,Resolved
+17005,WQ7FUFGRWB,WCVECPDQ2Y,batch21,batch04,2440,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+17020,YBC2X4MTNZ,QAMETDY7YX,batch12,batch04,1318,no_pathology_label,no_pathology_label,Stable
+17133,5P4QJC3SG5,EQDOECLGWA,batch20,batch20,1,no_pathology_label,degenerative_tissue_changes,Stable
+17133,EQDOECLGWA,RRRJKFITKV,batch20,batch05,144,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+17170,GPOKZJKMSS,3E7AVNRB3B,batch05,batch18,140,degenerative_tissue_changes,vascular_hemorrhagic,New lesion
+17295,QAR7STCATV,K6DSW6BWNQ,batch04,batch04,98,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+17321,ESIW3SJFKG,T5VKFG3DWV,batch04,batch18,281,degenerative_tissue_changes,no_pathology_label,Stable
+17465,VFUPTOH7DI,KTDNAW2BIZ,batch04,batch04,89,degenerative_tissue_changes,no_pathology_label,Stable
+17465,KTDNAW2BIZ,FKTA3ZQ2UT,batch04,batch05,68,no_pathology_label,no_pathology_label,Stable
+17465,FKTA3ZQ2UT,SKKTPA3HVL,batch05,batch18,63,no_pathology_label,degenerative_tissue_changes,Indeterminate
+17465,SKKTPA3HVL,TIX6X3UDHE,batch18,batch18,63,degenerative_tissue_changes,no_pathology_label,Stable
+17465,TIX6X3UDHE,RZA5JOUORS,batch18,batch19,63,no_pathology_label,no_pathology_label,Stable
+17465,RZA5JOUORS,QVGF56HQUS,batch19,batch19,63,no_pathology_label,no_pathology_label,Stable
+17465,QVGF56HQUS,BOGCDEZQYW,batch19,batch19,60,no_pathology_label,degenerative_tissue_changes,Indeterminate
+17500,B7CPI5XV2A,OQNRC3L6EK,batch27,batch23,536,neoplasms,neoplasms,Stable
+17551,Y7QXDAH4JM,LH5MCLDCKY,batch04,batch20,598,no_pathology_label,degenerative_tissue_changes,New lesion
+17569,YJM465BL62,MXIVWTI6OU,batch06,batch04,654,no_pathology_label,no_pathology_label,New lesion
+17654,3KIFL4EY7Q,CI363QKV5Y,batch04,batch19,421,no_pathology_label,no_pathology_label,Stable
+17708,UHTVLXPR5L,R3F6G3KUDX,batch27,batch04,2521,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+17827,JJF36Z5C7T,2EFPJTWJ3G,batch12,batch04,1218,degenerative_tissue_changes,vascular_ischemic,Improved
+17863,MY7H36FEQT,KRWV2MK63D,batch04,batch19,444,no_pathology_label,no_pathology_label,Stable
+18149,NITBTGA6XY,QEDAFZGZQ2,batch23,batch04,1882,no_pathology_label,structural_developmental,Progressed
+18162,TCQGDDCS6F,GE2TOFGUIF,batch12,batch04,1573,degenerative_tissue_changes,no_pathology_label,Indeterminate
+18189,ZDI6W7X5TS,ZM56CSWMB5,batch04,batch19,326,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+18253,SAO3LZOBVY,27VZVLONQA,batch04,batch19,432,no_pathology_label,no_pathology_label,Stable
+18269,TLW3CTKA6A,LJMO472KAQ,batch09,batch04,534,no_pathology_label,no_pathology_label,Stable
+18283,HY6LP3TS4F,XRFQSSDB6Y,batch22,batch08,1904,no_pathology_label,no_pathology_label,Stable
+18283,XRFQSSDB6Y,G2ATEIUSPR,batch08,batch04,517,no_pathology_label,degenerative_tissue_changes,New lesion
+18335,TEETOGQBDE,FL7MGGCBYD,batch24,batch04,1444,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+18567,OPEWIH6FEY,MYOF4LW25E,batch05,batch05,39,no_pathology_label,no_pathology_label,Stable
+18567,MYOF4LW25E,SUUUULFW7T,batch05,batch11,101,no_pathology_label,degenerative_tissue_changes,Stable
+18688,Q5Q7DIESRY,5XQCQZQW72,batch05,batch11,64,neoplasms,neoplasms,Indeterminate
+18750,AFEMZLYHQM,GYVKDWMO7Z,batch10,batch05,723,neoplasms,neoplasms,Progressed
+18750,GYVKDWMO7Z,IY5HH3HJLD,batch05,batch11,69,neoplasms,neoplasms,Stable
+18750,IY5HH3HJLD,JJCKAV4G3A,batch11,batch11,211,neoplasms,neoplasms,Improved
+18755,A4ONLRAZES,W75BGUGUXT,batch05,batch11,358,degenerative_tissue_changes,no_pathology_label,Indeterminate
+18779,2ZYFW4AEEF,F27WFMB7Q6,batch05,batch11,104,cystic_lesions,degenerative_tissue_changes,Stable
+18837,K7J57P26DY,WWOGK6O66Z,batch05,batch05,92,degenerative_tissue_changes,no_pathology_label,Stable
+18837,WWOGK6O66Z,QIL6U6QLXO,batch05,batch07,186,no_pathology_label,degenerative_tissue_changes,Stable
+18837,QIL6U6QLXO,5FTW3QU7LE,batch07,batch19,950,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+18851,KAQO7WD6CB,XKDXXHJXIL,batch21,batch16,599,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+19098,VA6QOQFBYW,DPYU6AK6HW,batch10,batch05,693,degenerative_tissue_changes,structural_developmental,New lesion
+19099,CO55O3UWEW,VC2EYY4NCU,batch16,batch05,1630,no_pathology_label,no_pathology_label,Stable
+19184,UFUFPDAMBM,6ELVE2EMFC,batch05,batch14,396,cystic_lesions,cystic_lesions,Stable
+19246,GFUTKVZ7AW,3535ULCJ63,batch05,batch14,184,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+19246,3535ULCJ63,ZSV7C3NQK5,batch14,batch14,167,degenerative_tissue_changes,no_pathology_label,Progressed
+19246,ZSV7C3NQK5,CIZVLQFY64,batch14,batch14,58,no_pathology_label,degenerative_tissue_changes,Mixed interval change
+19264,DW2UQ62MI7,AYVIGWXKRM,batch26,batch05,2646,no_pathology_label,cystic_lesions,New lesion
+19361,5L6GY24IJZ,ULWKD2GJPM,batch14,batch05,548,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+19390,GCD34OEMFV,VBKRIUPZAD,batch21,batch05,2013,no_pathology_label,no_pathology_label,Stable
+19702,57CTUXFN2F,OSGYFDZC2X,batch06,batch10,74,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+19702,OSGYFDZC2X,3FZMCORBRK,batch10,batch05,583,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+20110,KGBCWDCIQB,GFWRG6DDDP,batch18,batch05,1108,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+20403,43I6FXL2CO,PTKLR3L2SZ,batch25,batch25,260,vascular_hemorrhagic,vascular_hemorrhagic,Stable
+20403,PTKLR3L2SZ,3DYLHKCZRI,batch25,batch07,1049,vascular_hemorrhagic,vascular_hemorrhagic,Stable
+20403,3DYLHKCZRI,B5W5L2CB3I,batch07,batch05,654,vascular_hemorrhagic,vascular_hemorrhagic,Stable
+20463,3GSIIXSOCP,ETDZ2LJ7ZJ,batch21,batch21,43,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+20463,ETDZ2LJ7ZJ,IQ5UBEFQ4R,batch21,batch05,1956,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+20581,HFC3DQGMHW,6RLOD2BG3G,batch24,batch05,2708,no_pathology_label,no_pathology_label,Stable
+20606,TBQOMJK7FZ,6RERX6V4JK,batch24,batch05,2482,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+20746,QD6PZEAWDG,OKKPZBE4QP,batch27,batch12,567,no_pathology_label,no_pathology_label,Stable
+20746,OKKPZBE4QP,DOJC7NDLGE,batch12,batch05,587,no_pathology_label,no_pathology_label,Indeterminate
+20749,N2YFFOET32,P6M7YZLR2D,batch21,batch05,1030,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+20836,OYNFJUY4O4,KMRYN3XIA3,batch18,batch05,45,neoplasms,neoplasms,Improved
+20836,KMRYN3XIA3,UIX2I6AR7W,batch05,batch05,43,neoplasms,degenerative_tissue_changes,Mixed interval change
+20836,UIX2I6AR7W,AER3DZPLVV,batch05,batch05,66,degenerative_tissue_changes,neoplasms,Stable
+20836,AER3DZPLVV,XACEPA3ZAY,batch05,batch18,63,neoplasms,neoplasms,Stable
+20836,XACEPA3ZAY,2ILHDNESGA,batch18,batch19,65,neoplasms,neoplasms,Stable
+20836,2ILHDNESGA,OKPH7EAGVS,batch19,batch19,62,neoplasms,neoplasms,Progressed
+20836,OKPH7EAGVS,477SPMBFE5,batch19,batch19,56,neoplasms,no_pathology_label,Stable
+20836,477SPMBFE5,S3WZYG6QV7,batch19,batch20,167,no_pathology_label,neoplasms,Progressed
+20881,ZMSHPJJOFW,EG23KCEWO6,batch27,batch05,2045,no_pathology_label,no_pathology_label,Stable
+20883,GGXPGRTZFX,A4EA57DPX4,batch05,batch18,110,no_pathology_label,no_pathology_label,Stable
+21047,GW44FDI7UU,L3ZJS3VETY,batch08,batch05,504,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+21056,KBNSSXH2VV,AQDE7ECKW4,batch27,batch12,1039,vascular_hemorrhagic,no_pathology_label,Stable
+21056,AQDE7ECKW4,LMZNB5HGQF,batch12,batch05,1607,no_pathology_label,vascular_hemorrhagic,Stable
+21182,5BTK3NW4NN,7KN5CHWUU4,batch05,batch18,98,degenerative_tissue_changes,neoplasms,New lesion
+21416,PK575OMSOO,2PNYN7DZXV,batch23,batch06,738,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+21557,QWXC3LTZSN,ER22LPSYUY,batch13,batch05,1229,no_pathology_label,degenerative_tissue_changes,New lesion
+21805,EX4RMXITC6,CIWVASWNHP,batch05,batch19,215,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+21839,M4IEHHEJJH,QIF37Y7P3W,batch12,batch05,1328,vascular_ischemic,degenerative_tissue_changes,Stable
+21902,QGHRNRXPZP,OIBK3ULKIL,batch24,batch05,1747,degenerative_tissue_changes,no_pathology_label,Progressed
+21971,BXMC4JNXTH,JOZNCIQNQT,batch12,batch05,1350,no_pathology_label,degenerative_tissue_changes,Progressed
+21977,DK7QS5T35H,G6DAU34RI7,batch27,batch05,2191,no_pathology_label,no_pathology_label,Stable
+22133,BGNJFCS3IV,MSOAS33FO5,batch06,batch05,851,degenerative_tissue_changes,no_pathology_label,Stable
+22237,ZQ3UBLLC6B,ZUD4OGMEZP,batch05,batch19,271,degenerative_tissue_changes,no_pathology_label,Progressed
+22407,DHFSVQ74YV,PRZLL2VYVA,batch13,batch13,52,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+22407,PRZLL2VYVA,IDFTXNSRA7,batch13,batch06,42,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+22457,FZHENTL7IL,7YCNO7QZAU,batch06,batch19,1206,no_pathology_label,degenerative_tissue_changes,New lesion
+22546,4YTFP6SX32,WLQ3VOOLGH,batch13,batch06,168,no_pathology_label,no_pathology_label,Stable
+22678,XDJ5TCHSX5,EDX4GX5NKE,batch12,batch06,500,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+22678,EDX4GX5NKE,AZ662DHORX,batch06,batch18,956,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+22717,Y7R6AJV26X,5VF2CXFM7A,batch12,batch06,575,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+22808,AFZIA7MUWP,EK7D6RZJPH,batch12,batch12,42,neoplasms,neoplasms,Improved
+22808,EK7D6RZJPH,DANOQTIJRV,batch12,batch12,42,neoplasms,neoplasms,Improved
+22808,DANOQTIJRV,V3LEUJI7W3,batch12,batch12,46,neoplasms,neoplasms,Improved
+22808,V3LEUJI7W3,ELMVAG5OYB,batch12,batch13,85,neoplasms,no_pathology_label,Resolved
+22808,ELMVAG5OYB,F543BJZY6X,batch13,batch13,44,no_pathology_label,degenerative_tissue_changes,Stable
+22808,F543BJZY6X,QQ2SKCJU7K,batch13,batch13,80,degenerative_tissue_changes,neoplasms,Indeterminate
+22808,QQ2SKCJU7K,4ATOZSUOMT,batch13,batch13,42,neoplasms,neoplasms,Progressed
+22808,6674WZFUHJ,N5RIKVPUJ4,batch13,batch13,10,neoplasms,neoplasms,Stable
+22808,N5RIKVPUJ4,4QUTKJRPYJ,batch13,batch07,47,neoplasms,degenerative_tissue_changes,Stable
+22808,4QUTKJRPYJ,NAXLVBF7QS,batch07,batch06,103,degenerative_tissue_changes,neoplasms,Stable
+22808,NAXLVBF7QS,67TGSLTKRD,batch06,batch06,84,neoplasms,neoplasms,New lesion
+23080,PTH5W77GUJ,CW3DZ3GKUP,batch21,batch06,1168,no_pathology_label,no_pathology_label,Stable
+23134,R2SK3MXQZE,B3NHFUDFVA,batch13,batch06,168,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+23169,II6LLGGN5O,MGGRIBWGTY,batch06,batch09,185,degenerative_tissue_changes,no_pathology_label,Indeterminate
+23209,FDQ6F25B37,TONCYQGIYL,batch13,batch13,73,degenerative_tissue_changes,neoplasms,Mixed interval change
+23235,MOMVZS3USA,M3HVXL2MGL,batch06,batch19,1087,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+23380,AKOJ3KJWIQ,QFRRQBIIIN,batch06,batch19,1014,no_pathology_label,no_pathology_label,Stable
+23603,GW5WCA3GKB,URLVHHAU6F,batch23,batch06,1312,no_pathology_label,no_pathology_label,Stable
+23646,UPDY6G3AMQ,KO3FWT7EOQ,batch06,batch09,123,cystic_lesions,vascular_hemorrhagic,Mixed interval change
+23764,CHTA5QXVVU,KSG6KFXORR,batch27,batch06,1696,no_pathology_label,no_pathology_label,Stable
+23889,N3TXVILTIJ,JBLFCYVV25,batch10,batch06,9,neoplasms,vascular_hemorrhagic,Indeterminate
+23895,522BW47TM5,FRHR5QT65Q,batch12,batch06,770,no_pathology_label,no_pathology_label,Stable
+23895,FRHR5QT65Q,6I5H5ASYBE,batch06,batch09,155,no_pathology_label,no_pathology_label,Stable
+24131,ZXYFZVTH23,O5DAQRUL2Z,batch14,batch06,342,vascular_ischemic,vascular_ischemic,New lesion
+24425,IKR7YAQCX5,L2UDGITJOF,batch24,batch06,881,no_pathology_label,no_pathology_label,Stable
+24504,XLHNRZBT22,75I4B4FVGW,batch21,batch06,1356,degenerative_tissue_changes,no_pathology_label,Indeterminate
+24504,75I4B4FVGW,HGOUZ2YW25,batch06,batch15,929,no_pathology_label,no_pathology_label,Stable
+24814,YWA3HUUKNY,YXIQAKYA4V,batch06,batch14,1121,vascular_hemorrhagic,vascular_hemorrhagic,Stable
+24887,IURAMCNHDR,H4N4R7DFHO,batch06,batch14,876,neoplasms,no_pathology_label,Stable
+24928,OGLEYNRLRC,KGWDPNYFSX,batch06,batch06,4,degenerative_tissue_changes,no_pathology_label,New lesion
+25006,XFR7PLM2YB,V7PP55YMP4,batch06,batch15,1223,no_pathology_label,no_pathology_label,Stable
+25095,6WXC7KHBKZ,U3P6VJMW2T,batch17,batch06,675,vascular_hemorrhagic,vascular_hemorrhagic,Improved
+25232,J4XV33EQLM,QQW4AZ6K5W,batch06,batch11,1081,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+25257,CJTS3PYF3P,XPMPKEHE75,batch20,batch06,734,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+25357,O5PG6G72KL,E7C366E4YJ,batch06,batch09,214,vascular_hemorrhagic,vascular_ischemic,Indeterminate
+25389,XBEHW46YEK,K6STPYNN6S,batch06,batch11,911,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+25670,YFGPMSRIDD,YP4JLEAG25,batch06,batch06,3,no_pathology_label,no_pathology_label,Indeterminate
+25697,TJKGN4ZNHY,C6SIJF3IPA,batch18,batch06,678,no_pathology_label,no_pathology_label,Stable
+26447,LSFKUPAEBM,GAIY5LLTVN,batch23,batch07,1077,structural_developmental,no_pathology_label,Stable
+26458,5VFO3OOCHC,MSLIOGY7MF,batch12,batch07,637,no_pathology_label,no_pathology_label,Stable
+26554,K6XI4LVAEE,KDFFIOQP3P,batch07,batch18,772,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+26554,KDFFIOQP3P,NE3OYFCLSW,batch18,batch19,258,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+26563,EZKAKTV2YL,ZQTLF3LGNV,batch23,batch07,1203,no_pathology_label,vascular_hemorrhagic,New lesion
+26661,4WCSJOTVYF,4D6RCP4YPY,batch12,batch07,1022,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+26735,C64WXX3RYQ,2R5ADWRQZG,batch08,batch07,110,neoplasms,degenerative_tissue_changes,Resolved
+26844,ECKKY3GXHN,GRHGBQQN6R,batch16,batch07,371,degenerative_tissue_changes,no_pathology_label,Stable
+26849,5GW45V7P2I,WI7D6H3ITB,batch07,batch11,1143,neoplasms,neoplasms,New lesion
+26875,FYR3NFZOUJ,3PDFC5AYC2,batch23,batch07,1098,degenerative_tissue_changes,no_pathology_label,Stable
+27018,JGXGGFGPZ4,HVSKNEZEEH,batch18,batch18,208,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+27018,HVSKNEZEEH,23ZA4FYAMX,batch18,batch07,384,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+27027,R6Q343SYTW,6OLEHWO6IV,batch07,batch15,883,no_pathology_label,no_pathology_label,Stable
+27294,JBHXLX2GUX,6OVO6IFYQN,batch08,batch19,1374,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+27351,7I4FETWQ2V,PUWICWUXTY,batch12,batch13,45,no_pathology_label,vascular_hemorrhagic,New lesion
+27351,PUWICWUXTY,6L74BHQ5XN,batch13,batch13,187,vascular_hemorrhagic,neoplasms,New lesion
+27365,7R63EU6YFO,3QLJQOUQGI,batch08,batch08,29,degenerative_tissue_changes,vascular_hemorrhagic,New lesion
+27494,Y54XCFXM3G,J2D7KOOBSH,batch08,batch19,1088,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+27499,2N6FLDM6MV,XVBBE6NR4T,batch13,batch08,291,no_pathology_label,no_pathology_label,Stable
+27515,LIWLXYJROW,GVLIT3EVA5,batch08,batch19,1020,degenerative_tissue_changes,no_pathology_label,Indeterminate
+27532,H4BWB2INWO,DJHSSWCH5L,batch23,batch08,1043,no_pathology_label,no_pathology_label,Stable
+27564,UUYY6LFHIQ,VCGYZ534OS,batch10,batch08,33,no_pathology_label,no_pathology_label,Resolved
+27566,E3GJNH6JEO,APB23K2C2V,batch23,batch08,1107,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+27744,C6JWJ6DECQ,HVRTX43TXK,batch08,batch10,5,vascular_hemorrhagic,vascular_hemorrhagic,Mixed interval change
+28001,QR6WRQLXNE,XWSHEELHZB,batch16,batch08,955,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+28024,3MLVAO3JSV,3D6SOV6IVN,batch08,batch18,686,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+28046,LASYXZGTN2,MBSASCV6E7,batch22,batch08,1655,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+28096,OPRNV5XLGP,D2J4NLN47H,batch13,batch08,453,no_pathology_label,no_pathology_label,Stable
+28175,GAMP3CGJVI,QRSBXYWRFG,batch27,batch08,1436,no_pathology_label,no_pathology_label,Stable
+28288,6WVP5JVFRR,2QB4XTXQZP,batch13,batch08,448,structural_developmental,no_pathology_label,Stable
+28396,ABYXCEXSKL,HEP6FTWSX7,batch14,batch08,482,no_pathology_label,no_pathology_label,Stable
+28436,USLNHRU4KH,IIJQ2ITTTA,batch08,batch10,156,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+28464,7NKBU2BFJX,QAKGHTOD2T,batch21,batch08,1635,no_pathology_label,degenerative_tissue_changes,New lesion
+28686,FM5EW2JOAB,WHFCOEG6FZ,batch24,batch08,2468,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+28701,XYBX7JKU6T,TEMKB4F4AM,batch22,batch16,572,neoplasms,neoplasms,Mixed interval change
+28701,TEMKB4F4AM,VCWIIE2JTX,batch16,batch08,559,neoplasms,neoplasms,Stable
+29177,YDND34VG6N,OWZQBLYXW3,batch08,batch14,1000,no_pathology_label,no_pathology_label,Indeterminate
+29204,A35MDETT5R,QREWCDDG2Z,batch26,batch21,610,neoplasms,degenerative_tissue_changes,Stable
+29204,QREWCDDG2Z,HYWAVM6FU7,batch21,batch17,671,degenerative_tissue_changes,no_pathology_label,Indeterminate
+29204,HYWAVM6FU7,CVVSWFW5GR,batch17,batch09,382,no_pathology_label,degenerative_tissue_changes,Indeterminate
+29204,CVVSWFW5GR,EW3DL7EL32,batch09,batch08,343,degenerative_tissue_changes,no_pathology_label,Stable
+29307,TSLPZMTY6L,H3BWMBU4JR,batch17,batch12,4,vascular_hemorrhagic,vascular_hemorrhagic,Mixed interval change
+29314,BY2WBOTTTS,A5QGT6KZV3,batch08,batch09,126,no_pathology_label,no_pathology_label,Stable
+29409,U7ZKZMHYBG,HEBE5M3ZIR,batch09,batch08,17,degenerative_tissue_changes,neoplasms,Improved
+29437,BINN6FUWZU,MF4A7HOTH4,batch08,batch11,869,structural_developmental,degenerative_tissue_changes,Progressed
+29493,55K4FKVXQO,X77GXGK7BG,batch17,batch08,538,no_pathology_label,degenerative_tissue_changes,New lesion
+29520,G7G7UA3KDI,4PMVB6FGM2,batch08,batch11,772,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+29529,NPMBIUXS6K,2PBKNP6ZAY,batch08,batch11,926,no_pathology_label,no_pathology_label,New lesion
+29571,QV5GJYAELA,XZDFHXT4RC,batch08,batch09,397,vascular_hemorrhagic,degenerative_tissue_changes,Stable
+30012,A537GNZBA3,3BAWRZAAJU,batch08,batch16,1319,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+30013,XAKJ26J625,YHKAGJT7FT,batch20,batch08,466,no_pathology_label,no_pathology_label,Stable
+30241,XIQDTHOPLB,55RFDB7NB7,batch20,batch08,695,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+30280,WVTRI7I27J,5SR6NDY42F,batch24,batch20,1117,degenerative_tissue_changes,neoplasms,New lesion
+30280,5SR6NDY42F,JLNPP7WFHL,batch20,batch20,343,neoplasms,neoplasms,Stable
+30280,JLNPP7WFHL,DBMFQ6JPR5,batch20,batch08,700,neoplasms,neoplasms,Progressed
+30402,K4RUQLA3EE,AJZL2SYJJU,batch23,batch09,794,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+30491,ATC2L3BMMX,NYOEGX35WU,batch09,batch19,954,no_pathology_label,no_pathology_label,Resolved
+30525,I4VRC5FVSL,RKOMXSG7BK,batch09,batch18,813,no_pathology_label,no_pathology_label,Stable
+30701,LOKZURI25W,UOMKP6HAM2,batch09,batch19,798,no_pathology_label,no_pathology_label,Stable
+30914,YH2XXWPOHW,NJX2ECT63V,batch23,batch09,1306,no_pathology_label,structural_developmental,Resolved
+30914,NJX2ECT63V,Y62VH2LQ54,batch09,batch19,959,structural_developmental,degenerative_tissue_changes,Stable
+31340,ECPED7MQ5Q,OJJF2S2DRT,batch26,batch09,1915,no_pathology_label,no_pathology_label,Stable
+31340,OJJF2S2DRT,C3AAISHI5H,batch09,batch14,846,no_pathology_label,no_pathology_label,New lesion
+31345,YJWDUAGPEN,WMVEVB47ZV,batch09,batch14,1072,no_pathology_label,no_pathology_label,Stable
+31357,Z5VRQDGCZB,DSIAUGJ5RF,batch21,batch09,1374,cystic_lesions,cystic_lesions,Stable
+31684,ZWYTIMPJPQ,AYIWTKK5AK,batch18,batch09,536,no_pathology_label,degenerative_tissue_changes,Indeterminate
+31925,ECOKYRYZTP,IMKQJJQ22P,batch20,batch09,1023,no_pathology_label,no_pathology_label,Progressed
+31925,IMKQJJQ22P,I6C7OJ4JHB,batch09,batch16,1094,no_pathology_label,degenerative_tissue_changes,Indeterminate
+31976,ZTSPN77T6J,CDWWUFXKHK,batch20,batch09,681,no_pathology_label,neoplasms,Stable
+32021,3NVCGNI5WE,W33LQMNZQF,batch09,batch15,687,no_pathology_label,no_pathology_label,New lesion
+32101,V4O3M24D5N,ZKQS36TX6M,batch13,batch13,62,no_pathology_label,no_pathology_label,New lesion
+32163,5YJ4GTMBOM,YPXBBCIO2I,batch21,batch21,258,degenerative_tissue_changes,no_pathology_label,Indeterminate
+32163,YPXBBCIO2I,TGG23ST7N2,batch21,batch27,194,no_pathology_label,degenerative_tissue_changes,Stable
+32163,TGG23ST7N2,OFHA5D5LZF,batch27,batch23,198,degenerative_tissue_changes,no_pathology_label,Progressed
+32163,OFHA5D5LZF,5AKNJCVVN6,batch23,batch23,152,no_pathology_label,structural_developmental,Mixed interval change
+32188,QW4LMQTV74,XMMI22RTQG,batch10,batch19,1077,no_pathology_label,no_pathology_label,Stable
+32310,LDR2PIKPR7,32PFG26G7K,batch27,batch27,62,no_pathology_label,no_pathology_label,Improved
+32352,ZJI3ZQDROJ,LQ56L5EQYA,batch23,batch10,1265,no_pathology_label,no_pathology_label,Improved
+32822,SWVB3724PQ,L2NWU3N3CY,batch24,batch10,1220,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+32880,DAEMDFQT2V,X35OSHOJP7,batch10,batch15,650,no_pathology_label,no_pathology_label,Stable
+32983,2ADSFF46XC,PKOCSUFP5C,batch21,batch10,1720,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+33213,JMDCXPTUXL,RGYZFUVFWC,batch18,batch10,347,no_pathology_label,no_pathology_label,Stable
+33362,2UVPYD5W6H,XDHNXPI2JA,batch25,batch10,1231,cystic_lesions,cystic_lesions,Stable
+33619,6GGHAIPHV7,NKSUMC6YR5,batch17,batch11,1466,degenerative_tissue_changes,vascular_ischemic,Indeterminate
+33619,NKSUMC6YR5,PP64VVZOVV,batch11,batch11,67,vascular_ischemic,vascular_ischemic,Stable
+33619,PP64VVZOVV,5OSNHPQJLW,batch11,batch11,185,vascular_ischemic,vascular_ischemic,Stable
+33619,5OSNHPQJLW,U5ZQHLQZ6V,batch11,batch11,114,vascular_ischemic,vascular_ischemic,Stable
+33659,VYE3FATXVQ,H6NGDAQHW5,batch11,batch11,76,neoplasms,neoplasms,Stable
+33713,FLKZEXAI4I,JVUP3CAA2D,batch11,batch11,249,no_pathology_label,degenerative_tissue_changes,Indeterminate
+33748,6RQJDSLM3J,CFITSAE77L,batch11,batch11,303,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+33992,LMUA2DP7PN,LOG6M2BO3X,batch11,batch11,309,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+34104,CVBN4CWGY3,HC4XYRAAGU,batch11,batch11,13,degenerative_tissue_changes,vascular_hemorrhagic,New lesion
+34104,HC4XYRAAGU,RJY4TD5WPG,batch11,batch11,7,vascular_hemorrhagic,vascular_hemorrhagic,Progressed
+34131,WYDARCRM3Y,NNNOQCGVNH,batch11,batch11,21,vascular_ischemic,vascular_ischemic,Stable
+34203,PRCFU5HARB,FAMP2R6G56,batch25,batch11,2089,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+34412,JEXG6KB6XU,DTQUHLP2YN,batch11,batch11,109,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+34558,6QJO2VZKZW,ASLVNUPRU5,batch20,batch20,187,no_pathology_label,no_pathology_label,Stable
+34558,ASLVNUPRU5,HYLIEJVB6N,batch20,batch11,1563,no_pathology_label,no_pathology_label,Stable
+34582,NALKRH3U3J,U5RN5MG235,batch27,batch11,2841,no_pathology_label,no_pathology_label,Stable
+34620,JDPDRJNYGA,C3UX62R6O4,batch11,batch11,42,neoplasms,neoplasms,Improved
+34620,C3UX62R6O4,4ZTRT62ZQE,batch11,batch11,29,neoplasms,neoplasms,Mixed interval change
+35105,5BXNLDRWH7,UIE25RWBU4,batch25,batch11,2431,no_pathology_label,no_pathology_label,New lesion
+35246,GTMENU7RKU,OFPPPMDWAJ,batch17,batch11,1415,no_pathology_label,degenerative_tissue_changes,New lesion
+35329,QE2O6GM4AL,W6XXTBQK6A,batch25,batch11,2831,no_pathology_label,degenerative_tissue_changes,New lesion
+35375,RJPUWTYHDM,CQNE7YYQMU,batch13,batch11,1552,no_pathology_label,no_pathology_label,Stable
+35444,GAJR333GFO,4XDUC62JWX,batch11,batch11,169,vascular_hemorrhagic,degenerative_tissue_changes,Mixed interval change
+35594,46PWGA2D6Z,OSN3FG3V6N,batch11,batch11,20,degenerative_tissue_changes,no_pathology_label,New lesion
+35594,OSN3FG3V6N,MJXSRNPFNV,batch11,batch11,106,no_pathology_label,degenerative_tissue_changes,New lesion
+35620,AG6K4NPBOB,UMHURORQLX,batch11,batch11,83,neoplasms,degenerative_tissue_changes,Resolved
+35819,RPQOIG2TPM,A5522W2IXU,batch14,batch14,5,no_pathology_label,no_pathology_label,Stable
+35819,A5522W2IXU,DAE5WPFWRT,batch14,batch11,192,no_pathology_label,degenerative_tissue_changes,Mixed interval change
+36005,XRZVBNGZZB,PE4GIHLFCT,batch24,batch12,63,vascular_hemorrhagic,neoplasms,Improved
+36005,PE4GIHLFCT,3FLWDFMW4Q,batch12,batch12,52,neoplasms,neoplasms,Mixed interval change
+36315,E7T34AHGOO,SGAQEGZFI2,batch27,batch23,221,neoplasms,neoplasms,New lesion
+36436,D3MNLODYUF,P5QDZCMURA,batch12,batch15,1969,no_pathology_label,degenerative_tissue_changes,New lesion
+36473,BMMW3PAH4Q,YXNVGTLOLM,batch23,batch12,122,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+36632,AHZHFANOA5,ILEF7QL46X,batch27,batch12,685,no_pathology_label,degenerative_tissue_changes,Progressed
+36710,IPLLYNPDPA,BB5LB7YG7Y,batch22,batch12,629,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+36713,TENPDCV2LK,PS2EKPYZ3G,batch27,batch12,751,degenerative_tissue_changes,no_pathology_label,Indeterminate
+36713,PS2EKPYZ3G,KAIZI3JHPN,batch12,batch13,593,no_pathology_label,no_pathology_label,Stable
+36850,RXBQGWMJ6B,LCJGZ63IJB,batch12,batch12,152,neoplasms,neoplasms,New lesion
+36893,QMURPN6VFK,JG25WDOGWU,batch12,batch13,516,no_pathology_label,no_pathology_label,Stable
+36912,ZWAB75VFO6,LOMSHJVCAD,batch22,batch12,989,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+36917,ZUB64LG5C2,HS7OPB3K4K,batch24,batch12,167,neoplasms,no_pathology_label,Resolved
+36966,CZUGTUC2BF,C34UYBS5Y6,batch24,batch12,207,neoplasms,degenerative_tissue_changes,Indeterminate
+36985,JBDB63EQZW,3MUVU3UERE,batch12,batch12,210,degenerative_tissue_changes,neoplasms,Progressed
+36985,3MUVU3UERE,RS6L6AOZUQ,batch12,batch13,118,neoplasms,neoplasms,Improved
+37093,5BJJJFHED3,THWV37CZ6S,batch12,batch12,89,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+37140,6PL6AIUDY4,2ZEI6HMQF5,batch23,batch12,232,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+37246,ZLUIL7N6JW,GYJC4P3GWI,batch27,batch12,1260,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+37246,GYJC4P3GWI,FWJ7VDDTVC,batch12,batch13,479,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+37851,JZHL4NX5TY,NI6VNNJHT2,batch27,batch12,780,no_pathology_label,no_pathology_label,Stable
+37901,WJDSQMQVDT,FAY744ZZSP,batch23,batch12,289,no_pathology_label,no_pathology_label,Stable
+37947,H2O3GI5QUN,VNFUGN4WI4,batch27,batch12,812,no_pathology_label,no_pathology_label,Stable
+37974,NVKBVQ3KD5,6DF7ERQI3V,batch12,batch12,56,degenerative_tissue_changes,vascular_hemorrhagic,Mixed interval change
+37974,6DF7ERQI3V,O2MNPPYJPR,batch12,batch19,1678,vascular_hemorrhagic,degenerative_tissue_changes,Mixed interval change
+38065,N7DTWKUERA,BE3PSWUUHR,batch27,batch22,14,no_pathology_label,no_pathology_label,Improved
+38065,BE3PSWUUHR,6SVBXRZEWD,batch22,batch27,21,no_pathology_label,no_pathology_label,Improved
+38065,TOJKCUH37Q,UCQI77ZNSZ,batch27,batch12,998,no_pathology_label,no_pathology_label,Stable
+38116,GYLOSYU2FU,XURTU3FE5E,batch12,batch12,115,degenerative_tissue_changes,vascular_ischemic,Progressed
+38173,5U5ETW7A64,5Z7QX3SCU2,batch25,batch12,429,cystic_lesions,cystic_lesions,Stable
+38398,DYH6AD55IR,LINS53L5PS,batch12,batch20,123,degenerative_tissue_changes,no_pathology_label,Stable
+38595,E73IYTMMNA,GED7II64R3,batch20,batch12,299,no_pathology_label,no_pathology_label,Stable
+39005,ZGEMMRTIIP,J6TAEMMRLV,batch23,batch12,952,no_pathology_label,no_pathology_label,Stable
+39153,FIZ5E5R4HV,5HX6NT6EXA,batch12,batch13,86,no_pathology_label,neoplasms,Stable
+39165,U5B2VHPNRH,72NFASYRVX,batch25,batch12,627,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+39268,YVDXPQ3RTV,R6MYCII7GT,batch13,batch13,20,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+39268,R6MYCII7GT,5Y7AJ7NO4S,batch13,batch13,58,degenerative_tissue_changes,degenerative_tissue_changes,Resolved
+39268,5Y7AJ7NO4S,4326XKCKZ7,batch13,batch13,54,degenerative_tissue_changes,neoplasms,New lesion
+39286,SH4S354ZZP,JQ7ZCWUBW2,batch13,batch19,1716,vascular_ischemic,vascular_ischemic,Progressed
+39427,4YCPSBQ6OQ,55YVMIMR2R,batch23,batch13,524,no_pathology_label,no_pathology_label,Stable
+39726,I2USVNZWKE,V2FH7QDQSF,batch13,batch13,86,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+39751,HXB7PO7UR3,IODA5RAVJG,batch13,batch19,1454,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+39924,Z6LWKAE3RR,J4NXTBMSJH,batch13,batch13,4,degenerative_tissue_changes,vascular_hemorrhagic,Improved
+40083,CRHIBDYAXU,ARWXN6TACI,batch23,batch13,833,no_pathology_label,no_pathology_label,Stable
+40124,RMCMP7FSPS,QHLYYDASDR,batch23,batch13,574,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+40290,TYB3PZ2EXT,ZBICUKHDFS,batch27,batch13,1203,no_pathology_label,no_pathology_label,Indeterminate
+40327,IJGREQL2CS,PQLYB4JDIG,batch13,batch13,103,vascular_hemorrhagic,degenerative_tissue_changes,Improved
+40388,BYSFR72ERK,H7VSNMHMQI,batch13,batch13,14,no_pathology_label,vascular_hemorrhagic,New lesion
+40532,OVEBBZOCGR,JUUYEPGVAX,batch27,batch13,1044,no_pathology_label,no_pathology_label,Stable
+40661,ZDOIRDO6FR,KDU5DNOQUO,batch13,batch13,58,no_pathology_label,no_pathology_label,Stable
+41282,DEWRGZ4B2G,GAU33A2ED2,batch14,batch13,260,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+41333,5RDOSHCYT5,VJRCKGDXPH,batch23,batch13,907,no_pathology_label,no_pathology_label,Stable
+41678,SBI2SGIX5D,AUYJ5Z7QCF,batch27,batch13,1320,degenerative_tissue_changes,no_pathology_label,Indeterminate
+41925,LTTUYB2OT5,5N3Z4T534Y,batch14,batch18,826,vascular_ischemic,degenerative_tissue_changes,Indeterminate
+41997,AU4FGSNT3L,VJJQO3AUYU,batch25,batch14,1981,cystic_lesions,cystic_lesions,Stable
+41997,VJJQO3AUYU,OGTUGN7AYG,batch14,batch14,368,cystic_lesions,cystic_lesions,Stable
+42082,EHXZ5QPXC6,AADLR7M5EK,batch17,batch14,1411,no_pathology_label,no_pathology_label,Stable
+42330,6YDK5TRFTU,J7MLV3L5P2,batch17,batch14,1256,cystic_lesions,degenerative_tissue_changes,Stable
+42358,FZSAT4H3SP,COINSOOYRN,batch21,batch14,2640,no_pathology_label,no_pathology_label,Indeterminate
+42553,VLDRKAPBD3,6KJQJAQJ34,batch14,batch15,235,no_pathology_label,degenerative_tissue_changes,Progressed
+42736,LHH5HUCRP6,75VR43OQAY,batch14,batch14,99,cystic_lesions,cystic_lesions,Stable
+42984,5JQO66GOLF,6VOYJDZFYN,batch14,batch14,19,structural_developmental,structural_developmental,Progressed
+42984,6VOYJDZFYN,4WRUWMIST2,batch14,batch14,6,structural_developmental,structural_developmental,Mixed interval change
+42984,4WRUWMIST2,VS6ZBGA3ZZ,batch14,batch14,8,structural_developmental,structural_developmental,Progressed
+43006,MGHCZNXWOV,Z4FBSW44HD,batch21,batch14,2222,no_pathology_label,no_pathology_label,Stable
+43238,P6SWANPQ5G,MNAF46W6SL,batch24,batch24,87,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+43238,MNAF46W6SL,INIV3NDTKH,batch24,batch24,31,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+43238,INIV3NDTKH,VEGWD2D5H6,batch24,batch24,39,degenerative_tissue_changes,degenerative_tissue_changes,Resolved
+43238,VEGWD2D5H6,CRK3EJWMAA,batch24,batch14,160,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+43238,CRK3EJWMAA,K2CZPSNGEG,batch14,batch14,46,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+43238,K2CZPSNGEG,BSA2DGIPZ4,batch14,batch14,54,degenerative_tissue_changes,vascular_hemorrhagic,Stable
+43238,BSA2DGIPZ4,AMUUYJXFXR,batch14,batch14,41,vascular_hemorrhagic,vascular_hemorrhagic,New lesion
+43521,PZWFQOYBPO,PAZGLUIJVD,batch25,batch14,312,cystic_lesions,degenerative_tissue_changes,Stable
+43521,PAZGLUIJVD,GXZW52VN47,batch14,batch18,356,degenerative_tissue_changes,vascular_ischemic,New lesion
+43695,HENJGQG3WW,35AZZKVBLU,batch14,batch14,920,no_pathology_label,no_pathology_label,Stable
+43812,NOX3RIGRL7,6L45IGN4QX,batch21,batch14,727,no_pathology_label,structural_developmental,Indeterminate
+43844,SXBUCRNO7S,FVZZT6LZDI,batch14,batch15,1720,no_pathology_label,no_pathology_label,Stable
+43883,TNM5I7UCIG,LEV3IL4EXN,batch24,batch14,715,no_pathology_label,no_pathology_label,Stable
+43909,FIHTW22NTB,SFQP7VWWL5,batch24,batch24,80,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+43909,SFQP7VWWL5,3YU6C5JVOS,batch24,batch14,192,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+43909,3YU6C5JVOS,67WNUGEZDL,batch14,batch14,317,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+43909,67WNUGEZDL,PFTGQ5AKV2,batch14,batch14,74,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+44022,GQIPSGHH3A,AXXX5AEH5Q,batch14,batch14,339,no_pathology_label,no_pathology_label,Stable
+44281,BNTMONNZHS,BNE2XZJMGR,batch21,batch14,924,no_pathology_label,no_pathology_label,Stable
+44519,64VF3I6OC6,QAGU5UNAJR,batch14,batch15,1391,no_pathology_label,no_pathology_label,Stable
+44560,RFOV4HJCHK,V7UECC3YJB,batch25,batch14,719,no_pathology_label,no_pathology_label,Stable
+44593,H3ZLU66CLL,U66K7XFXXT,batch14,batch14,651,no_pathology_label,no_pathology_label,Stable
+44867,E7RIBGN6UP,6L2HSQOPE5,batch14,batch14,46,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+45479,LTJDZWWIOY,6L3H5GOXHH,batch25,batch15,1926,no_pathology_label,no_pathology_label,Stable
+45985,I4ZU5ORCKR,BPEQMD3CRZ,batch24,batch15,2380,no_pathology_label,no_pathology_label,Stable
+46865,RSVJJADTMC,PLBFMPPDDG,batch24,batch15,2625,no_pathology_label,no_pathology_label,Stable
+46985,36EJ4LBQ6Z,Z6RZGAAVGO,batch16,batch15,1436,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+47001,7MYEVXIGBT,EYJ34BAE24,batch24,batch16,227,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+47001,EYJ34BAE24,YH6NZS27OM,batch16,batch16,378,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+47001,YH6NZS27OM,2M77BLH7UM,batch16,batch15,1642,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+47203,W4DHE6IIHH,BWBOTKZGTV,batch16,batch15,2122,vascular_ischemic,vascular_hemorrhagic,Improved
+47325,DVMGYCF57Q,BJWWTH3O7C,batch21,batch15,2605,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+47503,4U24DM3PQK,QRPV3MZUSW,batch15,batch15,6,no_pathology_label,no_pathology_label,Stable
+47652,HGJMX3AXBC,3XEZ7AAPJ7,batch17,batch15,1093,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+47848,FTEX4WHJT3,ICPFIMPLFC,batch15,batch15,96,no_pathology_label,degenerative_tissue_changes,Stable
+48160,4ZMN25SSOK,EFXJU4I35F,batch18,batch18,301,vascular_ischemic,degenerative_tissue_changes,Stable
+48160,EFXJU4I35F,ULFTG57QFT,batch18,batch15,1487,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+48198,TKZT6VJPC3,H7DV2RA75E,batch15,batch15,6,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+48616,HDG2UGLNNX,MDW3RUI7NB,batch18,batch15,1722,no_pathology_label,no_pathology_label,Stable
+48677,MZU2FIIQHM,NT7U7ZMONL,batch18,batch15,1506,no_pathology_label,no_pathology_label,Stable
+48727,6L6HG2MJYC,ZZOEH6Z2PX,batch24,batch15,2743,no_pathology_label,degenerative_tissue_changes,New lesion
+48751,GRGBQRR4HW,GFARN2745M,batch24,batch15,2433,no_pathology_label,no_pathology_label,Stable
+48810,YK2LATOI2A,T3TQYXKFQX,batch15,batch15,11,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+49197,FNFA66SP6I,KEZ6ZMBZLR,batch25,batch16,2135,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+49662,DDTZVHDQ5C,LGEAQN5XUT,batch20,batch16,2000,no_pathology_label,structural_developmental,New lesion
+49795,H543KW6J5L,FYMNCKGCE4,batch16,batch16,4,no_pathology_label,no_pathology_label,Stable
+49816,2D5NK7IMIL,22DTT5FE3I,batch24,batch16,2825,cystic_lesions,no_pathology_label,Indeterminate
+49839,DBMM5MUQVZ,2MTNSQGQ54,batch16,batch16,3,no_pathology_label,no_pathology_label,Stable
+50310,RXSF5T3BTX,IYEINVVFWU,batch16,batch19,1815,structural_developmental,degenerative_tissue_changes,New lesion
+50327,W3HINFD3ZU,G2G3FZLDVB,batch16,batch16,263,no_pathology_label,no_pathology_label,Stable
+50559,PLQUMDCVBH,E2OSKZNRZX,batch21,batch24,111,no_pathology_label,cystic_lesions,Stable
+50559,E2OSKZNRZX,VNB4W4S34K,batch24,batch16,500,cystic_lesions,cystic_lesions,Stable
+50559,VNB4W4S34K,NNIPCBB4OA,batch16,batch16,389,cystic_lesions,degenerative_tissue_changes,Stable
+50596,GJ6SR6X74X,PCSZ4T5FOI,batch16,batch16,300,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+50662,AC3LAREUGI,J4A6C6R5XC,batch16,batch16,70,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+50668,FZJZZNC6WI,JZMF54ELY4,batch24,batch16,519,vascular_hemorrhagic,vascular_hemorrhagic,Stable
+50786,KE6YNIMZQ7,NC4FLRNUML,batch24,batch16,312,vascular_ischemic,degenerative_tissue_changes,Improved
+50853,BA7UKL3W2A,6OSTIPJVDR,batch16,batch16,811,no_pathology_label,no_pathology_label,Stable
+50982,LPRE2SNNUV,ERWMZXN6CV,batch16,batch16,105,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+51050,3EYMCVTFAZ,RARKDI6RBK,batch24,batch16,862,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+51127,OCIPA3U32K,QQIETE3DAG,batch24,batch16,510,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+51212,5EEWCU6SVD,EAYF5PBUKP,batch16,batch16,243,vascular_hemorrhagic,vascular_hemorrhagic,New lesion
+51240,2VIDRCZBT6,E545P64NSN,batch16,batch16,108,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+51615,C4RHKSQUYF,265MCLWUMB,batch24,batch16,1039,no_pathology_label,structural_developmental,Stable
+51694,VGE4NTMJGR,ZMDPN6PUF6,batch24,batch16,693,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+51736,LXALKP4ZZ7,BLWDP2SAHK,batch23,batch16,779,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+52033,WKPJJUIGYI,RQ6CMS2QQP,batch25,batch21,279,neoplasms,neoplasms,Stable
+52033,RQ6CMS2QQP,PKQGRLWQ2S,batch21,batch21,360,neoplasms,neoplasms,Stable
+52033,PKQGRLWQ2S,CFRDCCZGOB,batch21,batch16,426,neoplasms,neoplasms,Stable
+52033,CFRDCCZGOB,GAXKMVVSWY,batch16,batch17,593,neoplasms,no_pathology_label,Stable
+52067,R6W2F2TA5A,RDSIARF7RK,batch26,batch16,928,neoplasms,no_pathology_label,Stable
+52190,UIMU5ZAO3I,ET5CCIFLXR,batch17,batch17,266,no_pathology_label,no_pathology_label,Indeterminate
+52347,J7GA4XMXSE,WSIDJ5F4TX,batch21,batch17,965,degenerative_tissue_changes,no_pathology_label,Mixed interval change
+52633,PCOO4JS2X6,OP5FDNJXEI,batch17,batch17,175,neoplasms,neoplasms,Mixed interval change
+52890,PHAITEKVHW,XMQXR7E5XT,batch25,batch17,657,no_pathology_label,no_pathology_label,Stable
+53287,36MSCNIHMQ,4RWRHIMBH5,batch25,batch17,1052,no_pathology_label,no_pathology_label,Stable
+53527,GIWB25VZCS,YMMABPCPNQ,batch17,batch18,350,degenerative_tissue_changes,cystic_lesions,Indeterminate
+53771,CVH654GNJT,36LK43E33M,batch18,batch18,41,no_pathology_label,degenerative_tissue_changes,New lesion
+53996,EJQEDOQXVT,D2UWNUPXM5,batch18,batch18,35,neoplasms,neoplasms,Progressed
+54419,TZKH6IETA4,4TFDZZZ3TL,batch18,batch18,226,no_pathology_label,no_pathology_label,Improved
+54492,L5EOIQ5CO5,2V5FF6CSGO,batch18,batch18,84,no_pathology_label,no_pathology_label,Stable
+54686,VMKBTK5XQ2,M2TAYD7FNA,batch18,batch18,237,no_pathology_label,no_pathology_label,Resolved
+54820,3XCMWU7HEU,62FKEEI6VQ,batch18,batch18,3,no_pathology_label,no_pathology_label,Stable
+54989,QRHXDOY4VI,TVQK3IZASN,batch18,batch18,72,no_pathology_label,no_pathology_label,Stable
+55382,GQNTWB4CEQ,F4U5RCPXTS,batch18,batch18,11,neoplasms,degenerative_tissue_changes,Improved
+55382,F4U5RCPXTS,FQDTG4RCAL,batch18,batch18,107,degenerative_tissue_changes,no_pathology_label,Stable
+55594,523BJPMBSD,VY242LNW46,batch27,batch18,2073,vascular_hemorrhagic,degenerative_tissue_changes,Indeterminate
+56200,7VMLT6NQXX,YTNKX26CJZ,batch18,batch18,12,neoplasms,degenerative_tissue_changes,Improved
+56213,JOUXJESXHT,UPBRUIMJSY,batch18,batch18,35,neoplasms,neoplasms,Stable
+56589,QCEZ5AKYHO,QZSR4RSCVG,batch18,batch19,154,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+56918,JAKRXGZ6IN,ABOO7FLSL2,batch25,batch19,1991,no_pathology_label,no_pathology_label,Stable
+57213,V7UIQUPVQM,W7DZUT4XMN,batch19,batch19,174,vascular_hemorrhagic,vascular_hemorrhagic,Improved
+57571,DQKFAHIBV3,ADDJTIL6LT,batch19,batch19,6,neoplasms,neoplasms,Stable
+57816,7XA2AC73YQ,R73IV6GGVH,batch23,batch19,2007,no_pathology_label,no_pathology_label,Stable
+59013,ORXY47OA2X,IIN5EHZ2Y6,batch19,batch20,91,degenerative_tissue_changes,no_pathology_label,Stable
+59513,UT36MPPH4R,LF22P5YI5T,batch22,batch19,2773,no_pathology_label,vascular_hemorrhagic,New lesion
+60035,UZ3MQJWGQL,XSE6WERIPT,batch27,batch20,2462,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+60115,OCKZ2WHBB7,EZKO4KB3NV,batch20,batch20,1714,no_pathology_label,no_pathology_label,Stable
+60487,FOCWZM2PT3,5NOGQX55E3,batch24,batch25,579,cystic_lesions,cystic_lesions,Stable
+60487,5NOGQX55E3,57XKMGQHJJ,batch25,batch20,308,cystic_lesions,cystic_lesions,Stable
+60487,57XKMGQHJJ,H2B3H2ZCQ7,batch20,batch20,387,cystic_lesions,cystic_lesions,Stable
+60583,MLCGB5GMSB,T2WZRNAUJK,batch24,batch25,379,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+60583,T2WZRNAUJK,TJOQELX3O3,batch25,batch20,313,degenerative_tissue_changes,cystic_lesions,Stable
+60585,UOYTPLDSDA,3OTWFQX2CD,batch24,batch20,1063,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+60660,5QLP3RBXPZ,NBQFIGPKQB,batch25,batch20,323,no_pathology_label,no_pathology_label,Stable
+60660,NBQFIGPKQB,J7RFSOTNAQ,batch20,batch20,452,no_pathology_label,structural_developmental,New lesion
+60698,OLR62QQEEZ,SJOQELLXSI,batch25,batch25,159,neoplasms,neoplasms,Progressed
+60698,SJOQELLXSI,IY6RT2IIS7,batch25,batch20,231,neoplasms,neoplasms,Progressed
+60732,BEYZ635VCX,WEEJDVQWZ5,batch25,batch20,279,no_pathology_label,no_pathology_label,Stable
+60960,XSICT6IHDM,IJUMLPS54D,batch25,batch20,276,degenerative_tissue_changes,neoplasms,Improved
+60960,IJUMLPS54D,2FGE4NTS62,batch20,batch20,84,neoplasms,neoplasms,Stable
+61026,BXENYU6UVF,XOZIARW5T7,batch24,batch20,841,no_pathology_label,degenerative_tissue_changes,New lesion
+61037,U4JLNAJJUS,5IRP3JAA43,batch20,batch20,292,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+61685,B5HWBGU3Z5,GJSGQPGABH,batch24,batch20,977,degenerative_tissue_changes,no_pathology_label,Indeterminate
+61749,3HKUXIO57D,JLAGVPXERE,batch25,batch20,453,no_pathology_label,no_pathology_label,Stable
+61789,D2ATEFPHDY,3TW5XSQC2S,batch24,batch20,1104,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+61821,N3FEZRHTWU,KOWI3M2OMG,batch25,batch20,491,no_pathology_label,no_pathology_label,Stable
+62018,SLEQHPH4P4,7BGQMHIEDY,batch24,batch20,1030,neoplasms,no_pathology_label,Stable
+62097,FYQ2WJTDZI,R7IUCNHXGB,batch25,batch20,504,degenerative_tissue_changes,no_pathology_label,New lesion
+62312,CTCF2PRKDX,BL35GWIB6M,batch24,batch20,1238,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+62462,FMZMBTDJ2O,U34FZJEGK3,batch25,batch20,924,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+62628,KXNW2PZNAL,CHTRTMHUST,batch25,batch20,725,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+62976,2X4ASJEFB6,ACSFYBKGUR,batch21,batch24,91,neoplasms,neoplasms,Progressed
+62976,ACSFYBKGUR,GH4U7FYXYO,batch24,batch24,163,neoplasms,neoplasms,Mixed interval change
+62976,GH4U7FYXYO,K52RDV4DTQ,batch24,batch24,32,neoplasms,neoplasms,Progressed
+63177,VKRABJZOCY,UMBX47Z7BH,batch21,batch24,361,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+63233,DUDVHTVSHJ,VQJJUHYPG3,batch21,batch24,719,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+63685,CEBOIBUSH2,TLKPLMWTDV,batch21,batch21,226,neoplasms,neoplasms,Mixed interval change
+63685,TLKPLMWTDV,3WPP5NK2BE,batch21,batch21,433,neoplasms,neoplasms,Improved
+63918,JJAJYXJ22G,63MG5RNBLZ,batch21,batch21,228,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+63918,63MG5RNBLZ,YFSJJKMGXS,batch21,batch21,225,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+63931,M2I6MMWSI3,EUXCYOQFQN,batch21,batch21,243,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+64378,O26XC2T63S,G7RKLH7JOZ,batch21,batch25,381,structural_developmental,structural_developmental,Stable
+64789,LX2CK2PWNG,GJJGFTBBAO,batch26,batch21,712,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+65048,ZLBIN2DXJX,XRGCC24ZKE,batch25,batch21,953,degenerative_tissue_changes,no_pathology_label,Improved
+65246,KIKWPC6RK4,URNQPA4N46,batch21,batch21,264,neoplasms,neoplasms,Stable
+65297,GHXAI44QWG,OBB2HSJABZ,batch27,batch21,69,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+65363,A2YHWIRCFH,YVH7VRWO2V,batch27,batch21,75,vascular_hemorrhagic,no_pathology_label,Improved
+65573,O47HNUAVUH,JUC6HQKVPI,batch21,batch27,8,structural_developmental,no_pathology_label,Stable
+65979,XSTWW2O73F,IMX3IXNBNS,batch27,batch22,161,vascular_hemorrhagic,neoplasms,New lesion
+65992,CMMQ557J7J,6HOGWBN2LF,batch27,batch27,80,no_pathology_label,neoplasms,Progressed
+66015,EPZGF45P4A,P5DXDI6B7L,batch22,batch22,210,no_pathology_label,degenerative_tissue_changes,Stable
+66170,4DXQGNB4JT,NZWOSUXB4Q,batch22,batch24,425,neoplasms,neoplasms,Stable
+66883,E326HZOOTY,BAESYVWKVX,batch22,batch22,33,degenerative_tissue_changes,no_pathology_label,Mixed interval change
+66883,BAESYVWKVX,SBQA5RHSS2,batch22,batch27,91,no_pathology_label,vascular_ischemic,Indeterminate
+67214,4BMUMAAJLQ,RG77KHDJQZ,batch22,batch22,70,neoplasms,degenerative_tissue_changes,Improved
+67238,I6ZXX32YO5,LVEVVBLA36,batch22,batch22,160,no_pathology_label,degenerative_tissue_changes,Stable
+67547,TTZI5ZEC6R,2GPURK6ITS,batch22,batch27,106,no_pathology_label,no_pathology_label,Mixed interval change
+67701,C2BBAMPJ5Y,RQNKR6TQEE,batch22,batch23,221,structural_developmental,no_pathology_label,Stable
+67833,RUYOUS7CFD,V6GHQOFPAE,batch27,batch22,168,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+67883,JJ35WEYURZ,FMA35GHTUM,batch27,batch22,146,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+67883,FMA35GHTUM,EP7JURE4V5,batch22,batch23,194,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+67992,A5BEATRT7V,NSOBQLT6ST,batch27,batch27,33,neoplasms,neoplasms,Progressed
+68173,Y5RPE4SJVK,A2R2UNBN5X,batch23,batch27,2,degenerative_tissue_changes,vascular_ischemic,Mixed interval change
+68511,ZACS7P4BFQ,VGQLIEO65F,batch23,batch23,112,degenerative_tissue_changes,vascular_hemorrhagic,Mixed interval change
+69194,Q7AKWDHAGS,DJGDNYN6MY,batch27,batch23,79,degenerative_tissue_changes,neoplasms,Mixed interval change
+69283,TSFS52XNMX,Q7GXQMNZYM,batch23,batch23,3,degenerative_tissue_changes,vascular_hemorrhagic,Mixed interval change
+69722,HYB5DFV523,RGYLNRMK4A,batch27,batch23,245,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+70009,W3M5MXAE5M,UQNO2I37U3,batch23,batch23,50,neoplasms,no_pathology_label,Resolved
+70009,UQNO2I37U3,QM4WRB6BVC,batch23,batch23,61,no_pathology_label,degenerative_tissue_changes,Stable
+70386,NCZQ2ERVQT,JA4ULT2WLB,batch25,batch23,28,no_pathology_label,no_pathology_label,Stable
+71422,ISEBLSA4SD,ZZ663UYTQ6,batch24,batch24,165,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+71438,2FMNW4W3CZ,2SBVJVXMVN,batch24,batch27,3,no_pathology_label,no_pathology_label,Stable
+72083,M4D2MMDK3F,WAXUCAZESJ,batch26,batch24,643,no_pathology_label,no_pathology_label,Stable
+72853,7LO2RBCBXE,AGJ25JZ7WN,batch24,batch25,867,no_pathology_label,no_pathology_label,Stable
+73055,4NCQZE5ZXN,LGEPLED64L,batch24,batch25,833,no_pathology_label,no_pathology_label,Stable
+73671,ELU4URJ2XS,SLLM3GQFUD,batch24,batch25,725,no_pathology_label,degenerative_tissue_changes,New lesion
+73762,QUPJPM4NZM,7UBVIIHTU6,batch24,batch24,183,no_pathology_label,degenerative_tissue_changes,Stable
+74328,6Q2VJ5J6RG,DCJHJOJ6NI,batch24,batch25,554,no_pathology_label,no_pathology_label,Stable
+74570,XYAKOQ65ON,5OGUACNUUC,batch24,batch25,173,no_pathology_label,cystic_lesions,Indeterminate
+74624,GBIZXOKHIQ,TDWIB5Y46Q,batch24,batch24,255,vascular_hemorrhagic,vascular_hemorrhagic,Stable
+74624,TDWIB5Y46Q,GZMDORCILS,batch24,batch25,327,vascular_hemorrhagic,vascular_hemorrhagic,New lesion
+75124,TAQEOC3MQW,UD5YPG2GAM,batch24,batch24,127,vascular_hemorrhagic,degenerative_tissue_changes,Resolved
+75187,2QYVLRON6P,OSMD5XMWTW,batch24,batch25,244,neoplasms,degenerative_tissue_changes,Improved
+75187,OSMD5XMWTW,HTO5DK6JI7,batch25,batch25,186,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+75279,P6YSJSI7NO,WDSGZQDYBW,batch24,batch24,12,degenerative_tissue_changes,cystic_lesions,New lesion
+77609,RTRSMPZUWU,VK6TK7UIPC,batch25,batch25,336,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+78465,UJ4RKTW36O,7I5MTR242Z,batch25,batch25,517,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+79297,BAETIH2QQ4,56J63EXTKG,batch25,batch26,77,no_pathology_label,degenerative_tissue_changes,Resolved
+79778,Z6GG7R7JZK,EKSD4PAAHH,batch27,batch27,499,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+80747,3MRNZGU7YH,TFSTEGSC5C,batch27,batch27,371,neoplasms,no_pathology_label,Stable
+80921,HQPBKQST3D,TAF5AHLVGF,batch27,batch27,114,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+80921,TAF5AHLVGF,Y6JO4QMRO2,batch27,batch27,60,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+81418,6T7GKK5YV7,4L5KTI2EBK,batch27,batch27,265,no_pathology_label,no_pathology_label,New lesion
+82284,AI5WVVWL4O,LNUQB3DR7O,batch27,batch27,81,no_pathology_label,degenerative_tissue_changes,New lesion
+82284,LNUQB3DR7O,N2MO22VYV7,batch27,batch27,2,degenerative_tissue_changes,vascular_ischemic,New lesion
+82284,N2MO22VYV7,ZCKYVQLWS6,batch27,batch27,7,vascular_ischemic,structural_developmental,Progressed
+82345,KCHZ6XOKAJ,5EJKYB3WFW,batch27,batch27,96,degenerative_tissue_changes,neoplasms,New lesion
+82537,V35YRQ2DRI,HVRNWK3R5U,batch27,batch27,51,neoplasms,neoplasms,Mixed interval change
+88,G4PUSIA5YU,QK3IHXQFP6,batch13,batch00,373,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,New lesion
+88,QK3IHXQFP6,ZZ3I5RFUNN,batch00,batch06,70,degenerative_tissue_changes,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental",Stable
+88,ZZ3I5RFUNN,ZC2HIKSF4S,batch06,batch06,89,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental","neoplasms, degenerative_tissue_changes, structural_developmental",Stable
+88,ZC2HIKSF4S,B6SSJYY7DJ,batch06,batch10,91,"neoplasms, degenerative_tissue_changes, structural_developmental","neoplasms, degenerative_tissue_changes, structural_developmental",Mixed interval change
+88,B6SSJYY7DJ,MI62S2XF2G,batch10,batch10,130,"neoplasms, degenerative_tissue_changes, structural_developmental","neoplasms, degenerative_tissue_changes, structural_developmental",Mixed interval change
+88,MI62S2XF2G,SCLSUSR7UT,batch10,batch00,97,"neoplasms, degenerative_tissue_changes, structural_developmental","neoplasms, degenerative_tissue_changes, structural_developmental",Indeterminate
+88,VGNGFQHPPW,RMXQU7W7R3,batch00,batch00,10,"neoplasms, degenerative_tissue_changes, structural_developmental","neoplasms, vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental",Mixed interval change
+88,RMXQU7W7R3,MZJK2NY6HN,batch00,batch01,67,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Progressed
+88,DALODMX4RT,6UCKE2KZTH,batch04,batch04,73,"degenerative_tissue_changes, structural_developmental","neoplasms, degenerative_tissue_changes, structural_developmental",Progressed
+88,6UCKE2KZTH,4PR5G4OXV7,batch04,batch04,40,"neoplasms, degenerative_tissue_changes, structural_developmental","neoplasms, degenerative_tissue_changes, structural_developmental",Progressed
+128,NBZYXNBHVT,ZJKGJJZ3OA,batch00,batch00,1,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+128,ZJKGJJZ3OA,D3IM6AYQPJ,batch00,batch04,27,degenerative_tissue_changes,"vascular_ischemic, degenerative_tissue_changes, structural_developmental",Mixed interval change
+133,BDIV5X5TFL,FONYBPOQBN,batch00,batch08,327,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+133,FONYBPOQBN,EKBEJYBCKK,batch08,batch00,301,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+133,EKBEJYBCKK,FXMYZ2HMKV,batch00,batch18,352,degenerative_tissue_changes,"neoplasms, degenerative_tissue_changes",Stable
+133,FXMYZ2HMKV,CTPGTJSC2E,batch18,batch19,362,"neoplasms, degenerative_tissue_changes",degenerative_tissue_changes,Progressed
+148,QNPEDKAJ7Z,4QYJBTRKPU,batch06,batch00,28,structural_developmental,degenerative_tissue_changes,Mixed interval change
+148,4QYJBTRKPU,I7VUQDWZKH,batch00,batch06,80,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+148,I7VUQDWZKH,CBKSGYOI3Z,batch06,batch06,21,degenerative_tissue_changes,structural_developmental,Mixed interval change
+148,CBKSGYOI3Z,S44ADHQGZL,batch06,batch08,113,structural_developmental,"degenerative_tissue_changes, structural_developmental",Progressed
+148,S44ADHQGZL,RG2MQTPJWB,batch08,batch09,111,"degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Progressed
+164,GMJBUXATID,4SBHD6BPWS,batch00,batch06,103,"degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Stable
+180,2PVWD2SFY2,YFCQ2SSK6L,batch00,batch00,607,vascular_hemorrhagic,no_pathology_label,Stable
+248,Q4YPRJXPOC,S4A7XPMXXT,batch23,batch12,209,"vascular_ischemic, degenerative_tissue_changes","vascular_ischemic, degenerative_tissue_changes",Stable
+248,S4A7XPMXXT,YAT5JQG5AS,batch12,batch12,314,"vascular_ischemic, degenerative_tissue_changes","vascular_ischemic, degenerative_tissue_changes",Stable
+248,YAT5JQG5AS,NRV3FCOFX5,batch12,batch13,281,"vascular_ischemic, degenerative_tissue_changes","vascular_ischemic, degenerative_tissue_changes",Stable
+248,YMLCL4UEHS,BUDTDGMA5V,batch08,batch00,225,"vascular_ischemic, degenerative_tissue_changes, structural_developmental","vascular_ischemic, degenerative_tissue_changes, structural_developmental",Stable
+248,BUDTDGMA5V,HOB32777RM,batch00,batch04,281,"vascular_ischemic, degenerative_tissue_changes, structural_developmental","vascular_ischemic, degenerative_tissue_changes",Stable
+248,PQJHT3476U,XPICOTKYUB,batch18,batch19,229,"vascular_ischemic, degenerative_tissue_changes, structural_developmental","vascular_ischemic, degenerative_tissue_changes",Stable
+261,YMTSDG2JGU,ADU3PMBUMM,batch00,batch00,421,"neoplasms, degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,Stable
+261,ADU3PMBUMM,VCZC3KRPWJ,batch00,batch01,341,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+290,UD2EV34UPA,J5XNQJVFKE,batch13,batch00,134,no_pathology_label,degenerative_tissue_changes,Stable
+317,2I4OKT4F3C,XAZXOHZLC6,batch00,batch00,570,degenerative_tissue_changes,no_pathology_label,Stable
+324,PBQIJVZV2X,AHIKLRBJ53,batch00,batch06,188,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,Stable
+360,KONQOSNPAM,RYPS2CZAKL,batch00,batch01,14,degenerative_tissue_changes,"vascular_hemorrhagic, degenerative_tissue_changes",New lesion
+360,RYPS2CZAKL,JUYU4MDTOL,batch01,batch06,85,"vascular_hemorrhagic, degenerative_tissue_changes","vascular_hemorrhagic, degenerative_tissue_changes",Improved
+360,JUYU4MDTOL,V3EWNLI6BR,batch06,batch00,340,"vascular_hemorrhagic, degenerative_tissue_changes",degenerative_tissue_changes,Progressed
+360,V3EWNLI6BR,BDFVQ5TDF3,batch00,batch19,727,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+399,DAJXTMJFT4,QD3YT3FTLR,batch27,batch23,235,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+399,QD3YT3FTLR,S7DIIS2ZVR,batch23,batch00,878,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+497,CFGARMDZ5Z,IZ43EZBBBQ,batch06,batch08,5,no_pathology_label,no_pathology_label,Improved
+497,IZ43EZBBBQ,2I65WSCNVS,batch08,batch00,217,no_pathology_label,no_pathology_label,Improved
+497,2I65WSCNVS,TUESQFMIDZ,batch00,batch00,232,no_pathology_label,no_pathology_label,Stable
+523,7BGTSRDIRF,NHG6HOI5OK,batch00,batch00,16,no_pathology_label,no_pathology_label,Stable
+624,35DXSV5KDO,L4QPQ7G35V,batch12,batch00,1155,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+639,CVUYGFU37A,FLHRWYFGPV,batch09,batch00,56,"vascular_hemorrhagic, degenerative_tissue_changes","degenerative_tissue_changes, structural_developmental",Progressed
+639,FLHRWYFGPV,IFZYOOQORE,batch00,batch00,7,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,Stable
+672,QEYSO6PIAE,D5V3WBBAV7,batch08,batch06,30,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+672,D5V3WBBAV7,YFFZ6KFG2T,batch06,batch00,245,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+672,YFFZ6KFG2T,BACMUTHDDH,batch00,batch00,146,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+672,BACMUTHDDH,2BMHZU7GKL,batch00,batch01,102,degenerative_tissue_changes,neoplasms,New lesion
+672,AATB75RV6X,GTRS5GCGIZ,batch04,batch08,146,no_pathology_label,"vascular_hemorrhagic, degenerative_tissue_changes",Stable
+672,GTRS5GCGIZ,BGZLFOB2BK,batch08,batch18,126,"vascular_hemorrhagic, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",New lesion
+747,TNFAXTS4MM,O2AW57WLVU,batch09,batch08,63,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Mixed interval change
+747,O2AW57WLVU,WLYRUUSJMJ,batch08,batch00,75,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Stable
+747,WLYRUUSJMJ,LLD73AQGHD,batch00,batch00,31,"neoplasms, degenerative_tissue_changes",neoplasms,Mixed interval change
+794,FZEHOHEGKR,6TVITQSDFX,batch14,batch00,122,degenerative_tissue_changes,"vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental",Progressed
+794,6TVITQSDFX,WNTTI7PPYZ,batch00,batch00,41,"vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,Stable
+794,WNTTI7PPYZ,BEYHH6USCZ,batch00,batch00,105,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+794,BEYHH6USCZ,3KHKEGPRKH,batch00,batch00,54,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+794,3KHKEGPRKH,HJERB6GYG3,batch00,batch00,9,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+831,QPJVIUSRAK,22SSMT5XRP,batch04,batch00,370,no_pathology_label,no_pathology_label,Stable
+831,22SSMT5XRP,4TE6AJUONC,batch00,batch19,764,no_pathology_label,no_pathology_label,Stable
+874,KWBBLXYNTW,6GHMLLN3MG,batch13,batch00,544,no_pathology_label,no_pathology_label,Stable
+876,ADYJ2WGAB6,YK6TW7LGUC,batch00,batch04,303,"degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Stable
+930,K3D35L54AR,LPTNGPYQWE,batch04,batch06,40,no_pathology_label,degenerative_tissue_changes,Improved
+930,LPTNGPYQWE,Y4ANNB4BQL,batch06,batch06,85,degenerative_tissue_changes,no_pathology_label,Improved
+930,Y4ANNB4BQL,CNMVUHF3AM,batch06,batch07,92,no_pathology_label,degenerative_tissue_changes,Improved
+930,CNMVUHF3AM,AUJ62EBYV5,batch07,batch00,168,degenerative_tissue_changes,"degenerative_tissue_changes, structural_developmental",New lesion
+930,AUJ62EBYV5,EYNSJTFAKA,batch00,batch00,52,"degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Improved
+930,EYNSJTFAKA,7RSOT6VBAJ,batch00,batch00,156,"degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Stable
+930,7RSOT6VBAJ,T55IWNQODX,batch00,batch04,89,"degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Stable
+930,T55IWNQODX,AQNQLCV7XT,batch04,batch05,240,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,New lesion
+941,L5AK4K6XW5,W4TXQ57SAE,batch00,batch00,44,"vascular_hemorrhagic, degenerative_tissue_changes",vascular_hemorrhagic,Improved
+941,W4TXQ57SAE,V6MSIWUS25,batch00,batch01,196,vascular_hemorrhagic,"vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental",Improved
+1125,B3ICTYR2UZ,KXDM5X4CUA,batch00,batch00,51,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Mixed interval change
+1133,HG6VLFMZ54,EP6O6UJIKS,batch00,batch00,27,"vascular_ischemic, vascular_hemorrhagic, degenerative_tissue_changes","vascular_hemorrhagic, degenerative_tissue_changes",Improved
+1133,EP6O6UJIKS,MHIU7BTPFX,batch00,batch00,84,"vascular_hemorrhagic, degenerative_tissue_changes",degenerative_tissue_changes,Improved
+1143,JNZFVOOLNV,A5GO6HERCU,batch22,batch13,1068,degenerative_tissue_changes,"neoplasms, degenerative_tissue_changes",New lesion
+1143,A5GO6HERCU,5D7YFQD3GB,batch13,batch13,103,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Improved
+1143,5D7YFQD3GB,YZADGRTGFP,batch13,batch06,160,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Progressed
+1143,YZADGRTGFP,B23P4EIBGN,batch06,batch06,122,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Progressed
+1143,B23P4EIBGN,UWOSOGMX7Y,batch06,batch10,111,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Improved
+1143,UWOSOGMX7Y,PKBQK7IPJT,batch10,batch08,108,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes, structural_developmental",Improved
+1143,PKBQK7IPJT,TGZLJ7YBKK,batch08,batch00,132,"neoplasms, degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Stable
+1143,TGZLJ7YBKK,VKJ5ZV6KLJ,batch00,batch00,197,"degenerative_tissue_changes, structural_developmental","neoplasms, vascular_ischemic, degenerative_tissue_changes",Progressed
+1143,VKJ5ZV6KLJ,WTQ6CLTSL7,batch00,batch04,65,"neoplasms, vascular_ischemic, degenerative_tissue_changes","neoplasms, vascular_hemorrhagic, degenerative_tissue_changes",New lesion
+1143,WTQ6CLTSL7,7XGRFHHUTO,batch04,batch04,117,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes",degenerative_tissue_changes,Improved
+1143,7XGRFHHUTO,5LFJNH4SZY,batch04,batch18,166,degenerative_tissue_changes,"neoplasms, vascular_ischemic, degenerative_tissue_changes",Progressed
+1164,K7FTFUH7QI,63CI534QHF,batch27,batch27,369,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,Stable
+1164,63CI534QHF,JJR2UJDO5R,batch27,batch27,184,degenerative_tissue_changes,"degenerative_tissue_changes, structural_developmental",Stable
+1164,JJR2UJDO5R,ZBASKT74WR,batch27,batch23,425,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,Stable
+1164,ZBASKT74WR,IMOWAWIZVC,batch23,batch12,457,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+1164,IMOWAWIZVC,NEBACQXY3O,batch12,batch13,187,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+1164,NEBACQXY3O,ITBA4KDY73,batch13,batch13,87,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+1164,ITBA4KDY73,ZKUOTUM4IY,batch13,batch13,83,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+1164,ZKUOTUM4IY,PVBRHEEWEC,batch13,batch06,208,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1164,PVBRHEEWEC,EZPTTN7MAW,batch06,batch07,112,degenerative_tissue_changes,"vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental",Stable
+1164,EZPTTN7MAW,WWIM2X77VS,batch07,batch00,203,"vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Stable
+1164,WWIM2X77VS,RAANEQES67,batch00,batch00,184,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,Stable
+1164,TFVVDQYBF7,2ZNFIIOU3L,batch04,batch18,181,degenerative_tissue_changes,"degenerative_tissue_changes, structural_developmental",Stable
+1164,2ZNFIIOU3L,LC6AGFVSQF,batch18,batch19,182,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,Stable
+1192,C2JENGAEAV,JFV26JYC2S,batch00,batch00,70,no_pathology_label,no_pathology_label,Stable
+1299,RBPEMH6NJL,QZF3F3YZQY,batch09,batch00,60,"neoplasms, degenerative_tissue_changes, structural_developmental","neoplasms, degenerative_tissue_changes, structural_developmental",Resolved
+1299,QZF3F3YZQY,L3LNB6UIUS,batch00,batch00,73,"neoplasms, degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",New lesion
+1299,L3LNB6UIUS,KS7TUJ6WHY,batch00,batch01,127,"degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Improved
+1299,ZR4NWUOC2B,TJFN5CXLBB,batch04,batch01,65,"degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Stable
+1320,LF3N6S3PHA,WSGI4D2QGL,batch00,batch00,20,"vascular_ischemic, vascular_hemorrhagic, degenerative_tissue_changes","vascular_ischemic, degenerative_tissue_changes",Improved
+1371,KYNWXZCYCA,EY23NJEBUL,batch00,batch00,113,vascular_ischemic,"vascular_ischemic, cystic_lesions",Stable
+1371,EY23NJEBUL,J4JO2H5R7H,batch00,batch04,153,"vascular_ischemic, cystic_lesions",degenerative_tissue_changes,Stable
+1371,7BHLVMGZE5,S4E5KBNWKA,batch05,batch18,137,degenerative_tissue_changes,"vascular_ischemic, degenerative_tissue_changes",Stable
+1371,S4E5KBNWKA,MUNTONZBQA,batch18,batch19,191,"vascular_ischemic, degenerative_tissue_changes","vascular_ischemic, degenerative_tissue_changes",Stable
+1413,GWBJDBDKWE,W5VDWF2TTW,batch00,batch01,209,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1570,FBLR7TWSP2,UBMA74WQJW,batch00,batch04,368,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1625,WDDWMBRBVF,FEBB5WPWAQ,batch13,batch06,346,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1625,FEBB5WPWAQ,DKOCLEG23N,batch06,batch09,196,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1625,DKOCLEG23N,ALLZ72KJNR,batch09,batch00,167,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1625,ALLZ72KJNR,RBGSPULJPN,batch00,batch05,491,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1625,RBGSPULJPN,7S4M5KDKNQ,batch05,batch19,359,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1642,XDSV64YZ3T,L27RKREJH5,batch12,batch13,143,no_pathology_label,no_pathology_label,Stable
+1642,L27RKREJH5,GPOMX72GTY,batch13,batch06,438,no_pathology_label,degenerative_tissue_changes,Stable
+1642,GPOMX72GTY,5YVXD6K6GM,batch06,batch08,253,degenerative_tissue_changes,no_pathology_label,Stable
+1642,5YVXD6K6GM,ZYF6FL24JQ,batch08,batch00,95,no_pathology_label,no_pathology_label,Stable
+1642,ZYF6FL24JQ,FNM2ATBOTK,batch00,batch04,352,no_pathology_label,no_pathology_label,Stable
+1708,GOAXLPVFOO,MQ7AEDIKNF,batch06,batch06,13,"vascular_hemorrhagic, degenerative_tissue_changes",vascular_hemorrhagic,Improved
+1708,MQ7AEDIKNF,K5GHLI23WN,batch06,batch10,65,vascular_hemorrhagic,degenerative_tissue_changes,Improved
+1708,K5GHLI23WN,W2FO4KW5CH,batch10,batch08,142,degenerative_tissue_changes,"vascular_ischemic, vascular_hemorrhagic, degenerative_tissue_changes",Stable
+1708,W2FO4KW5CH,PD6HMTOAEY,batch08,batch00,136,"vascular_ischemic, vascular_hemorrhagic, degenerative_tissue_changes",degenerative_tissue_changes,Stable
+1781,JS6QQWPIDB,E5TSHQT5KB,batch04,batch19,378,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1804,GAQO5XHZD3,DO2XV3XZ6H,batch22,batch12,917,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+1804,DO2XV3XZ6H,ZUQY2QMGPU,batch12,batch08,703,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1804,ZUQY2QMGPU,JV326THPMV,batch08,batch00,291,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+1804,JV326THPMV,X46P6XW2AU,batch00,batch18,543,degenerative_tissue_changes,structural_developmental,Progressed
+2013,EIOEJCMDKG,4YM5OIZVW5,batch06,batch00,377,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+2013,4YM5OIZVW5,N4IKGEJVMB,batch00,batch05,430,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+2038,7ZNI6SZLXY,N7C4PEBTTN,batch21,batch27,205,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+2038,N7C4PEBTTN,X6TBMOSQRA,batch27,batch23,379,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+2038,X6TBMOSQRA,DYXR6QPZWY,batch23,batch13,743,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+2038,DYXR6QPZWY,PKHFPEPB65,batch13,batch00,753,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+2178,HBR6D36NHZ,2YWH57LGVB,batch09,batch00,237,no_pathology_label,no_pathology_label,Stable
+2178,2YWH57LGVB,WFGS4XZINU,batch00,batch01,119,no_pathology_label,no_pathology_label,New lesion
+2207,QQBNVHRP6P,KX4OWAGLZZ,batch12,batch00,1122,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+2266,IC6KWG4JDK,3JCJOIOFQY,batch23,batch23,107,degenerative_tissue_changes,no_pathology_label,Stable
+2266,3JCJOIOFQY,MQH32W4SAS,batch23,batch12,140,no_pathology_label,"neoplasms, degenerative_tissue_changes",Stable
+2266,MQH32W4SAS,IE3ZRADJOU,batch12,batch13,489,"neoplasms, degenerative_tissue_changes",no_pathology_label,Stable
+2266,IE3ZRADJOU,QGRJRYH2MR,batch13,batch13,211,no_pathology_label,no_pathology_label,Stable
+2266,QGRJRYH2MR,SPCNT56W2K,batch13,batch06,166,no_pathology_label,degenerative_tissue_changes,Stable
+2266,SPCNT56W2K,RJCXIPPPGU,batch06,batch00,424,degenerative_tissue_changes,no_pathology_label,Stable
+2266,RJCXIPPPGU,DQWIGS6CYH,batch00,batch00,54,no_pathology_label,degenerative_tissue_changes,Stable
+2266,DQWIGS6CYH,LRBCXQLEOG,batch00,batch05,385,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+2266,LRBCXQLEOG,7NZQAORCHA,batch05,batch19,414,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+2318,37DX7HXWYH,7UR447BSVZ,batch00,batch05,346,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+2341,5LONYDT322,GXIRLBNZM5,batch06,batch00,370,no_pathology_label,no_pathology_label,Stable
+2341,GXIRLBNZM5,PUVOXIUIR4,batch00,batch19,603,no_pathology_label,no_pathology_label,Stable
+2589,32OO4MPKXH,PAIR7HZP7Q,batch27,batch00,1594,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+2656,SQMMERIYJO,VMSZVRUTON,batch00,batch05,319,"vascular_hemorrhagic, degenerative_tissue_changes","degenerative_tissue_changes, structural_developmental",Improved
+2689,RSOUMVQQU3,CMSM5GRCLT,batch00,batch05,337,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+2689,CMSM5GRCLT,PCPCG2K25M,batch05,batch19,369,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+2702,3EVYBADNDT,WQBPW5KWIB,batch00,batch00,20,"neoplasms, degenerative_tissue_changes, structural_developmental",neoplasms,Stable
+2739,YD6BQY2BES,3TYLKCI5YP,batch13,batch08,204,degenerative_tissue_changes,"degenerative_tissue_changes, structural_developmental",Stable
+2739,3TYLKCI5YP,AXG3UMOVWC,batch08,batch06,124,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,Stable
+2739,AXG3UMOVWC,OYB7ZKS56C,batch06,batch07,131,degenerative_tissue_changes,"vascular_hemorrhagic, degenerative_tissue_changes",New lesion
+2739,OYB7ZKS56C,XWHQIX7ZRP,batch07,batch00,331,"vascular_hemorrhagic, degenerative_tissue_changes","vascular_hemorrhagic, degenerative_tissue_changes",Stable
+2739,XWHQIX7ZRP,OELOIYXQXX,batch00,batch04,247,"vascular_hemorrhagic, degenerative_tissue_changes","degenerative_tissue_changes, structural_developmental",Stable
+2739,OELOIYXQXX,MCBMYJQVF7,batch04,batch19,361,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,Stable
+2795,MLODDUNA5R,F5XXCPMXS2,batch00,batch20,842,cystic_lesions,no_pathology_label,Improved
+3022,OJ4DGL6LCH,FVLPQN6DBD,batch00,batch04,186,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental","vascular_ischemic, vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental",Improved
+3076,STMNDC3LJY,FTMNFFFPTR,batch00,batch01,135,degenerative_tissue_changes,"neoplasms, degenerative_tissue_changes",Mixed interval change
+3076,FTMNFFFPTR,OUAEADHZAK,batch01,batch04,89,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Mixed interval change
+3076,OUAEADHZAK,2POZOWUTKH,batch04,batch05,93,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",New lesion
+3076,2POZOWUTKH,POECDD3YU6,batch05,batch05,61,"neoplasms, degenerative_tissue_changes",neoplasms,Mixed interval change
+3076,POECDD3YU6,5HC3Q3UVVX,batch05,batch18,121,neoplasms,"neoplasms, degenerative_tissue_changes",Progressed
+3155,HAXONTSG7G,HTSYKY4SRG,batch00,batch19,594,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+3270,MFOC436NAE,RJP6NYNGKL,batch12,batch13,370,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,Stable
+3270,RJP6NYNGKL,5MHWDLI7VL,batch13,batch00,706,degenerative_tissue_changes,"vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental",Stable
+3391,7Y5SQ2ZB3D,OOJRXVNQO4,batch06,batch06,125,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+3391,OOJRXVNQO4,MFRMA3E6O4,batch06,batch00,401,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+3393,FTLXFDIFS3,2BPZCIFRFV,batch01,batch05,211,degenerative_tissue_changes,neoplasms,New lesion
+3393,2BPZCIFRFV,NU7CLQMZSS,batch05,batch05,84,neoplasms,neoplasms,Improved
+3393,NU7CLQMZSS,IRQXXW6FIY,batch05,batch18,43,neoplasms,neoplasms,Mixed interval change
+3405,JMDDYLD2RO,AMYTJVKNU7,batch00,batch04,239,"neoplasms, degenerative_tissue_changes, structural_developmental","neoplasms, degenerative_tissue_changes, structural_developmental",Mixed interval change
+3461,AEJPHPFSME,BBMQO62QMJ,batch23,batch00,1814,degenerative_tissue_changes,no_pathology_label,Progressed
+3503,XGDKIZN7AZ,L3HQ7VMSHD,batch00,batch05,314,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+3597,DN2WIXNJIG,3JUVSLMJK4,batch01,batch04,83,"neoplasms, structural_developmental","neoplasms, degenerative_tissue_changes, structural_developmental",Improved
+3597,3JUVSLMJK4,2AFN3674LT,batch04,batch05,104,"neoplasms, degenerative_tissue_changes, structural_developmental",neoplasms,New lesion
+3597,2AFN3674LT,WJ3WASUM4W,batch05,batch18,102,neoplasms,neoplasms,Mixed interval change
+3597,WJ3WASUM4W,ABLHTLGPDL,batch18,batch19,144,neoplasms,"neoplasms, degenerative_tissue_changes",Progressed
+3701,QZTK3O6UUQ,BIZNHXEAQA,batch01,batch06,111,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes",neoplasms,Improved
+3701,BIZNHXEAQA,JM6GSK2QMX,batch06,batch14,151,neoplasms,"neoplasms, degenerative_tissue_changes",Progressed
+3701,B3A2SJWH2L,SDP42KLUNE,batch02,batch14,122,"neoplasms, degenerative_tissue_changes",neoplasms,Improved
+3701,SDP42KLUNE,REEZFZF23K,batch14,batch00,115,neoplasms,"neoplasms, degenerative_tissue_changes",Mixed interval change
+3701,REEZFZF23K,UU76WMA35G,batch00,batch01,182,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Progressed
+3701,UU76WMA35G,4CRET3XPNW,batch01,batch04,47,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Stable
+3701,4CRET3XPNW,PFCQHVY6PE,batch04,batch18,126,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Progressed
+3701,PFCQHVY6PE,EJQGDECKCE,batch18,batch19,386,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Improved
+3715,C3I3AL3FUW,N76DLWKDMC,batch27,batch12,572,no_pathology_label,degenerative_tissue_changes,Mixed interval change
+3715,N76DLWKDMC,L3SFSDP7DV,batch12,batch08,797,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+3715,L3SFSDP7DV,ZUZM4RZX3G,batch08,batch00,456,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+3715,ZUZM4RZX3G,WULR37KJQO,batch00,batch01,175,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+3715,WULR37KJQO,QTK55PDSQQ,batch01,batch19,412,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+3826,UF6QEIZPBZ,FZ6UQWFYED,batch12,batch13,286,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+3826,FZ6UQWFYED,XJ6DGR5BAA,batch13,batch06,324,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+3826,XJ6DGR5BAA,DIE6IAHEIQ,batch06,batch08,357,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+3826,DIE6IAHEIQ,O4ZWTNCYDS,batch08,batch00,307,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+3826,O4ZWTNCYDS,T767OQC66Y,batch00,batch19,503,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+4515,E62LIZQ36O,VK6NG3MYTZ,batch23,batch23,126,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+4515,VK6NG3MYTZ,IMI333JBBT,batch23,batch01,1007,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+4515,IMI333JBBT,JO7AD77VUX,batch01,batch09,258,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+4601,XLPBS6YUQD,EI2XJCZLCL,batch01,batch07,201,"neoplasms, degenerative_tissue_changes",degenerative_tissue_changes,Stable
+4601,EI2XJCZLCL,MM5UKIM6WD,batch07,batch19,1134,degenerative_tissue_changes,"vascular_hemorrhagic, degenerative_tissue_changes",Stable
+4652,HG3KKVJ324,IV4PCK75SS,batch12,batch13,154,"neoplasms, degenerative_tissue_changes",neoplasms,Stable
+4652,IV4PCK75SS,MKSWR6CAW5,batch13,batch01,354,neoplasms,neoplasms,Stable
+6903,27IAU72GFG,ILW4MCXGWN,batch12,batch12,98,vascular_hemorrhagic,vascular_hemorrhagic,Progressed
+6903,ILW4MCXGWN,YXGUNCCOF6,batch12,batch13,154,vascular_hemorrhagic,vascular_hemorrhagic,Stable
+6903,YXGUNCCOF6,3EUQHYPJV4,batch13,batch13,132,vascular_hemorrhagic,vascular_hemorrhagic,Stable
+6903,2SBACU2RCG,VTDJCM6MR4,batch01,batch18,409,no_pathology_label,no_pathology_label,Indeterminate
+7049,VFRGECIXPN,4WQL5AQC4Z,batch04,batch18,164,"neoplasms, degenerative_tissue_changes",degenerative_tissue_changes,Stable
+7049,4WQL5AQC4Z,MEUV6PT7FW,batch18,batch19,182,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+7110,UKQU2RNQA3,CLEWT5ATPG,batch10,batch01,356,degenerative_tissue_changes,"degenerative_tissue_changes, structural_developmental",New lesion
+7114,SJPAQXMLJ5,VTWO4E5BQF,batch01,batch01,29,"neoplasms, degenerative_tissue_changes","neoplasms, vascular_hemorrhagic, degenerative_tissue_changes",New lesion
+7136,GWUVWFILKA,2WES7FT737,batch27,batch27,168,vascular_hemorrhagic,"vascular_hemorrhagic, degenerative_tissue_changes",Stable
+7136,2WES7FT737,2DAOOECNEC,batch27,batch23,296,"vascular_hemorrhagic, degenerative_tissue_changes","vascular_hemorrhagic, degenerative_tissue_changes",Stable
+7136,AASVEOHIRP,JXJQH4AWWQ,batch08,batch01,357,vascular_hemorrhagic,vascular_hemorrhagic,Stable
+7136,JXJQH4AWWQ,FOIMJVO4ZY,batch01,batch18,360,vascular_hemorrhagic,"vascular_hemorrhagic, degenerative_tissue_changes",Stable
+7136,FOIMJVO4ZY,5PNN6DYKWR,batch18,batch20,377,"vascular_hemorrhagic, degenerative_tissue_changes",vascular_hemorrhagic,Stable
+7138,5T7GLJWHJL,JIU554TOAE,batch01,batch05,211,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+7176,CKCB3NPBNB,XC24RBEQ5F,batch06,batch10,199,degenerative_tissue_changes,"degenerative_tissue_changes, structural_developmental",Stable
+7176,XC24RBEQ5F,F4F4MATF7R,batch10,batch01,362,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,New lesion
+7324,LFPITMDFWB,54DXN52NSH,batch04,batch18,277,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+7370,LQV4VPF6O2,62NC2NF6CT,batch13,batch01,954,no_pathology_label,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes",Mixed interval change
+7440,WOYJF6SKKI,33YD6FAYFO,batch04,batch05,111,no_pathology_label,degenerative_tissue_changes,Stable
+7440,33YD6FAYFO,DUFFKE65SX,batch05,batch18,141,degenerative_tissue_changes,no_pathology_label,Stable
+7624,MVL5EAOS5W,S5TH4PZOYL,batch01,batch04,121,"neoplasms, degenerative_tissue_changes",neoplasms,Improved
+7624,S5TH4PZOYL,Q574DTDTF6,batch04,batch05,90,neoplasms,"neoplasms, degenerative_tissue_changes",Mixed interval change
+7740,4MYWRHOJ2X,BUTVA765MU,batch01,batch04,139,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes, structural_developmental",Mixed interval change
+7740,BUTVA765MU,X7C4ZZD5S5,batch04,batch05,99,"neoplasms, degenerative_tissue_changes, structural_developmental","neoplasms, degenerative_tissue_changes, cystic_lesions, structural_developmental",Mixed interval change
+7740,X7C4ZZD5S5,J26UFFHXJM,batch05,batch18,82,"neoplasms, degenerative_tissue_changes, cystic_lesions, structural_developmental","neoplasms, degenerative_tissue_changes, structural_developmental",Improved
+7740,J26UFFHXJM,4E5HSB5CWP,batch18,batch11,280,"neoplasms, degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Indeterminate
+7750,PGEBINMTVR,IZTW4YUGKV,batch01,batch04,70,neoplasms,"neoplasms, degenerative_tissue_changes, structural_developmental",Progressed
+7751,YUHACRR6HN,CQZCXDONX6,batch13,batch01,805,no_pathology_label,degenerative_tissue_changes,Improved
+7773,FDEDZPP5BR,JJDLECHKW4,batch01,batch01,43,no_pathology_label,no_pathology_label,Improved
+7791,K3465VBGL4,CAUHM4OF7A,batch01,batch18,379,"vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental","vascular_ischemic, vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental",Stable
+7836,FL7XBSDCKC,6UZKEKZE7C,batch13,batch01,835,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+7991,PBJVBUFRSW,RH7GGNK3Y2,batch23,batch02,948,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+7991,RH7GGNK3Y2,SIY6PSSUZX,batch02,batch01,748,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+7991,SIY6PSSUZX,5X4VXMSX6K,batch01,batch19,443,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+8008,HLET6MTHW2,QEK2AJ7DVP,batch04,batch01,17,"vascular_hemorrhagic, degenerative_tissue_changes",no_pathology_label,Mixed interval change
+8041,I2BJ74EBAS,4G55TUFO7V,batch12,batch10,860,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+8041,4G55TUFO7V,2A7EQB6U5W,batch10,batch01,451,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+8053,IYUTWRZX2N,QY5UC7WAKQ,batch01,batch18,280,degenerative_tissue_changes,no_pathology_label,Improved
+8123,BN6GGYLD3L,SA6M4GVRLW,batch27,batch13,945,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+8123,SA6M4GVRLW,6VDPLZZQ5Z,batch13,batch05,239,degenerative_tissue_changes,"neoplasms, degenerative_tissue_changes",Stable
+8123,6VDPLZZQ5Z,MIGTTZVOS7,batch05,batch01,711,"neoplasms, degenerative_tissue_changes",degenerative_tissue_changes,Mixed interval change
+8285,JEGXK75635,Y62DK2IICM,batch06,batch01,645,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+8285,Y62DK2IICM,JHFH7OQ3I3,batch01,batch18,200,degenerative_tissue_changes,"degenerative_tissue_changes, structural_developmental",New lesion
+8285,JHFH7OQ3I3,JP65EJ3N77,batch18,batch19,192,"degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Stable
+8330,QJ74IETRRG,32UAZRCCTX,batch13,batch09,524,no_pathology_label,no_pathology_label,Stable
+8330,32UAZRCCTX,O275JLKWLF,batch09,batch01,535,no_pathology_label,no_pathology_label,Stable
+8613,HZKUEW3TIY,EIH2AVW5SD,batch01,batch18,474,no_pathology_label,no_pathology_label,Stable
+8826,ATKUPF5JHQ,O2YTWWJVIC,batch02,batch19,975,no_pathology_label,no_pathology_label,Stable
+10121,OFDPVV5VBI,A4BQLH7T2W,batch02,batch04,71,degenerative_tissue_changes,"degenerative_tissue_changes, structural_developmental",Stable
+10121,A4BQLH7T2W,XCLHTFT2NR,batch04,batch05,212,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,Improved
+10121,XCLHTFT2NR,OSGESUP7X3,batch05,batch18,168,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+14766,TVXIMGNNZY,FYWWXID72J,batch04,batch05,17,"neoplasms, degenerative_tissue_changes",degenerative_tissue_changes,Improved
+14766,FYWWXID72J,Q477EOSVSM,batch05,batch06,114,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+14832,7SU3HNLG5O,QF2GOXQGWV,batch04,batch18,1002,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+14832,QF2GOXQGWV,ZYH4FFSGBP,batch18,batch19,238,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+17016,AMTBIRS2KG,RTYMB345GF,batch06,batch04,595,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+17133,RRRJKFITKV,47ICXPREQG,batch05,batch04,666,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+17133,47ICXPREQG,4OR5ED45FQ,batch04,batch20,678,degenerative_tissue_changes,"degenerative_tissue_changes, structural_developmental",Stable
+17170,UCFUSY2SQP,GPOKZJKMSS,batch04,batch05,149,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,Resolved
+17284,M4EQWHWUG7,5DX6TQDI3W,batch23,batch13,724,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+17284,5DX6TQDI3W,3NR5I57XYP,batch13,batch06,491,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+17284,3NR5I57XYP,7F62SH73SF,batch06,batch04,518,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+17284,7F62SH73SF,GU5IKFMFQM,batch04,batch19,601,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+17420,QGACZBNQBI,F6ZYQT7XY2,batch04,batch05,156,degenerative_tissue_changes,no_pathology_label,Stable
+17420,F6ZYQT7XY2,GWMSATKUGV,batch05,batch19,359,no_pathology_label,no_pathology_label,Stable
+17424,XMZE6PRPK2,OWRO6OZ6HK,batch09,batch04,382,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+17465,BOGCDEZQYW,YUYONQGKML,batch19,batch19,55,degenerative_tissue_changes,no_pathology_label,Stable
+17465,YUYONQGKML,WIJ6GJB3RB,batch19,batch19,67,no_pathology_label,no_pathology_label,Stable
+17500,OQNRC3L6EK,M6OVPXPVAG,batch23,batch12,470,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Stable
+17500,M6OVPXPVAG,U5ZMCZBQST,batch12,batch13,439,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Stable
+17500,U5ZMCZBQST,RLNIGH66TS,batch13,batch09,525,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Stable
+17500,RLNIGH66TS,4YXPZXZBXV,batch09,batch04,426,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Stable
+17500,4YXPZXZBXV,35ELZXXPZD,batch04,batch18,214,"neoplasms, degenerative_tissue_changes",degenerative_tissue_changes,New lesion
+17500,35ELZXXPZD,4PKATN7MBR,batch18,batch19,227,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+17595,NFSECUF5HF,EEH24EIGVY,batch04,batch04,5,no_pathology_label,no_pathology_label,Stable
+17718,ZU25CUPHUM,REDVUQRQY3,batch04,batch05,90,"neoplasms, degenerative_tissue_changes","neoplasms, vascular_hemorrhagic",Improved
+17718,REDVUQRQY3,VOML45GDHG,batch05,batch18,154,"neoplasms, vascular_hemorrhagic","neoplasms, degenerative_tissue_changes",Resolved
+17718,VOML45GDHG,6FOVL5JKFT,batch18,batch19,99,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes, structural_developmental",Stable
+17718,6FOVL5JKFT,77Q5KWYFGY,batch19,batch19,40,"neoplasms, degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Stable
+17718,77Q5KWYFGY,GUY4VW6IF6,batch19,batch20,205,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,Progressed
+17974,UIKFOD2L66,N2W474WF3T,batch04,batch05,79,degenerative_tissue_changes,"degenerative_tissue_changes, structural_developmental",Progressed
+18851,XKDXXHJXIL,TXRDD6X7RE,batch16,batch05,811,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+18954,PZ2FBEHGDX,CQUWKUE6ZM,batch23,batch05,920,vascular_ischemic,"vascular_ischemic, vascular_hemorrhagic, degenerative_tissue_changes",New lesion
+20897,TH7WCAEAXR,4CF6XFJSTB,batch12,batch12,117,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+20897,4CF6XFJSTB,F5O4HXZGWF,batch12,batch12,241,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+20897,F5O4HXZGWF,TFAZZ44LHT,batch12,batch05,1243,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+21182,7KN5CHWUU4,BXVJGQICOK,batch18,batch18,98,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Improved
+21182,BXVJGQICOK,MKWCR33YCL,batch18,batch19,86,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Improved
+21182,MKWCR33YCL,Q5IZNCSW56,batch19,batch19,109,"neoplasms, degenerative_tissue_changes","vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental",Stable
+21182,Q5IZNCSW56,JLKKH2UZYR,batch19,batch19,100,"vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,Stable
+21195,PQR7W4COOU,UKUGAUVXXF,batch13,batch07,595,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+21195,UKUGAUVXXF,P4FRPDSNTG,batch07,batch05,661,degenerative_tissue_changes,"neoplasms, degenerative_tissue_changes",New lesion
+21195,P4FRPDSNTG,B5HQDK6RL6,batch05,batch05,52,"neoplasms, degenerative_tissue_changes","neoplasms, vascular_hemorrhagic, degenerative_tissue_changes",Improved
+21195,B5HQDK6RL6,XW4ZUCGWWY,batch05,batch18,109,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes",no_pathology_label,Stable
+21195,XW4ZUCGWWY,L3JW54NTQW,batch18,batch19,88,no_pathology_label,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes",Progressed
+21195,L3JW54NTQW,7HZF2YMXVL,batch19,batch19,56,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Progressed
+21416,2PNYN7DZXV,BGU3X7L3XF,batch06,batch14,178,"degenerative_tissue_changes, cystic_lesions","degenerative_tissue_changes, cystic_lesions",Stable
+21416,BGU3X7L3XF,IIIJKNC5K5,batch14,batch05,779,"degenerative_tissue_changes, cystic_lesions","degenerative_tissue_changes, cystic_lesions",Mixed interval change
+21509,JBGEX5G3GI,5LVAZOLO5Y,batch05,batch19,414,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+21770,WQLVCAOHRB,4ZDEG25WVJ,batch13,batch09,324,no_pathology_label,degenerative_tissue_changes,Stable
+21770,4ZDEG25WVJ,NEJO66GTHM,batch09,batch05,665,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+22087,CKVRAW3Q6J,MVCJ5BHUDF,batch05,batch18,52,degenerative_tissue_changes,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes",New lesion
+22407,IDFTXNSRA7,KAGF2ZZHPV,batch06,batch08,28,degenerative_tissue_changes,"neoplasms, degenerative_tissue_changes",Indeterminate
+22664,FCGIN3HHOF,AWVA6GK7OX,batch06,batch08,245,"vascular_ischemic, degenerative_tissue_changes","vascular_ischemic, degenerative_tissue_changes",Stable
+22752,7LHQYIHAN3,HNELB6KM7E,batch13,batch06,146,no_pathology_label,no_pathology_label,New lesion
+22752,HNELB6KM7E,7AYZHTXAYI,batch06,batch06,66,no_pathology_label,no_pathology_label,Progressed
+22801,DD3EPW2AG2,YLBCVATAVY,batch13,batch06,216,vascular_hemorrhagic,"degenerative_tissue_changes, cystic_lesions",Improved
+22808,4ATOZSUOMT,RFASN6K37F,batch13,batch13,42,neoplasms,"vascular_hemorrhagic, degenerative_tissue_changes",Stable
+22808,RFASN6K37F,6674WZFUHJ,batch13,batch13,32,"vascular_hemorrhagic, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Stable
+22808,67TGSLTKRD,ACDHDZ5AEZ,batch06,batch06,39,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Indeterminate
+22808,ACDHDZ5AEZ,U4V3LV2WDA,batch06,batch06,12,"neoplasms, degenerative_tissue_changes","neoplasms, vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental",Mixed interval change
+22904,VPMXET64OG,TPPHLYFEOS,batch12,batch06,818,structural_developmental,no_pathology_label,Improved
+22928,YM6BWQJGE6,BRJYQIOZ4G,batch13,batch06,432,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+23209,TONCYQGIYL,GMD66V6ZL3,batch13,batch06,297,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Mixed interval change
+23229,47IRGDN5F6,X6BBTUXOTM,batch06,batch09,163,no_pathology_label,no_pathology_label,Stable
+23230,7HL7NUWO22,45W4B5TYF7,batch13,batch06,262,"vascular_hemorrhagic, degenerative_tissue_changes","vascular_hemorrhagic, degenerative_tissue_changes",Progressed
+23230,45W4B5TYF7,RIUAYCKY72,batch06,batch09,201,"vascular_hemorrhagic, degenerative_tissue_changes","vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental",Stable
+23322,YMKMKKB4UJ,F2TPU4NE7R,batch06,batch07,120,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+23375,4CTDFLJKEV,MRFYDDQ64U,batch25,batch06,1246,no_pathology_label,degenerative_tissue_changes,Stable
+23397,K7HRUFWMIA,N6FVSSBMAW,batch12,batch12,64,no_pathology_label,no_pathology_label,Resolved
+23397,N6FVSSBMAW,QYQKKBPRRE,batch12,batch06,561,no_pathology_label,no_pathology_label,Stable
+23535,ED7NMUSGJ4,ALBOASCCLG,batch12,batch13,554,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+23535,ALBOASCCLG,WFD5NPRJDR,batch13,batch06,345,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+23535,WFD5NPRJDR,I4DI7RIC3M,batch06,batch18,601,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+23956,SLHNSHWW4B,NFBEL6UUJT,batch06,batch08,87,"vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental","vascular_hemorrhagic, structural_developmental",Progressed
+23956,NFBEL6UUJT,RNJSA2RBOP,batch08,batch08,6,"vascular_hemorrhagic, structural_developmental",degenerative_tissue_changes,Progressed
+26661,4D6RCP4YPY,65FN7S7WNX,batch07,batch19,1059,"degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Stable
+27351,6L74BHQ5XN,3Q665SLA4M,batch13,batch08,178,neoplasms,degenerative_tissue_changes,Resolved
+27475,AWOLPISPIA,GOQX2TKU72,batch08,batch18,800,degenerative_tissue_changes,"degenerative_tissue_changes, structural_developmental",Stable
+27638,V2K47C4DJ7,ZLPGXQGBGJ,batch08,batch20,1144,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+27999,FIAATI55VO,VPTKZVBEHW,batch10,batch08,168,"degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Progressed
+27999,VPTKZVBEHW,XXIQQ4DPIA,batch08,batch20,1060,"degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Mixed interval change
+32062,I53ETFYGXC,NVLRVGJECW,batch23,batch09,1277,no_pathology_label,no_pathology_label,Indeterminate
+32101,ZKQS36TX6M,GGGXCDAWCD,batch13,batch10,30,no_pathology_label,no_pathology_label,Mixed interval change
+32163,5AKNJCVVN6,BZ7W5NXYJK,batch23,batch23,61,structural_developmental,degenerative_tissue_changes,Stable
+32163,BZ7W5NXYJK,6UB675OGUG,batch23,batch23,61,degenerative_tissue_changes,"degenerative_tissue_changes, structural_developmental",Stable
+32163,6UB675OGUG,QYT6SFZR5N,batch23,batch10,1032,"degenerative_tissue_changes, structural_developmental","neoplasms, degenerative_tissue_changes",New lesion
+32163,QYT6SFZR5N,RQ2XHQSU6B,batch10,batch10,100,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Mixed interval change
+32163,RQ2XHQSU6B,AXPRQWVGEJ,batch10,batch10,65,"neoplasms, degenerative_tissue_changes",no_pathology_label,Progressed
+32246,M32HNBUHJ2,UNHIWM5IFO,batch22,batch22,465,"neoplasms, degenerative_tissue_changes",neoplasms,Stable
+32246,UNHIWM5IFO,N74XBKBOKW,batch22,batch13,1192,neoplasms,degenerative_tissue_changes,Improved
+32246,N74XBKBOKW,KOODQJR4FU,batch13,batch10,341,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+32246,KOODQJR4FU,DEJOVDUSCN,batch10,batch20,1208,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+32300,XRWRK4NPQ2,7BZVLF23ZA,batch12,batch10,834,"degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Progressed
+32310,32PFG26G7K,YUOZY4L4VG,batch27,batch22,142,no_pathology_label,degenerative_tissue_changes,Improved
+32310,YUOZY4L4VG,HD5KCEESPX,batch22,batch27,455,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+32310,HD5KCEESPX,MIEF6SWUE2,batch27,batch12,542,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+32310,MIEF6SWUE2,BV3O32EX2A,batch12,batch10,781,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+32310,BV3O32EX2A,SNOCMEAYGE,batch10,batch19,936,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+32472,7K46JR2OOI,RSXGCLZOET,batch23,batch10,1340,neoplasms,neoplasms,Stable
+32472,RSXGCLZOET,GXDLAD6ZRN,batch10,batch18,764,neoplasms,neoplasms,Stable
+35920,MRLJCGYR5J,FZGTNRM7WY,batch24,batch11,53,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes",degenerative_tissue_changes,Improved
+35920,FZGTNRM7WY,YKOO5NK3SQ,batch11,batch12,50,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+35920,YKOO5NK3SQ,DLMJEQNH3L,batch12,batch12,93,degenerative_tissue_changes,"vascular_hemorrhagic, degenerative_tissue_changes",Progressed
+36097,KA7B2L6QRM,6WLZX3HONG,batch23,batch12,32,"vascular_hemorrhagic, degenerative_tissue_changes",degenerative_tissue_changes,Mixed interval change
+36097,6WLZX3HONG,KEVGX7JHAZ,batch12,batch12,7,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+36097,KEVGX7JHAZ,CCT65UIXGM,batch12,batch12,24,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+36271,5BV23E4E63,EJCGOGJG2X,batch12,batch12,126,"vascular_ischemic, degenerative_tissue_changes, structural_developmental","vascular_ischemic, degenerative_tissue_changes, structural_developmental",Progressed
+36315,SGAQEGZFI2,WOODEGXFN6,batch23,batch23,83,"neoplasms, vascular_ischemic","neoplasms, degenerative_tissue_changes",Improved
+36315,WOODEGXFN6,NOYJFBVGE3,batch23,batch12,129,"neoplasms, degenerative_tissue_changes","neoplasms, vascular_hemorrhagic, degenerative_tissue_changes",Mixed interval change
+36315,NOYJFBVGE3,K3VS25IFYK,batch12,batch12,34,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes","neoplasms, vascular_hemorrhagic, degenerative_tissue_changes",Mixed interval change
+36350,MENEQRARDO,RODFSJC5SX,batch23,batch23,130,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+36350,RODFSJC5SX,4ORLABUDZU,batch23,batch12,116,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+36364,2QXXWVIGN4,KUJP2RWOL3,batch12,batch12,8,"neoplasms, degenerative_tissue_changes",neoplasms,Improved
+36364,KUJP2RWOL3,P65W4MRPI5,batch12,batch12,359,neoplasms,"neoplasms, degenerative_tissue_changes",New lesion
+36410,AVI5VHFI2C,B76HJPPEVU,batch23,batch12,164,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+36410,B76HJPPEVU,A7535ZNKEH,batch12,batch12,181,degenerative_tissue_changes,"neoplasms, degenerative_tissue_changes, structural_developmental",New lesion
+36434,MBIKXULKY4,OO2WKNXVG5,batch27,batch27,75,"vascular_hemorrhagic, degenerative_tissue_changes","vascular_hemorrhagic, degenerative_tissue_changes",Improved
+36434,OO2WKNXVG5,PPRTWHC2WE,batch27,batch12,1034,"vascular_hemorrhagic, degenerative_tissue_changes",degenerative_tissue_changes,Stable
+36452,BUDIGCA73M,SEX5O2PQBC,batch24,batch12,103,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+36471,UFPP3OVEA6,OWOIGF4JXK,batch12,batch12,130,no_pathology_label,structural_developmental,Stable
+36517,LYHP76W35B,P6L5K2DUH3,batch12,batch13,605,"neoplasms, degenerative_tissue_changes, structural_developmental","neoplasms, degenerative_tissue_changes",Stable
+36653,PR6HGEXVBZ,AEPGJ6DOBW,batch12,batch12,288,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Mixed interval change
+36653,AEPGJ6DOBW,NFIJZN6SVS,batch12,batch13,73,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Progressed
+36653,NFIJZN6SVS,SVPC73HYXK,batch13,batch13,68,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Mixed interval change
+36653,SVPC73HYXK,DUAPMXF2MZ,batch13,batch13,33,"neoplasms, degenerative_tissue_changes","neoplasms, vascular_hemorrhagic, degenerative_tissue_changes",Improved
+36653,DUAPMXF2MZ,W5YUTX7HZ5,batch13,batch13,59,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Improved
+36653,W5YUTX7HZ5,GBQXWRP5CM,batch13,batch17,39,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Progressed
+36712,A5J5ZLZB5L,CQLGBNGEFO,batch23,batch23,246,"vascular_ischemic, degenerative_tissue_changes, structural_developmental","vascular_ischemic, degenerative_tissue_changes, structural_developmental",Progressed
+36712,CQLGBNGEFO,TPENFQQLYT,batch23,batch12,98,"vascular_ischemic, degenerative_tissue_changes, structural_developmental","vascular_ischemic, degenerative_tissue_changes, structural_developmental",Stable
+36728,GQWBANP2AO,WBHXXQG3S7,batch27,batch12,427,"degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Progressed
+36729,OLJRRBWZWF,QETYKLUIXT,batch12,batch12,5,no_pathology_label,no_pathology_label,Indeterminate
+36793,EXGEV33PZ2,QPD5QLAZGQ,batch12,batch12,56,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Improved
+36793,QPD5QLAZGQ,IHXMHPIHRM,batch12,batch12,48,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Improved
+36793,IHXMHPIHRM,Y4KKS4F6ID,batch12,batch12,63,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Improved
+36793,Y4KKS4F6ID,DYJ3CJCL45,batch12,batch13,137,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes, structural_developmental",Mixed interval change
+36793,DYJ3CJCL45,XYBEF4APRC,batch13,batch13,60,"neoplasms, degenerative_tissue_changes, structural_developmental",neoplasms,Mixed interval change
+36823,5T42G7G5ND,7KZR56DHAP,batch12,batch12,142,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+36851,X5C7NKJCEI,XQGWB7RY6C,batch16,batch12,24,degenerative_tissue_changes,degenerative_tissue_changes,Indeterminate
+36851,XQGWB7RY6C,OGE6IGZ3DO,batch12,batch12,20,degenerative_tissue_changes,no_pathology_label,Indeterminate
+36851,OGE6IGZ3DO,EKVL6I6OV7,batch12,batch12,54,no_pathology_label,degenerative_tissue_changes,New lesion
+36985,63IOGCNTK5,JBDB63EQZW,batch12,batch12,30,"neoplasms, structural_developmental","degenerative_tissue_changes, structural_developmental",Mixed interval change
+37150,O5JBOKQFCS,EPAGSBIZIC,batch23,batch23,255,no_pathology_label,no_pathology_label,Stable
+37150,EPAGSBIZIC,2ELZUB7LVH,batch23,batch12,196,no_pathology_label,degenerative_tissue_changes,New lesion
+37230,PTVLN74IOX,UFCBXZVZTS,batch12,batch12,1,neoplasms,"neoplasms, degenerative_tissue_changes",Improved
+37251,2HFJFANTK3,QO6Z3CHXHO,batch12,batch12,156,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes, structural_developmental",Mixed interval change
+37734,OWPX42D5U6,2M3ZK32TCP,batch23,batch12,339,no_pathology_label,no_pathology_label,Stable
+37866,S4AI3723GE,3EK5VQZLVV,batch23,batch12,608,"degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Progressed
+37866,3EK5VQZLVV,ZVRXLGOJQF,batch12,batch13,226,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,Stable
+37951,RHJFOJLJ5L,SPIRTNJBYK,batch12,batch12,113,degenerative_tissue_changes,"neoplasms, vascular_ischemic",New lesion
+38036,FJPGFCKBSD,PNDNATUHX3,batch21,batch27,267,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+38036,PNDNATUHX3,MRHWNKWBLC,batch27,batch12,1023,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+38059,BNPRTI3QLX,CSMSTIM6X2,batch27,batch12,662,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+38065,6SVBXRZEWD,6SCIDDP3GL,batch27,batch27,78,no_pathology_label,no_pathology_label,Resolved
+38065,6SCIDDP3GL,TOJKCUH37Q,batch27,batch27,222,no_pathology_label,no_pathology_label,Stable
+38236,QUSNY3A25K,G7LCADYKUN,batch21,batch12,1092,no_pathology_label,degenerative_tissue_changes,Indeterminate
+38315,YRZWQ3RH2Y,DW6A42EB4E,batch22,batch12,709,no_pathology_label,no_pathology_label,Stable
+38384,PBQ5XLE3RI,7DBOCYUHCR,batch23,batch12,362,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+38444,UASIP5ZQ43,555NORMUAJ,batch22,batch23,362,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Stable
+38444,555NORMUAJ,HN2DEDIPA6,batch23,batch12,631,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Stable
+38484,W76R563I7V,MIT4H5N5CZ,batch12,batch12,75,"vascular_hemorrhagic, degenerative_tissue_changes",degenerative_tissue_changes,Mixed interval change
+38552,CAI3ULRT3J,XBCRF4YPRV,batch24,batch12,728,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+38552,XBCRF4YPRV,UDKZAW4ANR,batch12,batch13,175,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+38579,7ZDA3Z7WLH,HUP2BHLLQT,batch23,batch12,525,degenerative_tissue_changes,"degenerative_tissue_changes, structural_developmental",Progressed
+38842,SOXZ5MFNQT,MBFPV2XVLZ,batch12,batch13,133,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,Stable
+39069,3K2TFD3BKF,OOGLH6K7AF,batch12,batch13,117,"neoplasms, vascular_ischemic, degenerative_tissue_changes, structural_developmental","neoplasms, degenerative_tissue_changes",Stable
+39153,5HX6NT6EXA,E5KEFF4MPP,batch13,batch13,11,neoplasms,degenerative_tissue_changes,Stable
+39281,FF4NFVWRFG,JN4PA4ESCS,batch13,batch13,196,no_pathology_label,no_pathology_label,Stable
+39281,JN4PA4ESCS,O2GTFS6DZ7,batch13,batch18,1179,no_pathology_label,no_pathology_label,Stable
+39446,CDTJGINKLX,HQRIYVNZIP,batch13,batch13,263,neoplasms,neoplasms,Stable
+39766,UHYFFS6HKX,D6SHOXUFBO,batch27,batch23,369,degenerative_tissue_changes,"vascular_ischemic, degenerative_tissue_changes",Indeterminate
+39766,D6SHOXUFBO,YZZVUCNIOL,batch23,batch13,597,"vascular_ischemic, degenerative_tissue_changes","vascular_ischemic, degenerative_tissue_changes",Stable
+39819,C2A3HZ2CVU,GL7VPWJRFO,batch13,batch13,115,no_pathology_label,"degenerative_tissue_changes, structural_developmental",Progressed
+39835,ESIU55B6V4,RPWFE2OEDG,batch13,batch13,19,"vascular_hemorrhagic, degenerative_tissue_changes","vascular_hemorrhagic, degenerative_tissue_changes",Improved
+39835,RPWFE2OEDG,MAZAS25UXF,batch13,batch13,181,"vascular_hemorrhagic, degenerative_tissue_changes",degenerative_tissue_changes,Resolved
+39945,56REJ4ADTU,VSHH6YB4H6,batch13,batch13,4,no_pathology_label,no_pathology_label,Improved
+39963,XMTEKFGIJ2,QDZSIOWH36,batch23,batch13,596,degenerative_tissue_changes,no_pathology_label,Stable
+40155,SX6HIGQ2QX,IZKTTAGG42,batch13,batch13,86,"vascular_hemorrhagic, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Mixed interval change
+40158,6R4NWSTP2Z,NVBKLIZH4N,batch23,batch13,709,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+40288,Z7PSXW7AAK,VUO4WHWKUP,batch13,batch13,34,"degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Stable
+40338,TNQMXORO4W,RKNSFZDGXN,batch13,batch13,29,"neoplasms, degenerative_tissue_changes","vascular_hemorrhagic, degenerative_tissue_changes",Improved
+41224,2ETAA6IJGO,AS7CK4XY6M,batch13,batch13,35,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+41698,IJ6IBOSU2I,RWLHLDJKM7,batch23,batch13,777,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+41915,NVKZPRIVOC,G3IUENTBPK,batch23,batch23,372,no_pathology_label,no_pathology_label,New lesion
+41915,G3IUENTBPK,LV3EHU6IGW,batch23,batch14,1012,no_pathology_label,neoplasms,Stable
+41915,LV3EHU6IGW,KZMH6QIJSL,batch14,batch20,1271,neoplasms,neoplasms,Improved
+41956,HLEGVKKZKJ,L7QUHMWRWJ,batch14,batch20,1013,no_pathology_label,no_pathology_label,Stable
+50310,IYEINVVFWU,2NR23XXOUK,batch19,batch19,54,degenerative_tissue_changes,"degenerative_tissue_changes, structural_developmental",Improved
+50310,2NR23XXOUK,WCLDHV7SDW,batch19,batch19,28,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,New lesion
+50310,WCLDHV7SDW,ADCQNBOH2X,batch19,batch19,171,degenerative_tissue_changes,degenerative_tissue_changes,Improved
+55382,FQDTG4RCAL,PIHRTP7WGB,batch18,batch19,95,no_pathology_label,degenerative_tissue_changes,Stable
+55429,ENUS4BUIHU,Y223JXNADC,batch18,batch19,395,no_pathology_label,"neoplasms, cystic_lesions",New lesion
+56001,K5G25CFQ2N,XLSBAWSPHB,batch18,batch19,77,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Mixed interval change
+56001,XLSBAWSPHB,QMT44GVHXX,batch19,batch19,49,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes, structural_developmental",Mixed interval change
+56001,QMT44GVHXX,TMQKLV2L3V,batch19,batch19,28,"neoplasms, degenerative_tissue_changes, structural_developmental","neoplasms, degenerative_tissue_changes, structural_developmental",Improved
+56026,PI7N3A3WUG,RLH3DJU5MQ,batch18,batch18,6,"vascular_hemorrhagic, degenerative_tissue_changes","vascular_hemorrhagic, degenerative_tissue_changes",Improved
+56026,RLH3DJU5MQ,3DCHLZ3IUA,batch18,batch19,169,"vascular_hemorrhagic, degenerative_tissue_changes",vascular_hemorrhagic,Improved
+56200,YTNKX26CJZ,VICEWZEVTD,batch18,batch19,158,degenerative_tissue_changes,"neoplasms, degenerative_tissue_changes",Improved
+56372,4D6AHFMVWR,WF6WKYS5OS,batch18,batch19,300,no_pathology_label,no_pathology_label,Stable
+56375,FZGKRTVVEY,S42JQ6RFU5,batch18,batch19,72,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+56382,OJUIKSRYGN,IXKX3RBHPI,batch18,batch19,278,"vascular_ischemic, vascular_hemorrhagic, degenerative_tissue_changes",vascular_ischemic,New lesion
+56451,2YUIK2WTW6,LKN3NBO7EW,batch18,batch19,65,degenerative_tissue_changes,"degenerative_tissue_changes, structural_developmental",Progressed
+56451,LKN3NBO7EW,KNRHJYQVNP,batch19,batch19,141,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,Mixed interval change
+56451,KNRHJYQVNP,WXNPY45M5K,batch19,batch19,64,degenerative_tissue_changes,"degenerative_tissue_changes, structural_developmental",Progressed
+56451,WXNPY45M5K,LKSMJNS3ZP,batch19,batch19,34,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,Progressed
+56530,2NVL6BDB4Z,QTNTVVFATY,batch18,batch19,229,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+57485,25XRVXAQBT,ADUORAMC2C,batch19,batch19,10,no_pathology_label,degenerative_tissue_changes,Improved
+57526,3CW4A72HQX,VWQIJTYY53,batch19,batch19,95,no_pathology_label,no_pathology_label,Stable
+57571,ADDJTIL6LT,Y2XU5IORAY,batch19,batch19,8,"neoplasms, degenerative_tissue_changes","neoplasms, vascular_ischemic, vascular_hemorrhagic, degenerative_tissue_changes",Mixed interval change
+57571,Y2XU5IORAY,ERQN4R56SX,batch19,batch19,185,"neoplasms, vascular_ischemic, vascular_hemorrhagic, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Stable
+57590,J6KXNPOVLX,RGFRCTASE6,batch27,batch19,2599,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+58052,5KFT3A4ZUU,ZVA3RQOUEQ,batch23,batch19,2303,"vascular_hemorrhagic, degenerative_tissue_changes",degenerative_tissue_changes,Stable
+58465,4ZKV7DZQZB,IRKNEUMNJO,batch19,batch19,42,degenerative_tissue_changes,no_pathology_label,Stable
+58465,IRKNEUMNJO,OQ7GXBYJC2,batch19,batch20,113,no_pathology_label,no_pathology_label,Stable
+58841,PF7V34LBDX,AOSTZBVOWP,batch19,batch19,95,"vascular_ischemic, vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental","vascular_ischemic, vascular_hemorrhagic, degenerative_tissue_changes",New lesion
+58900,DC2UEAXFDD,57R2OX2NLR,batch19,batch19,32,degenerative_tissue_changes,no_pathology_label,New lesion
+58900,57R2OX2NLR,6TC2PXAFRT,batch19,batch19,27,no_pathology_label,no_pathology_label,Stable
+58940,Y6MALTBVEQ,RLMW6PPQMD,batch19,batch19,3,degenerative_tissue_changes,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental",Improved
+58940,RLMW6PPQMD,KE5ZUGH76Z,batch19,batch19,93,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental","neoplasms, degenerative_tissue_changes, structural_developmental",Mixed interval change
+59329,AHEMSPRJNT,UYNGLFY4EX,batch19,batch20,72,no_pathology_label,no_pathology_label,Stable
+59440,E75HP4ZZWS,E35KZCTO6A,batch19,batch20,63,degenerative_tissue_changes,"degenerative_tissue_changes, structural_developmental",New lesion
+63292,GHFJRSHJNL,G5VDTKSPHM,batch21,batch22,276,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Indeterminate
+65151,YNWDW4RUHB,5IBNXPTRDK,batch21,batch23,752,"degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Stable
+65246,URNQPA4N46,KIJZNJS33P,batch21,batch22,78,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Stable
+65246,KIJZNJS33P,DMBJCWPU7U,batch22,batch23,480,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Stable
+65346,3TPAM5WZZ6,HTYA55SHGV,batch21,batch27,80,"neoplasms, vascular_hemorrhagic",no_pathology_label,Progressed
+65346,HTYA55SHGV,XOSJ7TZHQI,batch27,batch21,115,no_pathology_label,structural_developmental,Stable
+65346,XOSJ7TZHQI,SVGLRC7RG5,batch21,batch27,169,structural_developmental,no_pathology_label,Stable
+65420,UWHN4UT55B,SNZG6DYZYW,batch21,batch27,118,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+65609,L62V5DWL6G,JFILDQMVD6,batch21,batch27,367,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes, cystic_lesions",Progressed
+65847,ANJFDQETOR,RWJLFUI7VZ,batch22,batch22,189,"degenerative_tissue_changes, structural_developmental",degenerative_tissue_changes,Stable
+65992,MFEXLKLXO7,N4PWQCXGTX,batch27,batch27,228,no_pathology_label,degenerative_tissue_changes,Progressed
+65992,N4PWQCXGTX,GOG4GFQCGL,batch27,batch27,12,degenerative_tissue_changes,no_pathology_label,Progressed
+65992,GOG4GFQCGL,W5GHBUVRJK,batch27,batch22,61,no_pathology_label,no_pathology_label,Progressed
+65992,W5GHBUVRJK,43K4WBFTDS,batch22,batch27,76,no_pathology_label,"neoplasms, degenerative_tissue_changes",Mixed interval change
+65992,43K4WBFTDS,XNY2KRDFHK,batch27,batch27,83,"neoplasms, degenerative_tissue_changes",degenerative_tissue_changes,Progressed
+65992,XNY2KRDFHK,CMMQ557J7J,batch27,batch27,84,degenerative_tissue_changes,no_pathology_label,Stable
+66016,3MAIS2NXZ3,K2FVY4JJJM,batch22,batch27,243,no_pathology_label,degenerative_tissue_changes,Stable
+66027,CKOSZIMVD5,27IT44VKE5,batch22,batch27,462,no_pathology_label,no_pathology_label,Stable
+66111,6H5ASWHVVL,UPRGW76IJU,batch27,batch27,101,"vascular_hemorrhagic, degenerative_tissue_changes","vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental",Improved
+66111,UPRGW76IJU,O2X7RF5DZ3,batch27,batch22,81,"vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental","neoplasms, degenerative_tissue_changes",New lesion
+66306,XBT55L5PMZ,CJ2VHOZUSM,batch22,batch22,314,neoplasms,neoplasms,Stable
+66440,DGAS62ZUWV,XTBEZUU7BR,batch22,batch27,14,"vascular_hemorrhagic, degenerative_tissue_changes","vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental",Improved
+66879,NSFENNYXYL,4W7NNDWC6Q,batch22,batch27,536,"degenerative_tissue_changes, structural_developmental","degenerative_tissue_changes, structural_developmental",Mixed interval change
+67337,EJPYJ4H5SG,3C4C5ZHWKY,batch22,batch27,52,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Stable
+67424,AUQWGOV5TE,7AKPJ3EF37,batch22,batch22,121,"vascular_hemorrhagic, degenerative_tissue_changes","vascular_hemorrhagic, degenerative_tissue_changes",Stable
+67547,2GPURK6ITS,IVNWJXR4H3,batch27,batch23,148,no_pathology_label,neoplasms,Improved
+67547,IVNWJXR4H3,RZFBHR6HFD,batch23,batch23,106,neoplasms,no_pathology_label,Stable
+67632,BUGEVOROZP,A3LGMWEUSR,batch22,batch23,559,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+67792,ZJFAWI7XOP,FW7T5SLFTJ,batch27,batch27,58,"neoplasms, vascular_ischemic, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Improved
+67792,FW7T5SLFTJ,MTL4OC7FXU,batch27,batch27,48,"neoplasms, degenerative_tissue_changes","neoplasms, vascular_ischemic, vascular_hemorrhagic, degenerative_tissue_changes",Improved
+67792,MTL4OC7FXU,AVVBNLQ65V,batch27,batch22,192,"neoplasms, vascular_ischemic, vascular_hemorrhagic, degenerative_tissue_changes","neoplasms, vascular_hemorrhagic, degenerative_tissue_changes",Improved
+67792,AVVBNLQ65V,QDZIXUDCPU,batch22,batch27,95,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Progressed
+67825,ONQXE35KIT,SYDLSPUWJ6,batch27,batch22,458,degenerative_tissue_changes,"vascular_ischemic, vascular_hemorrhagic, degenerative_tissue_changes",Improved
+67834,CELAEII4CM,P56CHW7Z6N,batch27,batch27,38,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+67834,P56CHW7Z6N,P775OHWLJC,batch27,batch27,74,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+67834,P775OHWLJC,XTRXRJCGGS,batch27,batch22,61,degenerative_tissue_changes,degenerative_tissue_changes,Progressed
+67834,XTRXRJCGGS,62J6MTWFAU,batch22,batch22,68,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+67883,EP7JURE4V5,BNP7QCWCJG,batch23,batch23,296,degenerative_tissue_changes,degenerative_tissue_changes,New lesion
+67992,NSOBQLT6ST,4EI3VEQMFA,batch27,batch22,72,neoplasms,neoplasms,Improved
+68071,DUGHEC6F6I,H4PDYFSEKI,batch22,batch22,213,"vascular_hemorrhagic, degenerative_tissue_changes","neoplasms, vascular_hemorrhagic, degenerative_tissue_changes",New lesion
+68071,H4PDYFSEKI,YIQFQCCQHG,batch22,batch23,67,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes","neoplasms, vascular_hemorrhagic, degenerative_tissue_changes",Improved
+68071,YIQFQCCQHG,FAHP5WLWQQ,batch23,batch27,68,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Progressed
+68331,P2GNTOY2E6,TAPBH5DL63,batch27,batch23,1,degenerative_tissue_changes,"neoplasms, degenerative_tissue_changes",Mixed interval change
+68360,PB5WQX2EOF,XKZBW5AEBJ,batch23,batch23,407,degenerative_tissue_changes,"vascular_hemorrhagic, degenerative_tissue_changes",Indeterminate
+68366,D53GHLXAS3,JWWOKIHMNC,batch23,batch23,199,no_pathology_label,neoplasms,Indeterminate
+68669,KDCQ4EAEGD,G4H7W7U63O,batch23,batch27,83,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Mixed interval change
+68844,YMFWIGQH67,47VXLFUSFR,batch27,batch23,452,"vascular_ischemic, degenerative_tissue_changes, structural_developmental","vascular_ischemic, vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental",New lesion
+69187,QYYZB6OEGA,A5Q3WQHHI2,batch27,batch23,1,"neoplasms, degenerative_tissue_changes, structural_developmental","neoplasms, vascular_hemorrhagic, degenerative_tissue_changes, structural_developmental",Stable
+69188,GFIATOBVTL,7SCQYRB43T,batch27,batch23,366,structural_developmental,no_pathology_label,Stable
+69601,BNHYO5EXL4,PM32DTDRUA,batch27,batch23,203,degenerative_tissue_changes,no_pathology_label,Stable
+69643,LEIWRIGOG3,RJKF3OTVYM,batch27,batch23,285,neoplasms,neoplasms,Stable
+70128,A2KUYOB7RC,DQUJQT2MMW,batch23,batch27,1,"neoplasms, degenerative_tissue_changes","neoplasms, vascular_hemorrhagic, degenerative_tissue_changes",Improved
+70219,WOIAGIH5VW,BA2G3YP2PI,batch24,batch23,9,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Mixed interval change
+70771,IRPCMP2COJ,OCG5MGMVE5,batch23,batch23,4,"neoplasms, degenerative_tissue_changes","vascular_hemorrhagic, degenerative_tissue_changes",Improved
+70771,OCG5MGMVE5,UZUCKSKWQA,batch23,batch23,88,"vascular_hemorrhagic, degenerative_tissue_changes","vascular_hemorrhagic, degenerative_tissue_changes",Mixed interval change
+70855,SS6GYPMXNM,YMWE3RAM34,batch23,batch23,10,structural_developmental,degenerative_tissue_changes,Mixed interval change
+70855,YMWE3RAM34,OYS433NLQ5,batch23,batch23,35,degenerative_tissue_changes,"vascular_ischemic, vascular_hemorrhagic, degenerative_tissue_changes",Improved
+71093,6INWM23ABW,HEZQ2BP25E,batch24,batch27,8,"neoplasms, vascular_hemorrhagic, degenerative_tissue_changes","vascular_hemorrhagic, degenerative_tissue_changes",Improved
+71150,FSCHLQQVRS,3I6NYXT6LX,batch24,batch24,3,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+79766,2GEGWPNU2F,V4LBUJ2ACO,batch27,batch27,649,"vascular_hemorrhagic, degenerative_tissue_changes","vascular_hemorrhagic, degenerative_tissue_changes",Stable
+80079,XGENDNS6HW,USQ62TGAHQ,batch27,batch27,12,"vascular_hemorrhagic, degenerative_tissue_changes","vascular_ischemic, vascular_hemorrhagic, degenerative_tissue_changes",Mixed interval change
+80079,USQ62TGAHQ,BEYK47B6HW,batch27,batch27,16,"vascular_ischemic, vascular_hemorrhagic, degenerative_tissue_changes","vascular_ischemic, vascular_hemorrhagic",Mixed interval change
+80097,LG3K5GCGKK,DO3UOPSNNX,batch27,batch27,63,"neoplasms, degenerative_tissue_changes",degenerative_tissue_changes,Progressed
+80250,M6FORXG4XT,UHWQY5IQQ3,batch27,batch27,38,"vascular_hemorrhagic, degenerative_tissue_changes",structural_developmental,Progressed
+80312,VHXP7ARPK5,BYI2DDR6H7,batch27,batch27,59,"neoplasms, degenerative_tissue_changes","neoplasms, degenerative_tissue_changes",Improved
+80579,LQBSLFXZCJ,XRBCCVQ7ZA,batch27,batch27,515,"degenerative_tissue_changes, cystic_lesions",cystic_lesions,Improved
+80908,QZ53WSGDAE,TVYHEMHBEW,batch27,batch27,35,degenerative_tissue_changes,"degenerative_tissue_changes, structural_developmental",Improved
+80908,TVYHEMHBEW,BBLVZQ5C2O,batch27,batch27,15,"degenerative_tissue_changes, structural_developmental",no_pathology_label,Stable
+80921,D3PRS76GFI,HQPBKQST3D,batch27,batch27,119,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+81427,RK3JV346IH,ODJGF5636U,batch27,batch27,12,degenerative_tissue_changes,degenerative_tissue_changes,Stable
+81472,MBJAHXQGLA,7GJDMXI2IB,batch27,batch27,189,degenerative_tissue_changes,degenerative_tissue_changes,Mixed interval change
+81540,EUULD4ZPVT,KS5X5BRF3Y,batch27,batch27,129,no_pathology_label,no_pathology_label,Resolved
+82098,7IFRXOUZ6C,TRK6I2OGA3,batch27,batch27,199,degenerative_tissue_changes,"neoplasms, degenerative_tissue_changes",Stable

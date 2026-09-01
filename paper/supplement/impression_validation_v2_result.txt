@@ -1,0 +1,1 @@
+IMPRESSION-vs-REAL rg_er (v2, production nodelta_10, no BrainDiff-based exclusion): BrainDiff 0.0961  NeuroVFM 0.0885  BrainDiff-NeuroVFM +0.0075 CI[+0.0015,+0.0134]  n=1297

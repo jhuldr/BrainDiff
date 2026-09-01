@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "BrainDiff: Longitudinal Report Generation for Multimodal Brain MRI"
+abstract: >-
+  Neuroradiologists rarely read a brain MRI in isolation, yet automated brain-MRI report generation has been built almost entirely for single studies. Temporal analysis has been explored on chest radiography and chest CT, but to our knowledge, longitudinal reporting for brain MRI, where interval change is often subtle and spatially distributed, remains unaddressed. We present BrainDiff, the first longitudinal vision-language system for brain MRI. BrainDiff outperforms both frontier general-purpose and single-study neuroimaging models on the same patient pairs. Moreover, BrainDiff retains 91% of internal RadGraph-XL entity+relation F1 (rg_er) on an external, cross-hospital cohort. Beyond the system, we contribute three analyses. First, we identify two independent grounding levers: a counterfactual objective with prior-report dropout, which increases measured image reliance by ~47%, and a staged curriculum. Together, these interventions raise image reliance 2.5-fold from the baseline. Second, we provide a factorial over prior-report availability and image identity, isolating a visual contribution of +0.0387 rg_er, which grows when the prior report is withheld. Third, a cheap change-decodability test for candidate backbones shows that interval change is decodable far more weakly than single-study pathology (0.60 vs. 0.77 AUROC).
+
+authors:
+  - given-names: "Krish"
+    family-names: "Patel"
+  - given-names: "Peirong"
+    family-names: "Liu"
+version: 1.0.0
+date-released: 2026-09-02
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "BrainDiff: Longitudinal Report Generation for Multimodal Brain MRI"
+  collection-title: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)"
+  year: 2027
+  authors:
+    - given-names: "Krish"
+      family-names: "Patel"
+    - given-names: "Peirong"
+      family-names: "Liu"

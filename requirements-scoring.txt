@@ -1,0 +1,6 @@
+# RadGraph-XL scoring. Separate environment: radgraph pins transformers<5, which conflicts
+# with the decoder's transformers 5.x.
+radgraph
+nltk
+numpy
+pandas

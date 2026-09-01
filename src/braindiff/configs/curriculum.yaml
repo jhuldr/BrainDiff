@@ -1,0 +1,384 @@
+# BrainDiff_NeuroVFM curriculum -- NeuroVFM encoder + Qwen3-14B decoder.
+#
+# Launch (see trainer/curriculum.py header):
+#   HF_HUB_OFFLINE=1 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True \
+#   torchrun --standalone --nproc_per_node=4 \
+#     -m braindiff.training.curriculum --track neurovfm --stage nv_stage1_unified.pt
+#
+# batch_size and num_workers are PER RANK. Effective batch = batch_size * grad_accum * n_ranks.
+#
+# BATCH SIZES ARE MEASURED UNDER REAL 4-RANK DDP (braindiff/eval/bench_ddp_capacity.py,
+# 2026-08-08), not extrapolated from a single GPU. Peak / OOM point per rank:
+#     S1  bs 32 -> 69.3 GiB | 48 -> 88.3 | 64 -> 107.6            (~1.20 GiB per sample)
+#     S2  bs 16 -> 80.5     | 24 -> 105.4 | 28 -> 117.7 | 32 -> 130.1  (~3.11)
+#     S3  bs 16 -> 88.6     | 20 -> 110.3 | 24 -> 131.9 | 32 -> OOM    (~5.41)
+#     S4  bs  8 -> 87.3     | 12 -> 116.2 | 14 -> 129.5 | 16 -> OOM    (~6.99)
+
+neurovfm:
+
+  stages:
+
+    # --- S1: install spatial grounding + pathology vocabulary -------------------
+    # The only stage that adapts the vision->LLM interface end to end. Decoder
+    # frozen so all gradient pressure lands on the encoder LoRA and connector;
+    # S1's targets are box prompts and short label strings, and letting the
+    # decoder move on those risks drifting off the report-writing prior.
+    - save_name: nv_stage1_unified.pt
+      type: unified
+      csv: /home/data/BRAIN_DIFF_S1/unified_dataframe_norm.csv
+      checkpoint: None
+      epochs: 30
+      batch_size: 64          # DDP-measured 107.6 GiB (77%); OOM near 88
+      grad_accum: 1
+      lr: 3e-4
+      num_workers: 16
+      max_caption_length: 96
+      max_prompt_length: 384
+      min_class_count: 20
+      num_queries: 64
+      use_lora: false            # decoder frozen
+      use_vision_lora: true
+      vision_lora_r: 32
+      vision_lora_alpha: 64
+      vision_lora_dropout: 0.05
+      include_delta: false
+      trainable: [encoder_lora, connector.scan, connector.proj, embeddings]
+
+    # --- S2: learn to write a whole report from one timepoint -------------------
+    # Pure language adaptation: the encoder is fixed, the connector's scan branch
+    # and shared projection adapt, and the decoder finally moves via LoRA on 38k
+    # reports -- the stage where the pretrained Qwen3 SFT distribution and this
+    # report style actually differ.
+    - save_name: nv_stage2_reportgen.pt
+      type: single
+      csv: /home/data/BRAIN_DIFF_S2/single_timepoint_final.csv
+      checkpoint: nv_stage1_unified.pt
+      epochs: 50
+      batch_size: 24
+      grad_accum: 1           # accum cannot add contrastive negatives -- raise bs instead
+      lr: 1e-4
+      num_workers: 16
+      max_caption_length: 1024
+      patience: 15
+      num_queries: 64
+      use_lora: true             # decoder LoRA STARTS here; S4 continues this adapter
+      lora_r: 16
+      lora_alpha: 32
+      lora_dropout: 0.05
+      use_vision_lora: true      # BUILT for key compatibility, not trained (see below)
+      vision_lora_r: 32          # MUST equal S1's
+      vision_lora_alpha: 64      # MUST equal S1's -- a scale, unguardable
+      vision_lora_dropout: 0.05
+      include_delta: false
+      contrastive_weight: 0.05
+      cf_weight: 0
+      content_weight: 1.2
+      counterfactual_margin: 0.5   # unused while cf_weight is 0; kept for the re-enable
+      trainable: [connector.scan, connector.proj, embeddings, contrastive, decoder_lora]
+
+ 
+
+    # --- S3-unsup on the EXTENDED S4 corpus. Identical to nv_stage3_deltasup.pt except
+    - save_name: nv_stage3_deltaunsup_extended.pt
+      type: change_map
+      csv: /home/data/BRAIN_DIFF_S3/main_supervised_extended.csv
+      image_csv: /home/data/BRAIN_DIFF_S3/image_supervised_extended.csv
+      checkpoint: nv_stage2_reportgen.pt
+      delta_ckpt: nv_stage3_deltatune.pt
+      epochs: 50
+      batch_size: 18
+      lr: 3e-4
+      num_workers: 6
+      num_queries: 64
+      vision_lora_r: 32
+      vision_lora_alpha: 64
+      bottleneck_dim: 128
+      dup_fraction: 0.15
+      lambda_disc: 1.0        # L_contrast (spliced reconstructor) -- pair-discriminative.
+      lambda_gate_track: 1.0  # LOCALIZATION CENTRAL (2026-08-21, was 0.25). v2 diag measured
+      lambda_gate_dup: 1.0    # UPWEIGHTED from 0.5 (2026-08-21) -- the duplicate control is
+      lambda_gate_stable: 0.25    # the STABLE half's weight inside `localize`.
+      lambda_global: 1.0
+      spliced_disc: true
+      splice_frac: 0.25
+      disc_temperature: 0.1
+      disc_negatives: 2
+      local_attn_layers: 0
+      attn_dim: 512
+      val_fraction: 0.1
+      patience: 5
+      cache_dir: /home/data/BRAIN_DIFF_S3/tmp_nvfm
+
+    # --- S4 rebuilt on the supervised delta. Identical to nv_stage4_reportgen.pt
+    # except diff_checkpoint, so the comparison isolates the delta.
+    - save_name: nv_stage4_reportgen_deltasup.pt
+      type: dual
+      csv: /home/data/BRAIN_DIFF_S4/splits_extended    # matches nv_stage4_reportgen.pt
+      image_csv: /home/data/BRAIN_DIFF_S4/image_extended.csv
+      checkpoint: nv_stage2_reportgen.pt
+      diff_checkpoint: nv_stage3_deltasup.pt
+      epochs: 20
+      batch_size: 6
+      grad_accum: 2
+      lr: 1e-4
+      num_workers: 16
+      max_caption_length: 480
+      patience: 15
+      num_queries: 64
+      use_lora: true
+      lora_r: 16
+      lora_alpha: 32
+      lora_dropout: 0.05
+      use_vision_lora: true
+      vision_lora_r: 32
+      vision_lora_alpha: 64
+      vision_lora_dropout: 0.05
+      include_delta: true
+      contrastive_weight: 0.05
+      cf_weight: 0.5
+      change_weight: 0
+      counterfactual_margin: 0.5
+      content_weight: 1.5
+      trainable:
+        - change_map
+        - embeddings
+        - contrastive
+        - decoder_lora
+
+    # --- S4 with PRIOR REPORT conditioning. New trainer + dataloader; S4 untouched.
+    # batch_size 8 not 12: the prompt grows 205 -> ~493 tokens median, so the prefix
+    # goes ~961 -> ~1250 and S4 already sat at 83% of an H200 at bs 12.
+    - save_name: nv_stage4_priorreport.pt
+      type: dual_priorreport
+      csv: /home/data/BRAIN_DIFF_S4/splits_extended
+      image_csv: /home/data/BRAIN_DIFF_S4/image_extended.csv
+      checkpoint: nv_stage2_reportgen.pt
+      diff_checkpoint: nv_stage3_deltaunsup_extended.pt
+      epochs: 20
+      batch_size: 6           # cf_weight adds a SECOND decoder forward: 86 -> 128 GiB
+                              # (90%) at bs 12, past the <=83% policy. Same batch/cf
+                              # coupling measured at S2.
+      grad_accum: 2           # effective 48, matching the plain_delta_on baseline
+      lr: 1e-4
+      num_workers: 8
+      max_caption_length: 480
+      patience: 0            # 0 = no early stop; run all 50 epochs
+      num_queries: 64
+      use_lora: true
+      lora_r: 16
+      lora_alpha: 32
+      lora_dropout: 0.05
+      use_vision_lora: true
+      vision_lora_r: 32
+      vision_lora_alpha: 64
+      vision_lora_dropout: 0.05
+      include_delta: true
+      contrastive_weight: 0    # 0 across ALL FOUR prior-report arms (2026-08-18) so the
+                               # family differs only in the delta path. Was 0.05; the
+                               # COMPLETED s4_priorreport.log run used 0.05.
+      cf_weight: 0.5          # counterfactual on the PRIOR IMAGE, prior report held fixed
+      change_weight: 0
+      counterfactual_margin: 0.5
+      content_weight: 1.5
+      # --- forcing image use (see train_dual_priorreport.py) ---
+      prior_report_dropout: 0.3   # withhold the prior report on 30% of TRAIN steps
+      # --- selection: NOT val CE. val CE picked ep3; ep10 tied on rg_er, better on
+      # METEOR and change-recall, and used the images significantly more.
+      checkpoint_every: 5         # epoch-5 checkpoint for the change-map probe; ranked
+      trainable:
+        - change_map
+        - embeddings
+        - contrastive
+        - decoder_lora
+
+    #### THIS IS THE PRODUCTION MODEL #####
+    # --- S4 prior-report WITHOUT the delta path. The clean comparison point for
+    - save_name: nv_stage4_priorreport_nodelta.pt
+      type: dual_priorreport
+      csv: /home/data/BRAIN_DIFF_S4/splits_extended
+      image_csv: /home/data/BRAIN_DIFF_S4/image_extended.csv
+      checkpoint: nv_stage2_reportgen.pt
+      epochs: 20
+      batch_size: 6
+      grad_accum: 2
+      lr: 1e-4
+      num_workers: 8
+      max_caption_length: 480
+      patience: 0
+      checkpoint_every: 5
+      num_queries: 64
+      use_lora: true
+      lora_r: 16
+      lora_alpha: 32
+      lora_dropout: 0.05
+      use_vision_lora: true
+      vision_lora_r: 32
+      vision_lora_alpha: 64
+      vision_lora_dropout: 0.05
+      include_delta: false
+      contrastive_weight: 0
+      cf_weight: 0.5
+      change_weight: 0
+      counterfactual_margin: 0.5
+      content_weight: 1.5
+      prior_report_dropout: 0.3
+      trainable:
+        - embeddings
+        - contrastive
+        - decoder_lora
+
+    # --- S4 prior-report WITHOUT the delta path AND WITHOUT counterfactual. The
+    - save_name: nv_stage4_priorreport_nocf.pt
+      type: dual_priorreport
+      csv: /home/data/BRAIN_DIFF_S4/splits_extended
+      image_csv: /home/data/BRAIN_DIFF_S4/image_extended.csv
+      checkpoint: nv_stage2_reportgen.pt
+      epochs: 20
+      batch_size: 6           
+      grad_accum: 2           
+      lr: 1e-4
+      num_workers: 8
+      max_caption_length: 480
+      patience: 0            
+      num_queries: 64
+      use_lora: true
+      lora_r: 16
+      lora_alpha: 32
+      lora_dropout: 0.05
+      use_vision_lora: true
+      vision_lora_r: 32
+      vision_lora_alpha: 64
+      vision_lora_dropout: 0.05
+      include_delta: false
+      contrastive_weight: 0    # matched to the rest of the prior-report family (2026-08-18)
+      cf_weight: 0
+      change_weight: 0
+      counterfactual_margin: 0.5
+      content_weight: 1.5
+      prior_report_dropout: 0
+      checkpoint_every: 5
+      # include_delta is false, so no change_map is built -- listing it in `trainable`
+      # would RAISE (zero-match guard). Matches nodelta's trainable so nocf vs nodelta
+      # isolates the grounding recipe (cf_weight + prior_report_dropout).
+      trainable:
+        - embeddings
+        - contrastive
+        - decoder_lora
+
+    # --- CURRICULUM ABLATION for the nodelta arm. Identical to
+    # nv_stage4_priorreport_nodelta.pt in EVERY field except `checkpoint`, which is
+    # absent -- so S1+S2 never happened and the run measures what the curriculum is
+    # worth. `nv_stage4_priorreport_nodelta.pt` (peak ep10, full-val rg_er 0.3815) is
+    # the arm to compare against; nodelta is the right control because RESULTS.md §7
+    # addendum 1 establishes it ties the delta arm, so the delta path is not a
+    # variable worth carrying here.
+    - save_name: nv_stage4_priorreport_nocurriculum.pt
+      type: dual_priorreport
+      csv: /home/data/BRAIN_DIFF_S4/splits_extended
+      image_csv: /home/data/BRAIN_DIFF_S4/image_extended.csv
+      epochs: 20
+      batch_size: 6
+      grad_accum: 2
+      lr: 1e-4
+      num_workers: 8
+      max_caption_length: 480
+      patience: 0            
+      num_queries: 64
+      use_lora: true
+      lora_r: 16
+      lora_alpha: 32
+      lora_dropout: 0.05
+      use_vision_lora: true
+      vision_lora_r: 32
+      vision_lora_alpha: 64
+      vision_lora_dropout: 0.05
+      include_delta: false
+      contrastive_weight: 0
+      cf_weight: 0.5
+      change_weight: 0
+      counterfactual_margin: 0.5
+      content_weight: 1.5
+      prior_report_dropout: 0.3
+      checkpoint_every: 5
+      trainable:
+        - embeddings
+        - contrastive
+        - decoder_lora
+
+    # --- STRIPPED BASELINE: no curriculum, no counterfactual, NO dropout. From the raw
+    # encoder (NO `checkpoint:`), cf_weight: 0 AND prior_report_dropout: 0 -- i.e. the nocf
+    # "no grounding recipe" convention (cf and dropout both off) combined with nocurriculum.
+    # This is the both-levers-removed AND no-curriculum corner: the grounding floor with zero
+    # interventions, just S4 prior-report report generation. Cut at epoch 20. Everything else
+    # identical to nocurriculum above.
+    - save_name: nv_stage4_priorreport_nocurriculum_nocf.pt
+      type: dual_priorreport
+      csv: /home/data/BRAIN_DIFF_S4/splits_extended
+      image_csv: /home/data/BRAIN_DIFF_S4/image_extended.csv
+      # NO `checkpoint:` -- from the raw encoder, same as nocurriculum.
+      epochs: 20
+      batch_size: 6
+      grad_accum: 2
+      lr: 1e-4
+      num_workers: 8
+      max_caption_length: 480
+      patience: 0
+      num_queries: 64
+      use_lora: true
+      lora_r: 16
+      lora_alpha: 32
+      lora_dropout: 0.05
+      use_vision_lora: true
+      vision_lora_r: 32
+      vision_lora_alpha: 64
+      vision_lora_dropout: 0.05
+      include_delta: false
+      contrastive_weight: 0
+      cf_weight: 0            
+      change_weight: 0
+      counterfactual_margin: 0.5
+      content_weight: 1.5
+      prior_report_dropout: 0 
+      checkpoint_every: 5
+      trainable:
+        - embeddings
+        - contrastive
+        - decoder_lora
+
+
+    # --- CURRICULUM ABLATION, middle rung: S1 kept, S2 removed. With
+    # nv_stage4_priorreport_nodelta.pt (S1+S2) and _nocurriculum.pt (neither), this
+    # decomposes the curriculum into its two halves instead of testing it as a lump.
+    - save_name: nv_stage4_priorreport_nostage2.pt
+      type: dual_priorreport
+      csv: /home/data/BRAIN_DIFF_S4/splits_extended
+      image_csv: /home/data/BRAIN_DIFF_S4/image_extended.csv
+      checkpoint: nv_stage1_unified.pt
+      epochs: 20
+      batch_size: 6
+      grad_accum: 2
+      lr: 1e-4
+      num_workers: 8
+      max_caption_length: 480
+      patience: 0            
+      num_queries: 64
+      use_lora: true
+      lora_r: 16
+      lora_alpha: 32
+      lora_dropout: 0.05
+      use_vision_lora: true
+      vision_lora_r: 32
+      vision_lora_alpha: 64
+      vision_lora_dropout: 0.05
+      include_delta: false
+      contrastive_weight: 0
+      cf_weight: 0.5
+      change_weight: 0
+      counterfactual_margin: 0.5
+      content_weight: 1.5
+      prior_report_dropout: 0.3   
+      checkpoint_every: 5         
+      trainable:
+        - embeddings
+        - contrastive
+        - decoder_lora
