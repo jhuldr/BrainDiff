@@ -86,7 +86,7 @@ python scripts/fetch_weights.py            # or --encoder for just the ViT (~274
 ```
 
 `braindiff.models.paths` resolves everything through the standard HuggingFace cache, so the
-download happens once. `HF_HUB_OFFLINE=1` afterwards keeps the Hub out of the loop, and
+download happens once. `HF_HUB_OFFLINE=1` afterwards keeps HuggingFace out of the loop, and
 `BRAINDIFF_LLM_ROOT` points at a local copy if you already have one.
 
 A correct load reports the backbone as absent. That is expected, not a partial load:
@@ -95,7 +95,7 @@ A correct load reports the backbone as absent. That is expected, not a partial l
 Loaded braindiff_production.pt: 48/48 tensors
     encoder              48/48
       of which LoRA      48/48
-    encoder base absent from this checkpoint -- backbone comes from the Hub
+    encoder base absent from this checkpoint -- backbone comes from the HuggingFace
 ```
 
 ## Training
