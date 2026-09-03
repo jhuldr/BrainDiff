@@ -59,16 +59,13 @@ artifact-by-artifact map.
 **What this repository does and does not support.** It supports *numeric* reproduction: every
 interval and metric re-derives from the shipped caches. It does not support *generative*
 reproduction (you cannot regenerate the reports those scores came from, because the MR-RATE and
-BIND datasets are health-system data under privacy restriction and are not redistributed). Three
-BIND rows are absent from `PAPER_CIS.md` for that reason; everything else is present and
-matches. See `docs/DATA_TERMS.md`.
+BIND datasets are health-system data under privacy restriction and are not redistributed).
 
-## Reusable probes — for any longitudinal report generator
+## Reusable probes
 
-Three of the diagnostics here are standalone tools, not reproduction scripts. They measure whether
+Three of the diagnostics here are standalone tools. They measure whether
 a model actually reads the images, they import no model and assume no architecture, and they run
-deterministically on CPU. If you build a system that writes comparison reports, you can measure
-it with these.
+deterministically on CPU. Any system that writes comparison reports can be measured with these.
 
 ```bash
 # What direction of change does a report assert? (rule-based, no model in the loop)
@@ -83,8 +80,8 @@ python paper/probes/factorial_probe.py \
     --withheld-own  noreport.json  --withheld-other  nr_vis_roll.json
 ```
 
-All three take plain JSON — reports for the classifier, forward/reversed generations for the
-reversal probe, four ablation conditions for the factorial. `docs/PROBES.md` has the input contracts, the label mapping, how a flip is decided,
+All three take plain JSON (reports for the classifier, forward/reversed generations for the
+reversal probe, and four ablation conditions for the factorial). `docs/PROBES.md` has the input contracts, the label mapping, how a flip is decided,
 and how to read the output. They score; generating the inputs means running your own model under
 the interventions.
 
@@ -143,5 +140,5 @@ See `CITATION.cff`.
 
 ## Intended use
 
-A research artifact. **Not a medical device**, not validated for clinical use, and not to be
+This is a research artifact. **Not a medical device**, not validated for clinical use, and not to be
 used to inform patient care.
