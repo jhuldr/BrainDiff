@@ -1,11 +1,42 @@
-# BrainDiff
+<div align="center">
+  <h1>BrainDiff<br><sub>Longitudinal Report Generation for Multimodal Brain MRI</sub></h1>
+</div>
 
-Longitudinal comparison-report generation for multimodal brain MRI. Two studies of the same
-patient go in and a report describing what changed between them comes out.
+<p align="center">
+  <a href="https://arxiv.org/abs/2609.00593">arXiv preprint</a>
+</p>
 
-Built on NeuroVFM's vision stack — its ViT-B encoder and perceiver connector — with a Qwen3-14B
-decoder, trained through a four-stage curriculum. Source code for *BrainDiff: Longitudinal Report
-Generation for Multimodal Brain MRI*.
+<p align="center">
+<b align="center">Krish Patel</b> and <b align="center">Peirong Liu</b>
+</p>
+
+<p align="center">
+Department of Electrical and Computer Engineering,<br/>
+Data Science and AI Institute,<br/>
+Johns Hopkins University
+</p>
+
+<p align="center">
+Contact: {kpate156, pliu53}@jh.edu
+</p>
+
+This repository contains the official implementation of **BrainDiff: Longitudinal Report Generation for Multimodal Brain MRI**, the first longitudinal vision-language system for brain MRI. Two studies of the same patient go in and a report describing what changed between them comes out. BrainDiff is built on NeuroVFM's vision stack (its ViT-B encoder and Perceiver connector) with a Qwen3-14B decoder, trained through a four-stage curriculum. The repository includes the library, the paper's statistics and figure scripts, and three reusable probes for measuring image grounding in any longitudinal report generator.
+
+<p align="center">
+  <img src="./assets/architecture.png" alt="BrainDiff architecture" width="850"/>
+  <br>
+  <em>
+  <strong>Fig. 1. BrainDiff architecture.</strong> Both studies pass through a ViT-B encoder with NeuroVFM weights. Each (block, modality) series is resampled independently, spliced into the decoder context alongside the prior report, and decoded into a comparison report.
+  </em>
+</p>
+
+<p align="center">
+  <img src="./assets/qualitative.png" alt="BrainDiff qualitative comparison" width="850"/>
+  <br>
+  <em>
+  <strong>Fig. 2. Qualitative comparison on a held-out follow-up study.</strong> The reference report records new bilateral frontoparietal T2/FLAIR hyperintense foci not present at T0. BrainDiff asserts a new lesion, while the single-study and frontier baselines all assert no interval change.
+  </em>
+</p>
 
 ## Install
 
