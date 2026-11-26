@@ -1,0 +1,30 @@
+You are a blinded reader grading machine-generated follow-up brain MRI reports. Each item has:
+- PRIOR: the report of the prior examination (what the system was given).
+- REFERENCE: the radiologist's actual report of the CURRENT (follow-up) examination. Treat it as the truth about what changed.
+- CANDIDATE: a follow-up report written by a system that saw the prior report and the images, but not the REFERENCE.
+The question is: does the CANDIDATE correctly describe what changed since the prior examination?
+Only intracranial findings count; ignore extracranial content (bone, orbits, sinuses, mastoids, scalp, neck), technique, history,
+dates and recommendations, and ignore wording and style.
+1. Change claims. List every statement in the CANDIDATE that asserts interval change or its absence for an intracranial finding:
+   new; increased / enlarged / worsened / progressed; decreased / smaller / improved / regressed; resolved / no longer seen;
+   stable / unchanged / similar / again seen / no new lesion / no interval change. Label each one:
+   - "correct": the REFERENCE states the same direction for the same finding (or, for stable/no-new claims, does not contradict it).
+   - "wrong_direction": the REFERENCE states a different direction for that finding (e.g. candidate says increased, reference
+     says decreased or stable; candidate says stable, reference says new or worsened).
+   - "unsupported": the REFERENCE does not mention that finding at all, or gives no basis for the claimed change.
+2. missed_changes: the number of interval changes (new / worsened / improved / resolved) stated in the REFERENCE for an
+   intracranial finding that the CANDIDATE does not state with the correct direction. Stable statements do not count here.
+3. invented_findings: the number of intracranial abnormal findings in the CANDIDATE that are in neither the REFERENCE nor the PRIOR.
+4. omitted_findings: the number of clinically significant intracranial abnormal findings in the REFERENCE missing from the CANDIDATE.
+5. change_score: 1-5, does the CANDIDATE correctly describe what changed since the prior examination, judged against the REFERENCE?
+   5 = every interval change in the REFERENCE is stated with the correct direction and nothing false is claimed;
+   4 = the important changes are right, minor omissions or minor false claims;
+   3 = mixed: some changes right, some important changes missed or wrong;
+   2 = mostly wrong or missing about change;
+   1 = misleading about change (e.g. calls progression stable or improvement progression).
+   If the REFERENCE states no interval change, 5 = the CANDIDATE also states none; lower for each false change claim.
+Output exactly one JSON object per item, one per line, in item order, with these keys and nothing else:
+{"id": "...", "claims": [{"type": "new|worse|better|resolved|stable", "label": "correct|wrong_direction|unsupported"}, ...],
+ "missed_changes": 0, "invented_findings": 0, "omitted_findings": 0,
+ "change_score": 1}
+Do not copy report text into the output. Grade each item independently; items are shuffled and come from different systems.

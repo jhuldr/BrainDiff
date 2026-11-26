@@ -1,0 +1,9 @@
+# Model weights
+
+One checkpoint is released, containing only weights trained by this project, under the same MIT terms as the code:
+
+- **BrainDiff** (status-first, Stage 2 epoch 20): NeuroVFM encoder blocks 10-12 and final norm, the perceiver connector, and the
+  decoder LoRA adapters; 429 tensors, no optimizer state. It does not contain the NeuroVFM backbone or the Qwen3-14B decoder base: those
+  are downloaded from their own (gated) repositories under their own licences when you run `braindiff/scripts/fetch_weights.py`.
+
+It was trained on health-system data that is not redistributed. Not a medical device; see the README.

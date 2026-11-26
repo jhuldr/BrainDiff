@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "braindiff"
+version = "2.0.0"
+description = "Longitudinal comparison-report generation for multimodal brain MRI (BrainDiff)"
+requires-python = ">=3.10"
+# Trainer / generation environment (requirements.txt). neurovfm (github.com/mlinslab/neurovfm) and flash-attn are
+# installed separately: flash-attn must be built for your GPU architecture.
+dependencies = [
+    "torch>=2.6",
+    "transformers>=5",
+    "peft",
+    "huggingface_hub",
+    "timm",
+    "monai",
+    "nibabel",
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "pyyaml",
+    "scikit-learn",
+]
+
+[project.optional-dependencies]
+# eval/score.py: radgraph pins transformers < 5, so it runs in its own environment (requirements-scoring.txt); raddelta
+# (the Rad-Δ metric) is released separately.
+scoring = ["raddelta", "radgraph==0.1.18", "scikit-learn", "scipy", "pandas", "pyarrow", "numpy"]
+cxr = ["peft", "pillow", "requests"]          # baselines/cxr/: own environment with transformers 4.51.3
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"braindiff.eval" = ["vocab/*.txt"]
+"braindiff" = ["configs/*.yaml"]

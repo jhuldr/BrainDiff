@@ -1,0 +1,81 @@
+{
+ "ours": {
+  "mean": 3.092,
+  "ci": [
+   2.874,
+   3.299
+  ],
+  "n": 153,
+  "tokens": 402
+ },
+ "nv": {
+  "mean": 2.843,
+  "ci": [
+   2.627,
+   3.059
+  ],
+  "n": 153,
+  "tokens": 201
+ },
+ "q8a": {
+  "mean": 2.66,
+  "ci": [
+   2.444,
+   2.869
+  ],
+  "n": 153,
+  "tokens": 3212
+ },
+ "q8b": {
+  "mean": 2.431,
+  "ci": [
+   2.222,
+   2.647
+  ],
+  "n": 153,
+  "tokens": 14756
+ },
+ "q8ft": {
+  "mean": 2.902,
+  "ci": [
+   2.686,
+   3.111
+  ],
+  "n": 153,
+  "tokens": 3212,
+  "source": "readers b20 first reads, qwen3vl8b_ft-sf1_imginstr_sl8img_rp110; tokens = Qwen3-VL-8B 8 slices"
+ },
+ "mg27b": {
+  "mean": 2.948,
+  "ci": [
+   2.744,
+   3.167
+  ],
+  "n": 153,
+  "tokens": 4818,
+  "star": false,
+  "source": "b21 first reads (same batch as ours; ours-X +0.092 [-0.062, +0.245]); tokens = mean images on the 500 external reader pairs x 256"
+ },
+ "mg27a": {
+  "mean": 2.81,
+  "ci": [
+   2.603,
+   3.014
+  ],
+  "n": 153,
+  "tokens": 12849,
+  "star": true,
+  "source": "b22 first reads (ours from b21, paired across batches; ours-X +0.229 [+0.034, +0.429]); tokens = mean images on the 500 external reader pairs x 256"
+ },
+ "mgvol": {
+  "mean": 2.824,
+  "ci": [
+   2.626,
+   3.026
+  ],
+  "n": 153,
+  "tokens": 21175,
+  "star": true,
+  "source": "b22 first reads (ours from b21, paired across batches; ours-X +0.216 [+0.090, +0.349]); tokens = mean images on the 500 external reader pairs x 256"
+ }
+}

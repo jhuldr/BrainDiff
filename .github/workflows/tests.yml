@@ -1,0 +1,16 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  cpu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install numpy scikit-learn pytest
+      - run: pytest braindiff/tests -v    # Table 2 cache check + privacy check; the full check needs the data and skips

@@ -1,0 +1,22 @@
+# Stage 1-D: vision path (NeuroVFM blocks 10-12 + norm, connector, modality embedding) + decoder LoRA on the status
+# change task and single-study tasks. Select the epoch with:
+#   python -m braindiff.training.train_stage1 --select checkpoints/stage1
+seed: 0
+epochs: 10
+batch: 32                    # GLOBAL pairs per step (4 GPUs x 8)
+micro_batch: 4               # pairs per forward on one GPU
+lr: {blocks: 2.0e-5, connector: 5.0e-5, modality: 1.0e-4, lora: 1.0e-4}   # trainable groups and their lr
+warmup_frac: 0.03
+grad_clip: 1.0
+weight_decay: 0.0
+num_workers: 28              # per rank
+num_workers_eval: 8
+eval_batch: 32
+max_new_tokens: 96
+log_every: 20
+save_dir: ./checkpoints
+save_name: stage1
+tasks: [aref, gcap, caref, pcls]
+task_ratio: 1.0              # task items per epoch = 1.0 x train pairs (half boxes, half pcls)
+task_eval_n: 200             # val rows generated per task per eval (seed 0)
+task_max_new_tokens: 96

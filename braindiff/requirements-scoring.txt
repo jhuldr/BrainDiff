@@ -1,0 +1,9 @@
+# eval/score.py (Rad-Δ, rg_er, F1temp). Separate environment: radgraph pins transformers < 5, which conflicts with the
+# decoder's transformers 5.x (tested: radgraph 0.1.18, transformers 4.57.6, torch 2.13). The Rad-Δ metric is the raddelta
+# package, released separately: install it into this environment.
+radgraph==0.1.18
+scikit-learn
+scipy
+numpy
+pandas
+pyarrow

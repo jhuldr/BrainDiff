@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "Longitudinal Report Generation for Multimodal Brain MRI: A Change-Focused Metric and Vision-Language System"
+authors:
+  - given-names: Krish
+    family-names: Patel
+  - given-names: Peirong
+    family-names: Liu
+version: 2.0.0
+license: MIT
+repository-code: "https://github.com/jhuldr/BrainDiff"
+url: "https://arxiv.org/abs/2609.00593"
+identifiers:
+  - type: doi
+    value: 10.48550/arXiv.2609.00593
+    description: arXiv preprint
+preferred-citation:
+  type: article
+  title: "Longitudinal Report Generation for Multimodal Brain MRI: A Change-Focused Metric and Vision-Language System"
+  authors:
+    - given-names: Krish
+      family-names: Patel
+    - given-names: Peirong
+      family-names: Liu
+  journal: arXiv preprint arXiv:2609.00593
+  year: 2026
+  doi: 10.48550/arXiv.2609.00593
+  url: "https://arxiv.org/abs/2609.00593"

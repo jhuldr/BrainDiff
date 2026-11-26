@@ -1,0 +1,28 @@
+# Stage 2, status-first: from the selected Stage 1-D epoch; LoRA, connector and modality embedding train, the encoder
+# is frozen; captions are '<Stage 1-D status line>\n<report>'. SGDR, AdamW state kept across the restart.
+seed: 0
+save_dir: ./checkpoints
+save_name: stage2
+init_vision: ./checkpoints/stage1/epoch5.pt
+epochs: 20
+restart_every: 10
+batch: 32                    # GLOBAL pairs per step (4 GPUs x 8)
+micro_batch: 4               # pairs per forward on one GPU
+lr: 1.0e-4                   # decoder LoRA
+lr_connector: 2.0e-5
+lr_modality: 1.0e-4
+warmup_frac: 0.03
+grad_clip: 1.0
+lora_r: 16
+lora_alpha: 32
+train_connector: true
+status_first: true
+max_caption: 640             # tokens incl. <|im_end|>; longer captions dropped
+max_prompt: 1536
+max_report_tokens: 384       # the prior report is clipped to this, keeping its Impression
+eval_n: 256                  # in-loop BIND val subset (seed 0)
+eval_batch: 32               # global
+max_new_tokens: 640
+num_workers: 28              # per rank
+num_workers_eval: 8
+log_every: 20
