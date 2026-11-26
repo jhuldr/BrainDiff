@@ -8,7 +8,7 @@ Offline afterwards: export HF_HUB_OFFLINE=1. BRAINDIFF_LLM_ROOT points at an exi
 """
 import argparse
 
-REPO = "ORG/braindiff"          # placeholder: set when the weights are published
+REPO = "kkpatel25/BrainDiff"
 FILE = "braindiff.pt"
 
 
